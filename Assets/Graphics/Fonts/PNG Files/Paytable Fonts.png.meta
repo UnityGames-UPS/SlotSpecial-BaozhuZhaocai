@@ -1,0 +1,425 @@
+fileFormatVersion: 2
+guid: d02e97a6877764ab0aae3f28ab314140
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Paytable Fonts_0
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 8094
+        width: 8184
+        height: 968
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb7b59d8f71947e8896f67c81de0958
+      internalID: 1674470102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paytable Fonts_7
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 5504
+        width: 8903
+        height: 1044
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a90fe6358e9e45aa963fbfc0820778b
+      internalID: -1883555817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paytable Fonts_10
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 3938
+        width: 8088
+        height: 1067
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ea8a6fe8b714eb7b4611fedff8b449
+      internalID: 677203441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paytable Fonts_17
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 2850
+        width: 1843
+        height: 657
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cba5d568a1e140109f2406468746772
+      internalID: -434852266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paytable Fonts_20
+      rect:
+        serializedVersion: 2
+        x: 3535
+        y: 2836
+        width: 1692
+        height: 655
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc337c46b960f4f199106714ebe1cc1d
+      internalID: 1161677831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paytable Fonts_37
+      rect:
+        serializedVersion: 2
+        x: 3535
+        y: 1755
+        width: 1685
+        height: 659
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d32eaa41e4e429eaf375d16092a58d
+      internalID: 1789055728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paytable Fonts_48
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 536
+        width: 1854
+        height: 659
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac1b54d6179b4fc29cc351a3143d52d
+      internalID: 2042909125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paytable Fonts_53
+      rect:
+        serializedVersion: 2
+        x: 3535
+        y: 521
+        width: 1680
+        height: 655
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9ef98fdda304b8cb1155e476bd46e8
+      internalID: 772793657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paytable Fonts_15
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 1777
+        width: 1843
+        height: 657
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa01c7d6df0f4a019566fcca2f6a295
+      internalID: 1880511687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paytable Fonts_16
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 7063
+        width: 8184
+        height: 968
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0abf7c7dd1e64321ba031d4673a04be
+      internalID: -345349296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Paytable Fonts_0: 1674470102
+      Paytable Fonts_1: 207064606
+      Paytable Fonts_10: 677203441
+      Paytable Fonts_11: -1933232747
+      Paytable Fonts_12: -1049470597
+      Paytable Fonts_13: 1356639367
+      Paytable Fonts_14: -1831867302
+      Paytable Fonts_15: 1880511687
+      Paytable Fonts_16: -345349296
+      Paytable Fonts_17: -434852266
+      Paytable Fonts_18: 1626059763
+      Paytable Fonts_19: 2067109584
+      Paytable Fonts_2: 667180763
+      Paytable Fonts_20: 1161677831
+      Paytable Fonts_21: -806754193
+      Paytable Fonts_22: 1479715901
+      Paytable Fonts_23: -698461245
+      Paytable Fonts_24: 1651268305
+      Paytable Fonts_25: 1880691837
+      Paytable Fonts_26: 1132460754
+      Paytable Fonts_27: 1024143282
+      Paytable Fonts_28: 814243414
+      Paytable Fonts_29: 1747078166
+      Paytable Fonts_3: 429216926
+      Paytable Fonts_30: -577302060
+      Paytable Fonts_31: -1891275985
+      Paytable Fonts_32: 1221077119
+      Paytable Fonts_33: 1651085122
+      Paytable Fonts_34: -1854631381
+      Paytable Fonts_35: -773918214
+      Paytable Fonts_36: 208483709
+      Paytable Fonts_37: 1789055728
+      Paytable Fonts_38: 1173597174
+      Paytable Fonts_39: 235738930
+      Paytable Fonts_4: -1096880235
+      Paytable Fonts_40: -2004017020
+      Paytable Fonts_41: 1401943782
+      Paytable Fonts_42: 101073504
+      Paytable Fonts_43: -122431236
+      Paytable Fonts_44: 341120499
+      Paytable Fonts_45: 1560184938
+      Paytable Fonts_46: 646630277
+      Paytable Fonts_47: 1853407244
+      Paytable Fonts_48: 2042909125
+      Paytable Fonts_49: 1904420589
+      Paytable Fonts_5: -1299611775
+      Paytable Fonts_50: 476449283
+      Paytable Fonts_51: -1811794533
+      Paytable Fonts_52: -1767913440
+      Paytable Fonts_53: 772793657
+      Paytable Fonts_54: -1190526895
+      Paytable Fonts_55: 1796254674
+      Paytable Fonts_56: 1099239667
+      Paytable Fonts_57: -1918511822
+      Paytable Fonts_58: 2000442138
+      Paytable Fonts_59: -1625562853
+      Paytable Fonts_6: -281330255
+      Paytable Fonts_60: -1951016161
+      Paytable Fonts_61: 1711918960
+      Paytable Fonts_7: -1883555817
+      Paytable Fonts_8: -2998380
+      Paytable Fonts_9: 975938104
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

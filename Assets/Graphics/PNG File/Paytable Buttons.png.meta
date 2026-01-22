@@ -1,0 +1,551 @@
+fileFormatVersion: 2
+guid: b56bf2da1a9604c8b9c02086fee1eb69
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Paytable Buttons_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 906
+        width: 404
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e009bd52d86aa48efa912c548bf10646
+      internalID: 2034564648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paytable Buttons_1
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 872
+        width: 114
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a6df58529d741ff9f421cfe88d71dd
+      internalID: -133204996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paytable Buttons_2
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 872
+        width: 114
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2db2632375e54797a1def036edd0a54
+      internalID: 817104109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paytable Buttons_3
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 872
+        width: 115
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe47c14d9be544618115441822f5eeb
+      internalID: 2045846129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paytable Buttons_4
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 684
+        width: 406
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f6a2a6594ef414ba6a079417ea1051
+      internalID: 790339266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paytable Buttons_5
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 668
+        width: 215
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804551cfe58984a2b82371e2cf834a6b
+      internalID: -143671347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paytable Buttons_6
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 674
+        width: 218
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21fda4fc094914b619577aacbea87ea2
+      internalID: -665828308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paytable Buttons_7
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 322
+        width: 147
+        height: 431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d719759e03dd47f4a5026dffd2eae30
+      internalID: 469195899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paytable Buttons_8
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 630
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7da870010ca04b75b5bcc221b9ad938
+      internalID: -328220222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paytable Buttons_9
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 462
+        width: 218
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b67847f2642f46fcaf7b5ff1f7a3916
+      internalID: 902924017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paytable Buttons_10
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 466
+        width: 404
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0512d52e3a1ab4970a8b904b4af5ac1c
+      internalID: -2047571473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paytable Buttons_11
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 454
+        width: 216
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b241d6df39ecc4d10b8cc2a4665e2a0d
+      internalID: 520628714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paytable Buttons_12
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 246
+        width: 404
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfda7bc140b23479b9cd37b8766f6568
+      internalID: 1344305139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paytable Buttons_13
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 237
+        width: 215
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806499f85c3604b53826fee3c60c06db
+      internalID: -1165742034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paytable Buttons_14
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 246
+        width: 218
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403cb6c077899403c8695a0df0dd423f
+      internalID: -322582816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paytable Buttons_15
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 28
+        width: 257
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c061d95c0dc74c679edaa129b3488f5
+      internalID: -282294022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paytable Buttons_18
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 32
+        width: 272
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243ff7460db644197bcb7d6422eaf3f5
+      internalID: 115781267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Paytable Buttons_0: 2034564648
+      Paytable Buttons_1: -133204996
+      Paytable Buttons_10: -2047571473
+      Paytable Buttons_11: 520628714
+      Paytable Buttons_12: 1344305139
+      Paytable Buttons_13: -1165742034
+      Paytable Buttons_14: -322582816
+      Paytable Buttons_15: -282294022
+      Paytable Buttons_16: -635777160
+      Paytable Buttons_17: -80973053
+      Paytable Buttons_18: 115781267
+      Paytable Buttons_19: -1397789687
+      Paytable Buttons_2: 817104109
+      Paytable Buttons_20: -1150968901
+      Paytable Buttons_21: 248095906
+      Paytable Buttons_22: 2002366934
+      Paytable Buttons_23: -935581597
+      Paytable Buttons_24: -771398178
+      Paytable Buttons_25: 608595792
+      Paytable Buttons_26: -26196534
+      Paytable Buttons_27: -1361342297
+      Paytable Buttons_28: 2071687350
+      Paytable Buttons_29: 1135552419
+      Paytable Buttons_3: 2045846129
+      Paytable Buttons_30: 1995397021
+      Paytable Buttons_31: 1118027680
+      Paytable Buttons_32: 265454356
+      Paytable Buttons_33: -3579915
+      Paytable Buttons_34: 1620718225
+      Paytable Buttons_35: -674378543
+      Paytable Buttons_36: 1637528447
+      Paytable Buttons_37: -1288170207
+      Paytable Buttons_38: -97516842
+      Paytable Buttons_39: -1932085714
+      Paytable Buttons_4: 790339266
+      Paytable Buttons_40: 82719779
+      Paytable Buttons_5: -143671347
+      Paytable Buttons_6: -665828308
+      Paytable Buttons_7: 469195899
+      Paytable Buttons_8: -328220222
+      Paytable Buttons_9: 902924017
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
