@@ -71,7 +71,7 @@ public class SlotBehaviour : MonoBehaviour
 
     [Header("BonusGame Popup")]
     [SerializeField]
-    private BonusController _bonusManager;
+    //private BonusController _bonusManager;
 
     int tweenHeight = 0;  //calculate the height at which tweening is done
 

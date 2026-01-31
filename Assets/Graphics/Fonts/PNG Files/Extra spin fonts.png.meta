@@ -3,7 +3,7 @@ guid: 3fa7079a9611c4c0d82753a2f002b664
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -67,7 +67,7 @@ TextureImporter:
   swizzle: 50462976
   cookieLightType: 0
   platformSettings:
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -80,7 +80,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -93,8 +93,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
+  - serializedVersion: 4
+    buildTarget: iOS
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -106,7 +106,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -119,7 +119,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -134,8 +134,295 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Extra spin fonts_0
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1113
+        width: 4110
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c26de8b90719a46b490f97798eea1c55
+      internalID: 274961728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Extra spin fonts_24
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 235
+        width: 271
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e5be5aa1f7c452aba033feb9b09750
+      internalID: -588362697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Extra spin fonts_25
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 243
+        width: 178
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30286055f3def49c9acab88640236988
+      internalID: 1342636633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Extra spin fonts_26
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 243
+        width: 249
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b71b37529a2e43bb81e3e8f24ebc306
+      internalID: 1226372693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Extra spin fonts_27
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 235
+        width: 239
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f82dc87e8b2b4f40bcb7937c06068da
+      internalID: -1656984968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Extra spin fonts_28
+      rect:
+        serializedVersion: 2
+        x: 2060
+        y: 243
+        width: 269
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0ff756250554986bef5778f3701406
+      internalID: 1095881791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Extra spin fonts_29
+      rect:
+        serializedVersion: 2
+        x: 2530
+        y: 235
+        width: 239
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dffd3e9dc59f4d1184f704de77a8973
+      internalID: 531744733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Extra spin fonts_30
+      rect:
+        serializedVersion: 2
+        x: 2974
+        y: 235
+        width: 255
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480c6cccbf8cd4bd8aba6a35d06bcbc0
+      internalID: -1492388446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Extra spin fonts_31
+      rect:
+        serializedVersion: 2
+        x: 3428
+        y: 243
+        width: 236
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b4e78cbd306248439694bb6e1037a53
+      internalID: 1416825841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Extra spin fonts_32
+      rect:
+        serializedVersion: 2
+        x: 3866
+        y: 235
+        width: 261
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34f03a9f970e4d5981ca4b9c0dfa267
+      internalID: -1053874804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Extra spin fonts_33
+      rect:
+        serializedVersion: 2
+        x: 4328
+        y: 235
+        width: 255
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3047021a14924bf9a2dd1ce721fc2cd
+      internalID: 1087550891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Extra spin fonts_34
+      rect:
+        serializedVersion: 2
+        x: 4790
+        y: 243
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939b6630692704703a6b423ceb89362d
+      internalID: 1385923674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Extra spin fonts_35
+      rect:
+        serializedVersion: 2
+        x: 5102
+        y: 192
+        width: 124
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d13facf3fc948bbbd72e79c280b1e9
+      internalID: 192149351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
+    customData: 
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
@@ -145,7 +432,45 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Extra spin fonts_0: 274961728
+      Extra spin fonts_1: 354736577
+      Extra spin fonts_10: 134618803
+      Extra spin fonts_11: -1198313819
+      Extra spin fonts_12: -485483789
+      Extra spin fonts_13: 454277618
+      Extra spin fonts_14: 542998733
+      Extra spin fonts_15: 892912433
+      Extra spin fonts_16: -1273869334
+      Extra spin fonts_17: 2037120449
+      Extra spin fonts_18: -1637807009
+      Extra spin fonts_19: 558861419
+      Extra spin fonts_2: -1785629284
+      Extra spin fonts_20: 1626062892
+      Extra spin fonts_21: 1169675484
+      Extra spin fonts_22: -325486764
+      Extra spin fonts_23: -1644422510
+      Extra spin fonts_24: -588362697
+      Extra spin fonts_25: 1342636633
+      Extra spin fonts_26: 1226372693
+      Extra spin fonts_27: -1656984968
+      Extra spin fonts_28: 1095881791
+      Extra spin fonts_29: 531744733
+      Extra spin fonts_3: 593874424
+      Extra spin fonts_30: -1492388446
+      Extra spin fonts_31: 1416825841
+      Extra spin fonts_32: -1053874804
+      Extra spin fonts_33: 1087550891
+      Extra spin fonts_34: 1385923674
+      Extra spin fonts_35: 192149351
+      Extra spin fonts_4: -1285349918
+      Extra spin fonts_5: 645867684
+      Extra spin fonts_6: 633808535
+      Extra spin fonts_7: -1983269666
+      Extra spin fonts_8: 1997515222
+      Extra spin fonts_9: 1277490472
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

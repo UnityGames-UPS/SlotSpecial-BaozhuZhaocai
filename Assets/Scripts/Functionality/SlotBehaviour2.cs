@@ -110,8 +110,8 @@ public class SlotBehaviour2 : MonoBehaviour
     private UIManager uiManager;
 
     [Header("BonusGame Popup")]
-    [SerializeField]
-    private BonusController _bonusManager;
+    //[SerializeField]
+    //private BonusController _bonusManager;
 
     [Header("Free Spins Board")]
     [SerializeField]

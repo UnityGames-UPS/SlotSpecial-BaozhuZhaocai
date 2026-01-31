@@ -451,6 +451,7 @@ public class Payload
   public List<List<string>> reels { get; set; }
   public List<WinningCombination> winningCombinations { get; set; }
   public BonusGame bonusGame { get; set; }
+  public List<BonusSymbolsInMatrix> bonusSymbolsInMatrix { get; set; }
 }
 
 [Serializable]
@@ -524,9 +525,18 @@ public class BonusGame
   public BonusGameYellowProbability bonusGameYellowProbability { get; set; }
   public bool isActive { get; set; }
   public int reselectSpinsRemaining { get; set; }
-  public List<object> bonusSymbols { get; set; }
   public int totalValue { get; set; }
   public Features features { get; set; }
+  public DoubleReel doubleReel { get; set; }
+  public List<BonusSymbol> bonusSymbols { get; set; }
+}
+
+public class BonusSymbol
+{
+  public List<int> position { get; set; }
+  public int symbolId { get; set; }
+  public int value { get; set; }
+  public int multiplier { get; set; }
 }
 
 [Serializable]
@@ -683,6 +693,9 @@ public class DoubleReel
   public bool copyBottomToTop { get; set; }
   public bool independentReselects { get; set; }
   public bool doubleJackpotChance { get; set; }
+
+  public BottomReel bottomReel { get; set; }
+  public TopReel topReel { get; set; }
 }
 
 [Serializable]
@@ -737,3 +750,35 @@ public class Wild
   public bool substituteAll { get; set; }
   public List<string> excludeSymbols { get; set; }
 }
+
+[Serializable]
+public class BonusSymbolsInMatrix
+{
+  public List<int> position { get; set; }
+  public string name { get; set; }
+  public int id { get; set; }
+  public string type { get; set; }
+  public string feature { get; set; }
+  public int value { get; set; }
+}
+
+[Serializable]
+public class BottomReel
+{
+  public List<List<string>> reels { get; set; }
+  public List<BonusSymbol> bonusSymbols { get; set; }
+  public int reselectSpinsRemaining { get; set; }
+  public int currentMultiplier { get; set; }
+  public bool isComplete { get; set; }
+}
+
+[Serializable]
+public class TopReel
+{
+  public List<List<string>> reels { get; set; }
+  public List<BonusSymbol> bonusSymbols { get; set; }
+  public int reselectSpinsRemaining { get; set; }
+  public int currentMultiplier { get; set; }
+  public bool isComplete { get; set; }
+}
+

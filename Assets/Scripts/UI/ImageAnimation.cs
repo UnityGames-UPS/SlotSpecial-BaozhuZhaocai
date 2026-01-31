@@ -145,4 +145,17 @@ public class ImageAnimation : MonoBehaviour
 			rendererDelegate.sprite = textureArray[indexOfTexture];
 		}
 	}
+
+	internal void ResetImageState()
+	{
+		indexOfTexture = 0;
+		SetTextureOfIndex();
+		RevertToInitialState();
+		currentAnimationState = ImageState.NONE;
+	}
+
+	internal void InverseAimationDirection()
+	{
+		textureArray.Reverse();
+	}
 }

@@ -37,6 +37,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private SlotManager slotManager;
     internal int betCounter = 1;
     internal double currentTotalBet;
+    private Tweener TextTween;
 
     private void Start()
     {
@@ -50,7 +51,7 @@ public class UIManager : MonoBehaviour
     {
         if (BetAmountText) BetAmountText.text = socketManager.initialData.bets[betCounter].ToString();
         currentTotalBet = socketManager.initialData.bets[betCounter];
-        if(BalanceText) BalanceText.text = socketManager.playerdata.balance.ToString();
+        if (BalanceText) BalanceText.text = socketManager.playerdata.balance.ToString();
         slotManager.currentBalance = socketManager.playerdata.balance;
         //slotManager.shuffleInitialMatrix();
         slotManager.shuffleSlotImages();
@@ -90,6 +91,20 @@ public class UIManager : MonoBehaviour
     {
         SpinButton.interactable = true;
         StopSpinButton.gameObject.SetActive(false);
+    }
+
+    internal void StartTextAnim(double initAmount , double amount , TMP_Text winText , float duration )
+    {
+        //double initAmount = 0;
+        TextTween = DOTween.To(() => initAmount, (val) => initAmount = val, amount, duration).OnUpdate(() =>
+        {
+            winText.text = initAmount.ToString("F3");
+        });
+    }
+
+    internal void TotalWinPopup(double winAmount)
+    {
+        
     }
 
 }
