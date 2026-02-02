@@ -71,6 +71,7 @@ public class ImageAnimation : MonoBehaviour
 				Invoke("AnimationProcess", delayBetweenAnimation + delayBetweenLoop);
 			}
 			IsComplete = true;
+			//currentAnimationState = ImageState.NONE;
 		}
 		else
 		{
@@ -157,5 +158,15 @@ public class ImageAnimation : MonoBehaviour
 	internal void InverseAimationDirection()
 	{
 		textureArray.Reverse();
+	}
+
+	internal bool ImageAnimationPlaying()
+	{
+		if(currentAnimationState == ImageState.PLAYING)
+			return true;
+		
+		else
+			return false;
+		
 	}
 }

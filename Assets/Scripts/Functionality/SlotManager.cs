@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 using UnityEngine.UI;
-using System.Linq;
 using TMPro;
 using System;
 
@@ -61,6 +60,7 @@ public class SlotManager : MonoBehaviour
     [SerializeField]
     private SocketIOManager SocketManager;
     [SerializeField] private BonusManager bonusManager;
+    [SerializeField] private RocketManager rocketManager;
 
     private List<Tweener> alltweens = new List<Tweener>();
 
@@ -278,6 +278,8 @@ public class SlotManager : MonoBehaviour
         SocketManager.AccumulateResult(uiManager.betCounter);
         yield return new WaitUntil(() => SocketManager.isResultdone);
 
+        List<BonusSymbolData> bonusSymbolsData = new List<BonusSymbolData>();
+
         for (int j = 0; j < SocketManager.resultData.payload.reels.Count; j++)
         {
             for (int i = 0; i < SocketManager.resultData.payload.reels[j].Count; i++)
@@ -306,8 +308,18 @@ public class SlotManager : MonoBehaviour
 
                 var slotGO = resultImages[row].slotImages[col];
                 var imageText = slotGO.GetComponentInChildren<TMP_Text>();
-
                 imageText.text = bonusSymbol.value.ToString();
+
+                int symbolId = int.Parse(SocketManager.resultData.payload.reels[col][row]);
+
+                // Add to bonus symbols list
+                bonusSymbolsData.Add(new BonusSymbolData
+                {
+                    position = new int[] { col, row },
+                    symbolId = symbolId,
+                    value = bonusSymbol.value
+                });
+                Debug.Log(bonusSymbolsData);
             }
         }
 
@@ -328,7 +340,6 @@ public class SlotManager : MonoBehaviour
                 int col = pos[0]; // backend: [row, col]
                 int row = pos[1];
 
-                // ---- FETCH OBJECTS ----
                 var slotGO = resultImages[row].slotImages[col];
                 var animScript = slotGO.GetComponent<ImageAnimation>();
                 animScript.AnimationSpeed = 10f;
@@ -345,6 +356,16 @@ public class SlotManager : MonoBehaviour
                 }
             }
         }
+
+        // TRIGGER ROCKET SEQUENCE if bonus symbols exist
+        if (bonusSymbolsData.Count > 0)
+        {
+            //Debug.Log("rocket Animation Started");
+            rocketManager.RocketAnimation(bonusSymbolsData);
+            yield return new WaitUntil(() => rocketManager.isRocketAnimationComplete);
+        }
+        yield return new WaitForSeconds(2f);
+        // Then handle bonus game
         if (SocketManager.resultData.payload.bonusGame.isActive)
         {
             bonusManager.BonusStarted();

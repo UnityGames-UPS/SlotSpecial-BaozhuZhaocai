@@ -15,6 +15,10 @@ public class UIManager : MonoBehaviour
     [SerializeField] private Button AutoSpinButton;
     [SerializeField] private Button StopAutoSpinButton;
 
+    [Header("Sprites")]
+    [SerializeField] private Sprite SpinButtonSprite;
+    [SerializeField] private Sprite StopButtonSprite;
+
     [Header("Bet Area")]
     [SerializeField] private Button PlusBetButton;
     [SerializeField] private Button MinusBetButton;
@@ -83,6 +87,7 @@ public class UIManager : MonoBehaviour
     private void SpinButtonPressed()
     {
         SpinButton.interactable = false;
+        //SpinButton.gameObject.GetComponent<Image>().sprite = StopButtonSprite;
         StopSpinButton.gameObject.SetActive(true);
         slotManager.StartSlots();
     }
@@ -90,6 +95,7 @@ public class UIManager : MonoBehaviour
     internal void OnSpinEnd()
     {
         SpinButton.interactable = true;
+        //SpinButton.gameObject.GetComponent<Image>().sprite = SpinButtonSprite;
         StopSpinButton.gameObject.SetActive(false);
     }
 

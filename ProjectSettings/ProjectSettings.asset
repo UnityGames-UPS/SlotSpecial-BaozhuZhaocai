@@ -821,7 +821,7 @@ PlayerSettings:
     Stadia: DOTWEEN
     Standalone: DOTWEEN;CURVY_SPLINES;CURVY_SPLINES_8_11_0
     VisionOS: DOTWEEN
-    WebGL: DOTWEEN
+    WebGL: DOTWEEN;CURVY_SPLINES;CURVY_SPLINES_8_11_0
     Windows Store Apps: DOTWEEN
     XboxOne: DOTWEEN
     iPhone: DOTWEEN

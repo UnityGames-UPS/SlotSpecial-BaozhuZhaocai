@@ -452,6 +452,8 @@ public class Payload
   public List<WinningCombination> winningCombinations { get; set; }
   public BonusGame bonusGame { get; set; }
   public List<BonusSymbolsInMatrix> bonusSymbolsInMatrix { get; set; }
+
+  public double totalWin { get; set; }
 }
 
 [Serializable]
@@ -508,7 +510,7 @@ public class Features
   public bool doubleReel { get; set; }
   public bool extraSpins { get; set; }
   public int currentMultiplier { get; set; }
-  public int extraSpinsRemaining { get; set; }
+  //public int extraSpinsRemaining { get; set; }
 
 }
 
@@ -525,7 +527,7 @@ public class BonusGame
   public BonusGameYellowProbability bonusGameYellowProbability { get; set; }
   public bool isActive { get; set; }
   public int reselectSpinsRemaining { get; set; }
-  public int totalValue { get; set; }
+  public double totalValue { get; set; }
   public Features features { get; set; }
   public DoubleReel doubleReel { get; set; }
   public List<BonusSymbol> bonusSymbols { get; set; }
@@ -537,6 +539,9 @@ public class BonusSymbol
   public int symbolId { get; set; }
   public int value { get; set; }
   public int multiplier { get; set; }
+    public int numAdded { get; set; }
+  public bool added { get; set; }
+
 }
 
 [Serializable]
@@ -781,4 +786,7 @@ public class TopReel
   public int currentMultiplier { get; set; }
   public bool isComplete { get; set; }
 }
+
+
+
 
