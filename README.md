@@ -1,2 +1,2 @@
 # SlotSpecial-BaozhuZhaocai
-dev-builds
+dev-build
