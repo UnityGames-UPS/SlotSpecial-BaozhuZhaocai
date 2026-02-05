@@ -1,0 +1,1690 @@
+fileFormatVersion: 2
+guid: a903d7630b86946f9a8590f992967865
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9068146699545606966
+    second: ExtraSpinLoopSpriteSheet (1)_0
+  - first:
+      213: -4380064061885445329
+    second: ExtraSpinLoopSpriteSheet (1)_1
+  - first:
+      213: -8771473246753326986
+    second: ExtraSpinLoopSpriteSheet (1)_2
+  - first:
+      213: 2663651250181743332
+    second: ExtraSpinLoopSpriteSheet (1)_3
+  - first:
+      213: -9000347544442574135
+    second: ExtraSpinLoopSpriteSheet (1)_4
+  - first:
+      213: -776839323368757923
+    second: ExtraSpinLoopSpriteSheet (1)_5
+  - first:
+      213: 3438407248796553143
+    second: ExtraSpinLoopSpriteSheet (1)_6
+  - first:
+      213: -2078213664266632894
+    second: ExtraSpinLoopSpriteSheet (1)_7
+  - first:
+      213: -7240077455367808839
+    second: ExtraSpinLoopSpriteSheet (1)_8
+  - first:
+      213: -4255616493544788224
+    second: ExtraSpinLoopSpriteSheet (1)_9
+  - first:
+      213: 8600033223673086295
+    second: ExtraSpinLoopSpriteSheet (1)_10
+  - first:
+      213: 7705477332730852304
+    second: ExtraSpinLoopSpriteSheet (1)_11
+  - first:
+      213: 5506637369903817497
+    second: ExtraSpinLoopSpriteSheet (1)_12
+  - first:
+      213: -4216751048270277766
+    second: ExtraSpinLoopSpriteSheet (1)_13
+  - first:
+      213: -3710375412543232254
+    second: ExtraSpinLoopSpriteSheet (1)_14
+  - first:
+      213: 6174623224144768169
+    second: ExtraSpinLoopSpriteSheet (1)_15
+  - first:
+      213: 1438736277837327469
+    second: ExtraSpinLoopSpriteSheet (1)_16
+  - first:
+      213: -4580211142974557420
+    second: ExtraSpinLoopSpriteSheet (1)_17
+  - first:
+      213: 3391861723823132420
+    second: ExtraSpinLoopSpriteSheet (1)_18
+  - first:
+      213: -2441693059017510843
+    second: ExtraSpinLoopSpriteSheet (1)_19
+  - first:
+      213: -3178238349970259684
+    second: ExtraSpinLoopSpriteSheet (1)_20
+  - first:
+      213: 3348267155353913327
+    second: ExtraSpinLoopSpriteSheet (1)_21
+  - first:
+      213: -1471451919308210471
+    second: ExtraSpinLoopSpriteSheet (1)_22
+  - first:
+      213: 1959032983309041716
+    second: ExtraSpinLoopSpriteSheet (1)_23
+  - first:
+      213: -8574833179836559184
+    second: ExtraSpinLoopSpriteSheet (1)_24
+  - first:
+      213: -3483993385976492624
+    second: ExtraSpinLoopSpriteSheet (1)_25
+  - first:
+      213: 3026966173789183764
+    second: ExtraSpinLoopSpriteSheet (1)_26
+  - first:
+      213: -6404462492255196229
+    second: ExtraSpinLoopSpriteSheet (1)_27
+  - first:
+      213: 4548742558118194451
+    second: ExtraSpinLoopSpriteSheet (1)_28
+  - first:
+      213: 1631102295907329487
+    second: ExtraSpinLoopSpriteSheet (1)_29
+  - first:
+      213: -7855288296457000244
+    second: ExtraSpinLoopSpriteSheet (1)_30
+  - first:
+      213: 1441742021221356416
+    second: ExtraSpinLoopSpriteSheet (1)_31
+  - first:
+      213: 4855907244762792724
+    second: ExtraSpinLoopSpriteSheet (1)_32
+  - first:
+      213: 1239780211605675529
+    second: ExtraSpinLoopSpriteSheet (1)_33
+  - first:
+      213: -3976401982922122134
+    second: ExtraSpinLoopSpriteSheet (1)_34
+  - first:
+      213: -107716150802780050
+    second: ExtraSpinLoopSpriteSheet (1)_35
+  - first:
+      213: 2211517401628118750
+    second: ExtraSpinLoopSpriteSheet (1)_36
+  - first:
+      213: 5475230982720207739
+    second: ExtraSpinLoopSpriteSheet (1)_37
+  - first:
+      213: 8878422348106889366
+    second: ExtraSpinLoopSpriteSheet (1)_38
+  - first:
+      213: -7220794695253051703
+    second: ExtraSpinLoopSpriteSheet (1)_39
+  - first:
+      213: -1906541270404022766
+    second: ExtraSpinLoopSpriteSheet (1)_40
+  - first:
+      213: 3352712029885808460
+    second: ExtraSpinLoopSpriteSheet (1)_41
+  - first:
+      213: -8150861103508410765
+    second: ExtraSpinLoopSpriteSheet (1)_42
+  - first:
+      213: 2176428520111718967
+    second: ExtraSpinLoopSpriteSheet (1)_43
+  - first:
+      213: -2837429212989271728
+    second: ExtraSpinLoopSpriteSheet (1)_44
+  - first:
+      213: 4305342203104970371
+    second: ExtraSpinLoopSpriteSheet (1)_45
+  - first:
+      213: -3742600169570670885
+    second: ExtraSpinLoopSpriteSheet (1)_46
+  - first:
+      213: 5169293608923180211
+    second: ExtraSpinLoopSpriteSheet (1)_47
+  - first:
+      213: 9100263029147529849
+    second: ExtraSpinLoopSpriteSheet (1)_48
+  - first:
+      213: 7107027515294436902
+    second: ExtraSpinLoopSpriteSheet (1)_49
+  - first:
+      213: 634340185263991319
+    second: ExtraSpinLoopSpriteSheet (1)_50
+  - first:
+      213: -5770086820563302237
+    second: ExtraSpinLoopSpriteSheet (1)_51
+  - first:
+      213: -5402488898468995659
+    second: ExtraSpinLoopSpriteSheet (1)_52
+  - first:
+      213: -5034442707843945506
+    second: ExtraSpinLoopSpriteSheet (1)_53
+  - first:
+      213: 1975804739021893982
+    second: ExtraSpinLoopSpriteSheet (1)_54
+  - first:
+      213: -9056325124335613602
+    second: ExtraSpinLoopSpriteSheet (1)_55
+  - first:
+      213: 1106948488011935377
+    second: ExtraSpinLoopSpriteSheet (1)_56
+  - first:
+      213: -7548629168900266953
+    second: ExtraSpinLoopSpriteSheet (1)_57
+  - first:
+      213: -1401564692515688846
+    second: ExtraSpinLoopSpriteSheet (1)_58
+  - first:
+      213: 4863373851591179384
+    second: ExtraSpinLoopSpriteSheet (1)_59
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5670
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac404723f98772280800000000000000
+      internalID: -9068146699545606966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_1
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 5670
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2b0dd931f2e633c0800000000000000
+      internalID: -4380064061885445329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_2
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 5670
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 678fc6a2e87754680800000000000000
+      internalID: -8771473246753326986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_3
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 5670
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e2ab9c03b037f420800000000000000
+      internalID: 2663651250181743332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_4
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 5670
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cae07e1897581380800000000000000
+      internalID: -9000347544442574135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_5
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 5670
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d55ec0350cc1835f0800000000000000
+      internalID: -776839323368757923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_6
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 5670
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bf85a1ec2da7bf20800000000000000
+      internalID: 3438407248796553143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_7
+      rect:
+        serializedVersion: 2
+        x: 4536
+        y: 5670
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2414606eea3b823e0800000000000000
+      internalID: -2078213664266632894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4860
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b8dc76f9e3168b90800000000000000
+      internalID: -7240077455367808839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_9
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 4860
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00f28f9a85301f4c0800000000000000
+      internalID: -4255616493544788224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_10
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 4860
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7518799e6a4795770800000000000000
+      internalID: 8600033223673086295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_11
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 4860
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d33f3a0fca5fea60800000000000000
+      internalID: 7705477332730852304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_12
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 4860
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 913220433818b6c40800000000000000
+      internalID: 5506637369903817497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_13
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 4860
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a73189d43471b75c0800000000000000
+      internalID: -4216751048270277766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_14
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 4860
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20764008839128cc0800000000000000
+      internalID: -3710375412543232254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_15
+      rect:
+        serializedVersion: 2
+        x: 4536
+        y: 4860
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aca6099b1ba0b550800000000000000
+      internalID: 6174623224144768169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4050
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6c26fd950b67f310800000000000000
+      internalID: 1438736277837327469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_17
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 4050
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41337b28b32df60c0800000000000000
+      internalID: -4580211142974557420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_18
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 4050
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40fc8b75440521f20800000000000000
+      internalID: 3391861723823132420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_19
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 4050
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54079b6791d5d1ed0800000000000000
+      internalID: -2441693059017510843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_20
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 4050
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c11cf7a4f01a4e3d0800000000000000
+      internalID: -3178238349970259684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_21
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 4050
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe74af7ec3f677e20800000000000000
+      internalID: 3348267155353913327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_22
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 4050
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9de3195864a549be0800000000000000
+      internalID: -1471451919308210471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_23
+      rect:
+        serializedVersion: 2
+        x: 4536
+        y: 4050
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 430c8617e12ef2b10800000000000000
+      internalID: 1959032983309041716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3240
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b0db9387a2100980800000000000000
+      internalID: -8574833179836559184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_25
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 3240
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bd8f05797e56afc0800000000000000
+      internalID: -3483993385976492624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_26
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 3240
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41fd3df82b1f10a20800000000000000
+      internalID: 3026966173789183764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_27
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 3240
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbbe0dbab47ce17a0800000000000000
+      internalID: -6404462492255196229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_28
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 3240
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31d265f9141602f30800000000000000
+      internalID: 4548742558118194451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_29
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 3240
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc561eb65e6d2a610800000000000000
+      internalID: 1631102295907329487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_30
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 3240
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccaa569d9e86cf290800000000000000
+      internalID: -7855288296457000244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_31
+      rect:
+        serializedVersion: 2
+        x: 4536
+        y: 3240
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08317a8cab8120410800000000000000
+      internalID: 1441742021221356416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2430
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 413055259e5a36340800000000000000
+      internalID: 4855907244762792724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_33
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 2430
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90e9058a885943110800000000000000
+      internalID: 1239780211605675529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_34
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 2430
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6c94c3e67bf0d8c0800000000000000
+      internalID: -3976401982922122134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_35
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 2430
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e60f3d64bb0518ef0800000000000000
+      internalID: -107716150802780050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_36
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 2430
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ede83a21c53e0be10800000000000000
+      internalID: 2211517401628118750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_37
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 2430
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7b304cd19debfb40800000000000000
+      internalID: 5475230982720207739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_38
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 2430
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 698fcc0f51e763b70800000000000000
+      internalID: 8878422348106889366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_39
+      rect:
+        serializedVersion: 2
+        x: 4536
+        y: 2430
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c6ba696b759acb90800000000000000
+      internalID: -7220794695253051703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1620
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21e32fbd0da9a85e0800000000000000
+      internalID: -1906541270404022766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_41
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1620
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4fb587e3d9378e20800000000000000
+      internalID: 3352712029885808460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_42
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 1620
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37e25dfe20352ee80800000000000000
+      internalID: -8150861103508410765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_43
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 1620
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 732c944353a343e10800000000000000
+      internalID: 2176428520111718967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_44
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 1620
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05155740a2d6f98d0800000000000000
+      internalID: -2837429212989271728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_45
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 1620
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 386c19c4ce5afbb30800000000000000
+      internalID: 4305342203104970371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_46
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 1620
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd66c6499fc9f0cc0800000000000000
+      internalID: -3742600169570670885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_47
+      rect:
+        serializedVersion: 2
+        x: 4536
+        y: 1620
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bc209336250db740800000000000000
+      internalID: 5169293608923180211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 810
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97275fe7201aa4e70800000000000000
+      internalID: 9100263029147529849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_49
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 810
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e4d0adedb31a260800000000000000
+      internalID: 7107027515294436902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_50
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 810
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a6a61a901adc800800000000000000
+      internalID: 634340185263991319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_51
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 810
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a84921ab988cefa0800000000000000
+      internalID: -5770086820563302237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_52
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 810
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bd93cf68f08605b0800000000000000
+      internalID: -5402488898468995659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_53
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 810
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edbe7e4e701122ab0800000000000000
+      internalID: -5034442707843945506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_54
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 810
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e51feee11f77b6b10800000000000000
+      internalID: 1975804739021893982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_55
+      rect:
+        serializedVersion: 2
+        x: 4536
+        y: 810
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e59c7892848715280800000000000000
+      internalID: -9056325124335613602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19e6b94f8cbac5f00800000000000000
+      internalID: 1106948488011935377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_57
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 0
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7342c86e3c1ed3790800000000000000
+      internalID: -7548629168900266953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_58
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 0
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e6fd48654ac8ce0800000000000000
+      internalID: -1401564692515688846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraSpinLoopSpriteSheet (1)_59
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 0
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87cf30230cc2e7340800000000000000
+      internalID: 4863373851591179384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: abbddb341c200480692f79f5986792e8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ExtraSpinLoopSpriteSheet (1)_0: -9068146699545606966
+      ExtraSpinLoopSpriteSheet (1)_1: -4380064061885445329
+      ExtraSpinLoopSpriteSheet (1)_10: 8600033223673086295
+      ExtraSpinLoopSpriteSheet (1)_11: 7705477332730852304
+      ExtraSpinLoopSpriteSheet (1)_12: 5506637369903817497
+      ExtraSpinLoopSpriteSheet (1)_13: -4216751048270277766
+      ExtraSpinLoopSpriteSheet (1)_14: -3710375412543232254
+      ExtraSpinLoopSpriteSheet (1)_15: 6174623224144768169
+      ExtraSpinLoopSpriteSheet (1)_16: 1438736277837327469
+      ExtraSpinLoopSpriteSheet (1)_17: -4580211142974557420
+      ExtraSpinLoopSpriteSheet (1)_18: 3391861723823132420
+      ExtraSpinLoopSpriteSheet (1)_19: -2441693059017510843
+      ExtraSpinLoopSpriteSheet (1)_2: -8771473246753326986
+      ExtraSpinLoopSpriteSheet (1)_20: -3178238349970259684
+      ExtraSpinLoopSpriteSheet (1)_21: 3348267155353913327
+      ExtraSpinLoopSpriteSheet (1)_22: -1471451919308210471
+      ExtraSpinLoopSpriteSheet (1)_23: 1959032983309041716
+      ExtraSpinLoopSpriteSheet (1)_24: -8574833179836559184
+      ExtraSpinLoopSpriteSheet (1)_25: -3483993385976492624
+      ExtraSpinLoopSpriteSheet (1)_26: 3026966173789183764
+      ExtraSpinLoopSpriteSheet (1)_27: -6404462492255196229
+      ExtraSpinLoopSpriteSheet (1)_28: 4548742558118194451
+      ExtraSpinLoopSpriteSheet (1)_29: 1631102295907329487
+      ExtraSpinLoopSpriteSheet (1)_3: 2663651250181743332
+      ExtraSpinLoopSpriteSheet (1)_30: -7855288296457000244
+      ExtraSpinLoopSpriteSheet (1)_31: 1441742021221356416
+      ExtraSpinLoopSpriteSheet (1)_32: 4855907244762792724
+      ExtraSpinLoopSpriteSheet (1)_33: 1239780211605675529
+      ExtraSpinLoopSpriteSheet (1)_34: -3976401982922122134
+      ExtraSpinLoopSpriteSheet (1)_35: -107716150802780050
+      ExtraSpinLoopSpriteSheet (1)_36: 2211517401628118750
+      ExtraSpinLoopSpriteSheet (1)_37: 5475230982720207739
+      ExtraSpinLoopSpriteSheet (1)_38: 8878422348106889366
+      ExtraSpinLoopSpriteSheet (1)_39: -7220794695253051703
+      ExtraSpinLoopSpriteSheet (1)_4: -9000347544442574135
+      ExtraSpinLoopSpriteSheet (1)_40: -1906541270404022766
+      ExtraSpinLoopSpriteSheet (1)_41: 3352712029885808460
+      ExtraSpinLoopSpriteSheet (1)_42: -8150861103508410765
+      ExtraSpinLoopSpriteSheet (1)_43: 2176428520111718967
+      ExtraSpinLoopSpriteSheet (1)_44: -2837429212989271728
+      ExtraSpinLoopSpriteSheet (1)_45: 4305342203104970371
+      ExtraSpinLoopSpriteSheet (1)_46: -3742600169570670885
+      ExtraSpinLoopSpriteSheet (1)_47: 5169293608923180211
+      ExtraSpinLoopSpriteSheet (1)_48: 9100263029147529849
+      ExtraSpinLoopSpriteSheet (1)_49: 7107027515294436902
+      ExtraSpinLoopSpriteSheet (1)_5: -776839323368757923
+      ExtraSpinLoopSpriteSheet (1)_50: 634340185263991319
+      ExtraSpinLoopSpriteSheet (1)_51: -5770086820563302237
+      ExtraSpinLoopSpriteSheet (1)_52: -5402488898468995659
+      ExtraSpinLoopSpriteSheet (1)_53: -5034442707843945506
+      ExtraSpinLoopSpriteSheet (1)_54: 1975804739021893982
+      ExtraSpinLoopSpriteSheet (1)_55: -9056325124335613602
+      ExtraSpinLoopSpriteSheet (1)_56: 1106948488011935377
+      ExtraSpinLoopSpriteSheet (1)_57: -7548629168900266953
+      ExtraSpinLoopSpriteSheet (1)_58: -1401564692515688846
+      ExtraSpinLoopSpriteSheet (1)_59: 4863373851591179384
+      ExtraSpinLoopSpriteSheet (1)_6: 3438407248796553143
+      ExtraSpinLoopSpriteSheet (1)_7: -2078213664266632894
+      ExtraSpinLoopSpriteSheet (1)_8: -7240077455367808839
+      ExtraSpinLoopSpriteSheet (1)_9: -4255616493544788224
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

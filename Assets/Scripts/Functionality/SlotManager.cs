@@ -61,6 +61,7 @@ public class SlotManager : MonoBehaviour
     private SocketIOManager SocketManager;
     [SerializeField] private BonusManager bonusManager;
     [SerializeField] private RocketManager rocketManager;
+    [SerializeField] private AudioController audioController;
 
     private List<Tweener> alltweens = new List<Tweener>();
 
@@ -68,7 +69,10 @@ public class SlotManager : MonoBehaviour
     private Coroutine tweenroutine;
     internal bool IsAutoSpin = false;
     private bool IsSpinning = false;
+    //internal bool wasAutoSpin = false;
+    private float _spinDelay = 0.3f;
     internal bool CheckPopups = false;
+    private bool wasBonusActive = false;
     internal double currentBalance = 0;
     [SerializeField]
     private int IconSizeFactor = 100;       //set this parameter according to the size of the icon and spacing
@@ -221,6 +225,62 @@ public class SlotManager : MonoBehaviour
     #endregion
 
     #region SlotSpin
+
+    internal void AutoSpin()
+    {
+        if (!IsAutoSpin)
+        {
+            IsAutoSpin = true;
+
+            if (AutoSpinRoutine != null)
+            {
+                StopCoroutine(AutoSpinRoutine);
+                AutoSpinRoutine = null;
+            }
+            AutoSpinRoutine = StartCoroutine(AutoSpinCoroutine());
+        }
+    }
+
+    internal void StopAutoSpin()
+    {
+        //_audioController.PlayButtonAudio();
+        if (IsAutoSpin)
+        {
+            IsAutoSpin = false;
+            StartCoroutine(StopAutoSpinCoroutine());
+        }
+    }
+
+    private IEnumerator AutoSpinCoroutine()
+    {
+        while (IsAutoSpin)
+        {
+            StartSlots(IsAutoSpin);
+            yield return tweenroutine;
+            yield return new WaitForSeconds(_spinDelay);
+        }
+
+    }
+
+    private IEnumerator StopAutoSpinCoroutine()
+    {
+        yield return new WaitUntil(() => !IsSpinning);
+        //ToggleButtonGrp(true);
+        if (AutoSpinRoutine != null || tweenroutine != null)
+        {
+            StopCoroutine(AutoSpinRoutine);
+            StopCoroutine(tweenroutine);
+            tweenroutine = null;
+            AutoSpinRoutine = null;
+            StopCoroutine(StopAutoSpinCoroutine());
+            uiManager.AutoSpinButton.gameObject.SetActive(true);
+            uiManager.AutoSpinButton.interactable = true;
+            uiManager.StopAutoSpinButton.gameObject.SetActive(false);
+            uiManager.SpinButton.interactable = true;
+            uiManager.SpinButton.gameObject.SetActive(true);
+            uiManager.StopSpinButton.gameObject.SetActive(false);
+        }
+    }
     //starts the spin process
     internal void StartSlots(bool autoSpin = false)
     {
@@ -236,11 +296,6 @@ public class SlotManager : MonoBehaviour
             }
         }
 
-        if (SlotAnimRoutine != null)
-        {
-            StopCoroutine(SlotAnimRoutine);
-            SlotAnimRoutine = null;
-        }
         if (TempList.Count > 0)
         {
             StopGameAnimation();
@@ -254,7 +309,9 @@ public class SlotManager : MonoBehaviour
     {
         if (currentBalance < uiManager.currentTotalBet)
         {
-            //uiManager.LowBalPopup();
+            uiManager.LowBalPopup();
+            StopAutoSpin();
+            yield return new WaitForSeconds(1f);
             yield break;
         }
         else
@@ -263,6 +320,8 @@ public class SlotManager : MonoBehaviour
             uiManager.BalanceText.text = currentBalance.ToString();
             yield return new WaitForSeconds(0.2f);
         }
+
+        audioController.PlaySpinStarts();
 
         IsSpinning = true;
 
@@ -331,6 +390,7 @@ public class SlotManager : MonoBehaviour
 
         yield return alltweens[^1].WaitForCompletion();
         KillAllTweens();
+        audioController.PlaySpinStops();
 
         var payload = SocketManager.resultData.payload;
         foreach (var win in payload.winningCombinations)
@@ -357,28 +417,54 @@ public class SlotManager : MonoBehaviour
             }
         }
 
+        uiManager.WinAmountText.text = SocketManager.resultData.payload.win.ToString();
+
+        if (SocketManager.resultData.payload.win > SocketManager.initialData.bets[uiManager.betCounter] * 7 && SocketManager.resultData.payload.win < SocketManager.initialData.bets[uiManager.betCounter] * 15)
+        {
+            uiManager.PopulateWin(1, SocketManager.resultData.payload.win);
+            yield return new WaitUntil(() => !CheckPopups);
+        }
+
+        if (SocketManager.resultData.payload.win > SocketManager.initialData.bets[uiManager.betCounter] * 15)
+        {
+            uiManager.PopulateWin(2, SocketManager.resultData.payload.win);
+            yield return new WaitUntil(() => !CheckPopups);
+        }
+
         // TRIGGER ROCKET SEQUENCE if bonus symbols exist
         if (bonusSymbolsData.Count > 0)
         {
             //Debug.Log("rocket Animation Started");
             rocketManager.RocketAnimation(bonusSymbolsData);
             yield return new WaitUntil(() => rocketManager.isRocketAnimationComplete);
+            rocketManager.CrackerAnimation(bonusSymbolsData);
+            //yield return new WaitUntil(() => rocketManager.isCrackerAnimationComplete);
+            yield return new WaitUntil(()=> rocketManager.blueCrackerAnimationComplete && rocketManager.redCrackerAnimationComplete && rocketManager.greenCrackerAnimationComplete);
+            yield return new WaitForSeconds(0.5f);
         }
-        yield return new WaitForSeconds(2f);
         // Then handle bonus game
         if (SocketManager.resultData.payload.bonusGame.isActive)
         {
             bonusManager.BonusStarted();
+            wasBonusActive = true;
         }
         yield return new WaitUntil(() => bonusManager.isBonusComplete);
-        yield return new WaitUntil(() => !CheckPopups);
+
+        if (wasBonusActive)
+        {
+            uiManager.PopulateWin(3, SocketManager.resultData.payload.totalWin);
+            yield return new WaitUntil(() => !CheckPopups);
+            wasBonusActive = false;
+        }
+        uiManager.WinAmountText.text = SocketManager.resultData.payload.totalWin.ToString();
 
         IsSpinning = false;
-        uiManager.OnSpinEnd();
-
+        if (!IsAutoSpin)
+        {
+            uiManager.OnSpinEnd();
+        }
     }
 
-    private Coroutine SlotAnimRoutine = null;
 
     #endregion
 

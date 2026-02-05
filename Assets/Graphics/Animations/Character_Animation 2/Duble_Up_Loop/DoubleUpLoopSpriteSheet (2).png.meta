@@ -1,0 +1,1742 @@
+fileFormatVersion: 2
+guid: 9e97e7ca1db964e1eb83f8a81f53cbce
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7739623934719268891
+    second: DoubleUpLoopSpriteSheet (2)_0
+  - first:
+      213: 5972753483980069699
+    second: DoubleUpLoopSpriteSheet (2)_1
+  - first:
+      213: 3266427625705551205
+    second: DoubleUpLoopSpriteSheet (2)_2
+  - first:
+      213: -3725596347002761307
+    second: DoubleUpLoopSpriteSheet (2)_3
+  - first:
+      213: 3378846947286900090
+    second: DoubleUpLoopSpriteSheet (2)_4
+  - first:
+      213: -3318876062152414217
+    second: DoubleUpLoopSpriteSheet (2)_5
+  - first:
+      213: 2481732419839615164
+    second: DoubleUpLoopSpriteSheet (2)_6
+  - first:
+      213: -3699074642165412831
+    second: DoubleUpLoopSpriteSheet (2)_7
+  - first:
+      213: -1581711720584737292
+    second: DoubleUpLoopSpriteSheet (2)_8
+  - first:
+      213: -8755061970801473626
+    second: DoubleUpLoopSpriteSheet (2)_9
+  - first:
+      213: -269725567796695141
+    second: DoubleUpLoopSpriteSheet (2)_10
+  - first:
+      213: -9156182987824110548
+    second: DoubleUpLoopSpriteSheet (2)_11
+  - first:
+      213: 2581321105382283831
+    second: DoubleUpLoopSpriteSheet (2)_12
+  - first:
+      213: -8361601066224485636
+    second: DoubleUpLoopSpriteSheet (2)_13
+  - first:
+      213: -9122274198499707426
+    second: DoubleUpLoopSpriteSheet (2)_14
+  - first:
+      213: 4016120888988840743
+    second: DoubleUpLoopSpriteSheet (2)_15
+  - first:
+      213: 8461891809192311983
+    second: DoubleUpLoopSpriteSheet (2)_16
+  - first:
+      213: -3736972549968776491
+    second: DoubleUpLoopSpriteSheet (2)_17
+  - first:
+      213: 8695701183685892889
+    second: DoubleUpLoopSpriteSheet (2)_18
+  - first:
+      213: -9189466802829860695
+    second: DoubleUpLoopSpriteSheet (2)_19
+  - first:
+      213: 4969410935998559189
+    second: DoubleUpLoopSpriteSheet (2)_20
+  - first:
+      213: -8062200462874136898
+    second: DoubleUpLoopSpriteSheet (2)_21
+  - first:
+      213: -4371999576652819361
+    second: DoubleUpLoopSpriteSheet (2)_22
+  - first:
+      213: -4875993272845104667
+    second: DoubleUpLoopSpriteSheet (2)_23
+  - first:
+      213: -2693776557052362290
+    second: DoubleUpLoopSpriteSheet (2)_24
+  - first:
+      213: -4503037324515534579
+    second: DoubleUpLoopSpriteSheet (2)_25
+  - first:
+      213: 8809533948232660557
+    second: DoubleUpLoopSpriteSheet (2)_26
+  - first:
+      213: 635484690671805198
+    second: DoubleUpLoopSpriteSheet (2)_27
+  - first:
+      213: -5891906966677798606
+    second: DoubleUpLoopSpriteSheet (2)_28
+  - first:
+      213: 4398027036936696027
+    second: DoubleUpLoopSpriteSheet (2)_29
+  - first:
+      213: -2638592132145517197
+    second: DoubleUpLoopSpriteSheet (2)_30
+  - first:
+      213: -5949573542828178139
+    second: DoubleUpLoopSpriteSheet (2)_31
+  - first:
+      213: 4146331439232314483
+    second: DoubleUpLoopSpriteSheet (2)_32
+  - first:
+      213: 2620456420697479992
+    second: DoubleUpLoopSpriteSheet (2)_33
+  - first:
+      213: -2044938041276578507
+    second: DoubleUpLoopSpriteSheet (2)_34
+  - first:
+      213: 4123313012474118162
+    second: DoubleUpLoopSpriteSheet (2)_35
+  - first:
+      213: -8526977644879314422
+    second: DoubleUpLoopSpriteSheet (2)_36
+  - first:
+      213: 1205142389419708063
+    second: DoubleUpLoopSpriteSheet (2)_37
+  - first:
+      213: 7582130076814582369
+    second: DoubleUpLoopSpriteSheet (2)_38
+  - first:
+      213: 4385384965668415301
+    second: DoubleUpLoopSpriteSheet (2)_39
+  - first:
+      213: -6446054814288245927
+    second: DoubleUpLoopSpriteSheet (2)_40
+  - first:
+      213: -689783120058081570
+    second: DoubleUpLoopSpriteSheet (2)_41
+  - first:
+      213: 3886602194702402627
+    second: DoubleUpLoopSpriteSheet (2)_42
+  - first:
+      213: 7191804844910617003
+    second: DoubleUpLoopSpriteSheet (2)_43
+  - first:
+      213: 3699841889358083144
+    second: DoubleUpLoopSpriteSheet (2)_44
+  - first:
+      213: 8345382463508827750
+    second: DoubleUpLoopSpriteSheet (2)_45
+  - first:
+      213: 667425598853849407
+    second: DoubleUpLoopSpriteSheet (2)_46
+  - first:
+      213: 7717108925751527655
+    second: DoubleUpLoopSpriteSheet (2)_47
+  - first:
+      213: 4096134798508686708
+    second: DoubleUpLoopSpriteSheet (2)_48
+  - first:
+      213: -6312973326480341683
+    second: DoubleUpLoopSpriteSheet (2)_49
+  - first:
+      213: 359328048156527891
+    second: DoubleUpLoopSpriteSheet (2)_50
+  - first:
+      213: -1155180548987740193
+    second: DoubleUpLoopSpriteSheet (2)_51
+  - first:
+      213: 7429190777619169312
+    second: DoubleUpLoopSpriteSheet (2)_52
+  - first:
+      213: 3615912642660898206
+    second: DoubleUpLoopSpriteSheet (2)_53
+  - first:
+      213: 6644648208968527276
+    second: DoubleUpLoopSpriteSheet (2)_54
+  - first:
+      213: 6801089634752274188
+    second: DoubleUpLoopSpriteSheet (2)_55
+  - first:
+      213: -5274277000440574400
+    second: DoubleUpLoopSpriteSheet (2)_56
+  - first:
+      213: -3751794748253426924
+    second: DoubleUpLoopSpriteSheet (2)_57
+  - first:
+      213: 2190455599080644045
+    second: DoubleUpLoopSpriteSheet (2)_58
+  - first:
+      213: -7455148252336373797
+    second: DoubleUpLoopSpriteSheet (2)_59
+  - first:
+      213: 5083595593461415831
+    second: DoubleUpLoopSpriteSheet (2)_60
+  - first:
+      213: 7529738020992847247
+    second: DoubleUpLoopSpriteSheet (2)_61
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2646
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e762f3a905579490800000000000000
+      internalID: -7739623934719268891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_1
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 2646
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77515efafb0704b1994d269d1f5a5fce
+      internalID: 5972753483980069699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_2
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 2646
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c182021b67ae740efbc8496cfaef616f
+      internalID: 3266427625705551205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_3
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 2646
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dae3b9276ea540288f0714440595fc5
+      internalID: -3725596347002761307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_4
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 2646
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5911cef05fc45400e8e08606df29aa83
+      internalID: 3378846947286900090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_5
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 2646
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce70022714f94f71b7c8f1e12e0ffdf
+      internalID: -3318876062152414217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_6
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 2646
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d70674baa96e412aa4d190c9c8908b5
+      internalID: 2481732419839615164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_7
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 2646
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c2d74ae8c6074fa6b7a207f46b84d72
+      internalID: -3699074642165412831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2268
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f5f94eabf67f40498702553663f3b51
+      internalID: -1581711720584737292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_9
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 2268
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c82db66535d844b0296e9f31559fc18b
+      internalID: -8755061970801473626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_10
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 2268
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0483fa6148064fec8710ba3cff2e020
+      internalID: -269725567796695141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_11
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 2268
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68aae0eb86173425ca6cd8b09581ffe6
+      internalID: -9156182987824110548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_12
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 2268
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa55661e0f4504ce7a98944db39d0f48
+      internalID: 2581321105382283831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_13
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 2268
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f3fb4fa084044275b94e555a9e21aba
+      internalID: -8361601066224485636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_14
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 2268
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654f871656f6141c8a01d315d63f814c
+      internalID: -9122274198499707426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_15
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 2268
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c7bde2968754592a55764da9850d40
+      internalID: 4016120888988840743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1890
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c79626e95c647aeb4d9e0a44c7b055
+      internalID: 8461891809192311983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_17
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1890
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c7fd8a95c2e49f581b2c0d82fe6e7a
+      internalID: -3736972549968776491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_18
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1890
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad66019f45d94c288544d5d6c84782f
+      internalID: 8695701183685892889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_19
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1890
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77165c5141f649cfb4a9cc48b6c7ebe
+      internalID: -9189466802829860695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_20
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 1890
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581167efc04c1453c889a1afaee38141
+      internalID: 4969410935998559189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_21
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 1890
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7581818c9d274e2dbc9d0265d300a56
+      internalID: -8062200462874136898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_22
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 1890
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf8b266f752e4605849f9df80d74f32
+      internalID: -4371999576652819361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_23
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 1890
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f435ed475a6244d09b3f923a70408a4a
+      internalID: -4875993272845104667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1512
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105a5ac91af6549bd9f2775a2fd3428c
+      internalID: -2693776557052362290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_25
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1512
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce55474952224286b65657b44f57186
+      internalID: -4503037324515534579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_26
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1512
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244d8aa6c78954518a34469ec95c9b09
+      internalID: 8809533948232660557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_27
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1512
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac8bab1a54404f72845d330e114be1d
+      internalID: 635484690671805198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_28
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 1512
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48fbfd5d8127f43e9825a31450290b1c
+      internalID: -5891906966677798606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_29
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 1512
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3b493c4d3484921adfeccd38906590
+      internalID: 4398027036936696027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_30
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 1512
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad77f6b83db045f09888007d594c755
+      internalID: -2638592132145517197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_31
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 1512
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f109b69cd99d842c79e550284aff88be
+      internalID: -5949573542828178139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1134
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b582b7ef28864862800d9410526ec47
+      internalID: 4146331439232314483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_33
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1134
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea61264ae9154601b590ee051be5298
+      internalID: 2620456420697479992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_34
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1134
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91406800b41be4c52a0dd37686cf8dba
+      internalID: -2044938041276578507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_35
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1134
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f180f052cae984fa29f5cd9591e58b11
+      internalID: 4123313012474118162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_36
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 1134
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece3a06e0e4bd434a9fc37433c8ee0d9
+      internalID: -8526977644879314422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_37
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 1134
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c0374250e174098b18556dd50bdcc8
+      internalID: 1205142389419708063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_38
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 1134
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5827614e84044a6b4b4f4372c789e8
+      internalID: 7582130076814582369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_39
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 1134
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 538fbce824f794b7981ad6f39790446b
+      internalID: 4385384965668415301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 756
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc76aa01a23548af98e1060f32738dc
+      internalID: -6446054814288245927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_41
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 756
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad4aaa8cdedc43e3853bcfd928793ba
+      internalID: -689783120058081570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_42
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 756
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2dfd681131ab409b8a02c21269a54d8
+      internalID: 3886602194702402627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_43
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 756
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d9fac5440b4429c86d8ea7d15b9990
+      internalID: 7191804844910617003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_44
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 756
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a121f0b40ca24f2cb3a27b1a929e587
+      internalID: 3699841889358083144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_45
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 756
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9eb1dd54f1014788940412cd3a3f874
+      internalID: 8345382463508827750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_46
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 756
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c93420265d1414e9d9bb6bfe2ba301
+      internalID: 667425598853849407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_47
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 756
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a180a38c103c24015b151c82a72cc77b
+      internalID: 7717108925751527655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 378
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf90f6687cc5422f99736b008157b9b
+      internalID: 4096134798508686708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_49
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 378
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2caf36846779d4e598d86f6bac8508e4
+      internalID: -6312973326480341683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_50
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 378
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d9b9c6f640e4860b142494e92097d9
+      internalID: 359328048156527891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_51
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 378
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b6ec6a83b192412bbee6a3b5f1a3083
+      internalID: -1155180548987740193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_52
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 378
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a2ab5ac6a934036bfa01e12aa27986
+      internalID: 7429190777619169312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_53
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 378
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c76f42a93d947168556bdc4db00738
+      internalID: 3615912642660898206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_54
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 378
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f672840f8240642ffb4b3d042d41b71d
+      internalID: 6644648208968527276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_55
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 378
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 868cd92383e98409e80e3cbb997f2ad2
+      internalID: 6801089634752274188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4c6d9e3a87c40778f9761e33859349
+      internalID: -5274277000440574400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_57
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 0
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaacad2cf72c44f5fa56ffdac0b42507
+      internalID: -3751794748253426924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_58
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 0
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d5e0eba66334614b7fb29a45b9cdf4
+      internalID: 2190455599080644045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_59
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 0
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dcc8b7dc30dc43359c5202cea094625
+      internalID: -7455148252336373797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_60
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 0
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7dd8616ab994bab8bf0e1316071d22
+      internalID: 5083595593461415831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleUpLoopSpriteSheet (2)_61
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 0
+        width: 302
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a9d01e7c34441a4a04a1a7a5741f4e
+      internalID: 7529738020992847247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 18de66669b179463585c324c9027a2a5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DoubleUpLoopSpriteSheet (2)_0: -7739623934719268891
+      DoubleUpLoopSpriteSheet (2)_1: 5972753483980069699
+      DoubleUpLoopSpriteSheet (2)_10: -269725567796695141
+      DoubleUpLoopSpriteSheet (2)_11: -9156182987824110548
+      DoubleUpLoopSpriteSheet (2)_12: 2581321105382283831
+      DoubleUpLoopSpriteSheet (2)_13: -8361601066224485636
+      DoubleUpLoopSpriteSheet (2)_14: -9122274198499707426
+      DoubleUpLoopSpriteSheet (2)_15: 4016120888988840743
+      DoubleUpLoopSpriteSheet (2)_16: 8461891809192311983
+      DoubleUpLoopSpriteSheet (2)_17: -3736972549968776491
+      DoubleUpLoopSpriteSheet (2)_18: 8695701183685892889
+      DoubleUpLoopSpriteSheet (2)_19: -9189466802829860695
+      DoubleUpLoopSpriteSheet (2)_2: 3266427625705551205
+      DoubleUpLoopSpriteSheet (2)_20: 4969410935998559189
+      DoubleUpLoopSpriteSheet (2)_21: -8062200462874136898
+      DoubleUpLoopSpriteSheet (2)_22: -4371999576652819361
+      DoubleUpLoopSpriteSheet (2)_23: -4875993272845104667
+      DoubleUpLoopSpriteSheet (2)_24: -2693776557052362290
+      DoubleUpLoopSpriteSheet (2)_25: -4503037324515534579
+      DoubleUpLoopSpriteSheet (2)_26: 8809533948232660557
+      DoubleUpLoopSpriteSheet (2)_27: 635484690671805198
+      DoubleUpLoopSpriteSheet (2)_28: -5891906966677798606
+      DoubleUpLoopSpriteSheet (2)_29: 4398027036936696027
+      DoubleUpLoopSpriteSheet (2)_3: -3725596347002761307
+      DoubleUpLoopSpriteSheet (2)_30: -2638592132145517197
+      DoubleUpLoopSpriteSheet (2)_31: -5949573542828178139
+      DoubleUpLoopSpriteSheet (2)_32: 4146331439232314483
+      DoubleUpLoopSpriteSheet (2)_33: 2620456420697479992
+      DoubleUpLoopSpriteSheet (2)_34: -2044938041276578507
+      DoubleUpLoopSpriteSheet (2)_35: 4123313012474118162
+      DoubleUpLoopSpriteSheet (2)_36: -8526977644879314422
+      DoubleUpLoopSpriteSheet (2)_37: 1205142389419708063
+      DoubleUpLoopSpriteSheet (2)_38: 7582130076814582369
+      DoubleUpLoopSpriteSheet (2)_39: 4385384965668415301
+      DoubleUpLoopSpriteSheet (2)_4: 3378846947286900090
+      DoubleUpLoopSpriteSheet (2)_40: -6446054814288245927
+      DoubleUpLoopSpriteSheet (2)_41: -689783120058081570
+      DoubleUpLoopSpriteSheet (2)_42: 3886602194702402627
+      DoubleUpLoopSpriteSheet (2)_43: 7191804844910617003
+      DoubleUpLoopSpriteSheet (2)_44: 3699841889358083144
+      DoubleUpLoopSpriteSheet (2)_45: 8345382463508827750
+      DoubleUpLoopSpriteSheet (2)_46: 667425598853849407
+      DoubleUpLoopSpriteSheet (2)_47: 7717108925751527655
+      DoubleUpLoopSpriteSheet (2)_48: 4096134798508686708
+      DoubleUpLoopSpriteSheet (2)_49: -6312973326480341683
+      DoubleUpLoopSpriteSheet (2)_5: -3318876062152414217
+      DoubleUpLoopSpriteSheet (2)_50: 359328048156527891
+      DoubleUpLoopSpriteSheet (2)_51: -1155180548987740193
+      DoubleUpLoopSpriteSheet (2)_52: 7429190777619169312
+      DoubleUpLoopSpriteSheet (2)_53: 3615912642660898206
+      DoubleUpLoopSpriteSheet (2)_54: 6644648208968527276
+      DoubleUpLoopSpriteSheet (2)_55: 6801089634752274188
+      DoubleUpLoopSpriteSheet (2)_56: -5274277000440574400
+      DoubleUpLoopSpriteSheet (2)_57: -3751794748253426924
+      DoubleUpLoopSpriteSheet (2)_58: 2190455599080644045
+      DoubleUpLoopSpriteSheet (2)_59: -7455148252336373797
+      DoubleUpLoopSpriteSheet (2)_6: 2481732419839615164
+      DoubleUpLoopSpriteSheet (2)_60: 5083595593461415831
+      DoubleUpLoopSpriteSheet (2)_61: 7529738020992847247
+      DoubleUpLoopSpriteSheet (2)_7: -3699074642165412831
+      DoubleUpLoopSpriteSheet (2)_8: -1581711720584737292
+      DoubleUpLoopSpriteSheet (2)_9: -8755061970801473626
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1274 @@
+fileFormatVersion: 2
+guid: cdabe7150973e4c8892488a78298c2bf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7605781909667800934
+    second: UltraSpinLoopSpriteSheet (1)_0
+  - first:
+      213: 8195230167045962857
+    second: UltraSpinLoopSpriteSheet (1)_1
+  - first:
+      213: 5772697970076796706
+    second: UltraSpinLoopSpriteSheet (1)_2
+  - first:
+      213: 3757318485043914552
+    second: UltraSpinLoopSpriteSheet (1)_3
+  - first:
+      213: -6157102759960883237
+    second: UltraSpinLoopSpriteSheet (1)_4
+  - first:
+      213: -3951395288743084454
+    second: UltraSpinLoopSpriteSheet (1)_5
+  - first:
+      213: 4785082289638812295
+    second: UltraSpinLoopSpriteSheet (1)_6
+  - first:
+      213: 2807093114498440090
+    second: UltraSpinLoopSpriteSheet (1)_7
+  - first:
+      213: -3502680701267690272
+    second: UltraSpinLoopSpriteSheet (1)_8
+  - first:
+      213: 1306410743614866049
+    second: UltraSpinLoopSpriteSheet (1)_9
+  - first:
+      213: 9082944479085868915
+    second: UltraSpinLoopSpriteSheet (1)_10
+  - first:
+      213: 1780366065721103036
+    second: UltraSpinLoopSpriteSheet (1)_11
+  - first:
+      213: 2681927452810566273
+    second: UltraSpinLoopSpriteSheet (1)_12
+  - first:
+      213: -4420872403571821150
+    second: UltraSpinLoopSpriteSheet (1)_13
+  - first:
+      213: 4504817765738885194
+    second: UltraSpinLoopSpriteSheet (1)_14
+  - first:
+      213: -5163393866456116256
+    second: UltraSpinLoopSpriteSheet (1)_15
+  - first:
+      213: -5898673810392168565
+    second: UltraSpinLoopSpriteSheet (1)_16
+  - first:
+      213: 8454440659544177610
+    second: UltraSpinLoopSpriteSheet (1)_17
+  - first:
+      213: -2306847428450349965
+    second: UltraSpinLoopSpriteSheet (1)_18
+  - first:
+      213: -2401647981260069524
+    second: UltraSpinLoopSpriteSheet (1)_19
+  - first:
+      213: 6587613045959612452
+    second: UltraSpinLoopSpriteSheet (1)_20
+  - first:
+      213: 130434746497145818
+    second: UltraSpinLoopSpriteSheet (1)_21
+  - first:
+      213: -1302784630933892887
+    second: UltraSpinLoopSpriteSheet (1)_22
+  - first:
+      213: -5297450429670950682
+    second: UltraSpinLoopSpriteSheet (1)_23
+  - first:
+      213: -4569659734502383078
+    second: UltraSpinLoopSpriteSheet (1)_24
+  - first:
+      213: -115507205165489790
+    second: UltraSpinLoopSpriteSheet (1)_25
+  - first:
+      213: 6243875170652841596
+    second: UltraSpinLoopSpriteSheet (1)_26
+  - first:
+      213: 7683579644169600033
+    second: UltraSpinLoopSpriteSheet (1)_27
+  - first:
+      213: 5246357390745291702
+    second: UltraSpinLoopSpriteSheet (1)_28
+  - first:
+      213: -8483910086745946855
+    second: UltraSpinLoopSpriteSheet (1)_29
+  - first:
+      213: 8670976877566544813
+    second: UltraSpinLoopSpriteSheet (1)_30
+  - first:
+      213: -5125433795327089650
+    second: UltraSpinLoopSpriteSheet (1)_31
+  - first:
+      213: -4196391730042626695
+    second: UltraSpinLoopSpriteSheet (1)_32
+  - first:
+      213: 2734501717240368724
+    second: UltraSpinLoopSpriteSheet (1)_33
+  - first:
+      213: 7261285664537717611
+    second: UltraSpinLoopSpriteSheet (1)_34
+  - first:
+      213: 3032396256025600973
+    second: UltraSpinLoopSpriteSheet (1)_35
+  - first:
+      213: 1115550822534876133
+    second: UltraSpinLoopSpriteSheet (1)_36
+  - first:
+      213: 2268392238026664000
+    second: UltraSpinLoopSpriteSheet (1)_37
+  - first:
+      213: -4786988210895574907
+    second: UltraSpinLoopSpriteSheet (1)_38
+  - first:
+      213: 6433997988194316207
+    second: UltraSpinLoopSpriteSheet (1)_39
+  - first:
+      213: 7699415254309929474
+    second: UltraSpinLoopSpriteSheet (1)_40
+  - first:
+      213: 2980164682421720835
+    second: UltraSpinLoopSpriteSheet (1)_41
+  - first:
+      213: -8677632919060993345
+    second: UltraSpinLoopSpriteSheet (1)_42
+  - first:
+      213: 4368996758068939925
+    second: UltraSpinLoopSpriteSheet (1)_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UltraSpinLoopSpriteSheet (1)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5400
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66767d4895a2d8960800000000000000
+      internalID: 7605781909667800934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltraSpinLoopSpriteSheet (1)_1
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 5400
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96cf65faa6e4bb170800000000000000
+      internalID: 8195230167045962857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltraSpinLoopSpriteSheet (1)_2
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 5400
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 227cb0ef73ebc1050800000000000000
+      internalID: 5772697970076796706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltraSpinLoopSpriteSheet (1)_3
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 5400
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8372d09414da42430800000000000000
+      internalID: 3757318485043914552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltraSpinLoopSpriteSheet (1)_4
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 5400
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdf44fa59a39d8aa0800000000000000
+      internalID: -6157102759960883237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltraSpinLoopSpriteSheet (1)_5
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 5400
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5ef0579be2d929c0800000000000000
+      internalID: -3951395288743084454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltraSpinLoopSpriteSheet (1)_6
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 5400
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78a2fee6df6086240800000000000000
+      internalID: 4785082289638812295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltraSpinLoopSpriteSheet (1)_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4500
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9bdf15a05cc4f620800000000000000
+      internalID: 2807093114498440090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltraSpinLoopSpriteSheet (1)_8
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 4500
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ecb25fc57af36fc0800000000000000
+      internalID: -3502680701267690272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltraSpinLoopSpriteSheet (1)_9
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 4500
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1820bef46ad412210800000000000000
+      internalID: 1306410743614866049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltraSpinLoopSpriteSheet (1)_10
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 4500
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 377328651e91d0e70800000000000000
+      internalID: 9082944479085868915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltraSpinLoopSpriteSheet (1)_11
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 4500
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb25775018125b810800000000000000
+      internalID: 1780366065721103036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltraSpinLoopSpriteSheet (1)_12
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 4500
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a54221fce183520800000000000000
+      internalID: 2681927452810566273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltraSpinLoopSpriteSheet (1)_13
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 4500
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a536c3c8f7e5a2c0800000000000000
+      internalID: -4420872403571821150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltraSpinLoopSpriteSheet (1)_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3600
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a403cb0f3e3548e30800000000000000
+      internalID: 4504817765738885194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltraSpinLoopSpriteSheet (1)_15
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 3600
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e3d372a2a0f758b0800000000000000
+      internalID: -5163393866456116256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltraSpinLoopSpriteSheet (1)_16
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 3600
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b87cca50c63b32ea0800000000000000
+      internalID: -5898673810392168565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltraSpinLoopSpriteSheet (1)_17
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 3600
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acbffbe7cf4345570800000000000000
+      internalID: 8454440659544177610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltraSpinLoopSpriteSheet (1)_18
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 3600
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37c813c6c7e6cffd0800000000000000
+      internalID: -2306847428450349965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltraSpinLoopSpriteSheet (1)_19
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 3600
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c65a571b2e1abaed0800000000000000
+      internalID: -2401647981260069524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltraSpinLoopSpriteSheet (1)_20
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 3600
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 428d622a927eb6b50800000000000000
+      internalID: 6587613045959612452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltraSpinLoopSpriteSheet (1)_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2700
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adb945bf5b56fc100800000000000000
+      internalID: 130434746497145818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltraSpinLoopSpriteSheet (1)_22
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 2700
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e0d856d7449bede0800000000000000
+      internalID: -1302784630933892887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltraSpinLoopSpriteSheet (1)_23
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 2700
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e8f83cb6ecab76b0800000000000000
+      internalID: -5297450429670950682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltraSpinLoopSpriteSheet (1)_24
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 2700
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a12649cbeae4590c0800000000000000
+      internalID: -4569659734502383078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltraSpinLoopSpriteSheet (1)_25
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 2700
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 281ec131fc2a56ef0800000000000000
+      internalID: -115507205165489790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltraSpinLoopSpriteSheet (1)_26
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 2700
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c76e4a0e263b6a650800000000000000
+      internalID: 6243875170652841596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltraSpinLoopSpriteSheet (1)_27
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 2700
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12cb62e1afe81aa60800000000000000
+      internalID: 7683579644169600033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltraSpinLoopSpriteSheet (1)_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1800
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bb4e10204ecec840800000000000000
+      internalID: 5246357390745291702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltraSpinLoopSpriteSheet (1)_29
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1800
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 915872dc9b8134a80800000000000000
+      internalID: -8483910086745946855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltraSpinLoopSpriteSheet (1)_30
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 1800
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dabcaf2878f755870800000000000000
+      internalID: 8670976877566544813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltraSpinLoopSpriteSheet (1)_31
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 1800
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e042fbd6e1dced8b0800000000000000
+      internalID: -5125433795327089650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltraSpinLoopSpriteSheet (1)_32
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 1800
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97d1c6874fb63c5c0800000000000000
+      internalID: -4196391730042626695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltraSpinLoopSpriteSheet (1)_33
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 1800
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45ecec5e2d6e2f520800000000000000
+      internalID: 2734501717240368724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltraSpinLoopSpriteSheet (1)_34
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 1800
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6b286707d445c460800000000000000
+      internalID: 7261285664537717611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltraSpinLoopSpriteSheet (1)_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc361aa145c351a20800000000000000
+      internalID: 3032396256025600973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltraSpinLoopSpriteSheet (1)_36
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 900
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eb061a009b3b7f00800000000000000
+      internalID: 1115550822534876133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltraSpinLoopSpriteSheet (1)_37
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 900
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04825d6d8b2fa7f10800000000000000
+      internalID: 2268392238026664000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltraSpinLoopSpriteSheet (1)_38
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 900
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5882691b593319db0800000000000000
+      internalID: -4786988210895574907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltraSpinLoopSpriteSheet (1)_39
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 900
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf66ebd4172a4950800000000000000
+      internalID: 6433997988194316207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltraSpinLoopSpriteSheet (1)_40
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 900
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2020e5b6161d9da60800000000000000
+      internalID: 7699415254309929474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltraSpinLoopSpriteSheet (1)_41
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 900
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30759e33dfbab5920800000000000000
+      internalID: 2980164682421720835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltraSpinLoopSpriteSheet (1)_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fba222016dad29780800000000000000
+      internalID: -8677632919060993345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltraSpinLoopSpriteSheet (1)_43
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 0
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59c488d476bc1ac30800000000000000
+      internalID: 4368996758068939925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f4cb3d68d06ba405799772ef81a5d925
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      UltraSpinLoopSpriteSheet (1)_0: 7605781909667800934
+      UltraSpinLoopSpriteSheet (1)_1: 8195230167045962857
+      UltraSpinLoopSpriteSheet (1)_10: 9082944479085868915
+      UltraSpinLoopSpriteSheet (1)_11: 1780366065721103036
+      UltraSpinLoopSpriteSheet (1)_12: 2681927452810566273
+      UltraSpinLoopSpriteSheet (1)_13: -4420872403571821150
+      UltraSpinLoopSpriteSheet (1)_14: 4504817765738885194
+      UltraSpinLoopSpriteSheet (1)_15: -5163393866456116256
+      UltraSpinLoopSpriteSheet (1)_16: -5898673810392168565
+      UltraSpinLoopSpriteSheet (1)_17: 8454440659544177610
+      UltraSpinLoopSpriteSheet (1)_18: -2306847428450349965
+      UltraSpinLoopSpriteSheet (1)_19: -2401647981260069524
+      UltraSpinLoopSpriteSheet (1)_2: 5772697970076796706
+      UltraSpinLoopSpriteSheet (1)_20: 6587613045959612452
+      UltraSpinLoopSpriteSheet (1)_21: 130434746497145818
+      UltraSpinLoopSpriteSheet (1)_22: -1302784630933892887
+      UltraSpinLoopSpriteSheet (1)_23: -5297450429670950682
+      UltraSpinLoopSpriteSheet (1)_24: -4569659734502383078
+      UltraSpinLoopSpriteSheet (1)_25: -115507205165489790
+      UltraSpinLoopSpriteSheet (1)_26: 6243875170652841596
+      UltraSpinLoopSpriteSheet (1)_27: 7683579644169600033
+      UltraSpinLoopSpriteSheet (1)_28: 5246357390745291702
+      UltraSpinLoopSpriteSheet (1)_29: -8483910086745946855
+      UltraSpinLoopSpriteSheet (1)_3: 3757318485043914552
+      UltraSpinLoopSpriteSheet (1)_30: 8670976877566544813
+      UltraSpinLoopSpriteSheet (1)_31: -5125433795327089650
+      UltraSpinLoopSpriteSheet (1)_32: -4196391730042626695
+      UltraSpinLoopSpriteSheet (1)_33: 2734501717240368724
+      UltraSpinLoopSpriteSheet (1)_34: 7261285664537717611
+      UltraSpinLoopSpriteSheet (1)_35: 3032396256025600973
+      UltraSpinLoopSpriteSheet (1)_36: 1115550822534876133
+      UltraSpinLoopSpriteSheet (1)_37: 2268392238026664000
+      UltraSpinLoopSpriteSheet (1)_38: -4786988210895574907
+      UltraSpinLoopSpriteSheet (1)_39: 6433997988194316207
+      UltraSpinLoopSpriteSheet (1)_4: -6157102759960883237
+      UltraSpinLoopSpriteSheet (1)_40: 7699415254309929474
+      UltraSpinLoopSpriteSheet (1)_41: 2980164682421720835
+      UltraSpinLoopSpriteSheet (1)_42: -8677632919060993345
+      UltraSpinLoopSpriteSheet (1)_43: 4368996758068939925
+      UltraSpinLoopSpriteSheet (1)_5: -3951395288743084454
+      UltraSpinLoopSpriteSheet (1)_6: 4785082289638812295
+      UltraSpinLoopSpriteSheet (1)_7: 2807093114498440090
+      UltraSpinLoopSpriteSheet (1)_8: -3502680701267690272
+      UltraSpinLoopSpriteSheet (1)_9: 1306410743614866049
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -14,7 +14,7 @@ public class SocketIOManager : MonoBehaviour
 
   [Header("Managers")]
   [SerializeField] private SlotManager _slotBehaviour;
-  [SerializeField] private UIManager uiManager;
+  [SerializeField] private UIManager _uiManager;
   [SerializeField] internal JSFunctCalls JSManager;
   private Socket gameSocket;
   protected string NameSpace = "playground";
@@ -166,7 +166,7 @@ public class SocketIOManager : MonoBehaviour
 
     if (hasEverConnected)
     {
-      // _uiManager.CheckAndClosePopups();
+       _uiManager.CheckAndClosePopups();
     }
 
     isConnected = true;
@@ -181,7 +181,7 @@ public class SocketIOManager : MonoBehaviour
   {
     Debug.LogWarning("⚠️ Disconnected from server.");
     isConnected = false;
-    // _uiManager.DisconnectionPopup();
+     _uiManager.DisconnectionPopup();
     ResetPingRoutine();
   } //Back2 end
 
@@ -252,7 +252,7 @@ public class SocketIOManager : MonoBehaviour
 
       if (missedPongs == 0)
       {
-        // _uiManager.CheckAndClosePopups();
+         _uiManager.CheckAndClosePopups();
       }
 
       // If waiting for pong, and timeout passed
@@ -260,7 +260,7 @@ public class SocketIOManager : MonoBehaviour
       {
         if (missedPongs == 2)
         {
-          // _uiManager.ReconnectionPopup();
+           _uiManager.ReconnectionPopup();
         }
         missedPongs++;
         Debug.LogWarning($"⚠️ Pong missed #{missedPongs}/{MaxMissedPongs}");
@@ -269,7 +269,7 @@ public class SocketIOManager : MonoBehaviour
         {
           Debug.LogError("❌ Unable to connect to server — 5 consecutive pongs missed.");
           isConnected = false;
-          // _uiManager.DisconnectionPopup();
+           _uiManager.DisconnectionPopup();
           yield break;
         }
       }
@@ -349,11 +349,12 @@ public class SocketIOManager : MonoBehaviour
           features = myData.features;
           PopulateSlotGame();
           Debug.Log("Initial Data Received");
+          Debug.Log("Size Reduced");
 
           if (!SetInit)
           {
             SetInit = true;
-            // _slotBehaviour.SocketConnected = true;
+            //_slotBehaviour.SocketConnected = true;
           }
           else
           {
@@ -389,7 +390,7 @@ public class SocketIOManager : MonoBehaviour
   {
     //_slotBehaviour.SetInitialUI();
     // _uiManager.InitialiseUIData(initUIData.paylines);
-    uiManager.InitializeUIData();
+    _uiManager.InitializeUIData();
 #if UNITY_WEBGL && !UNITY_EDITOR
     JSManager.SendCustomMessage("OnEnter");
 #endif
@@ -539,7 +540,7 @@ public class BonusSymbol
   public int symbolId { get; set; }
   public int value { get; set; }
   public int multiplier { get; set; }
-    public int numAdded { get; set; }
+  public int numAdded { get; set; }
   public bool added { get; set; }
 
 }

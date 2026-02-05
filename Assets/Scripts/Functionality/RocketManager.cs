@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using DG.Tweening;
 using TMPro;
 using System;
+using NUnit.Framework;
 
 public class RocketManager : MonoBehaviour
 {
@@ -26,29 +27,25 @@ public class RocketManager : MonoBehaviour
 
     [Header("Rocket Prefabs & Animation")]
     [SerializeField] private GameObject RocketParent;
-    [SerializeField] private GameObject BlueRocket;       // rocket prefab
-    [SerializeField] private Sprite[] BlueRocketAnimation;
-
-    [SerializeField] private GameObject RedRocket;       // rocket prefab
-    [SerializeField] private Sprite[] RedRocketAnimation;
-
-    [SerializeField] private GameObject GreenRocket;       // rocket prefab
-    [SerializeField] private Sprite[] GreenRocketAnimation;
+    [SerializeField] private GameObject BlueRocket;
+    [SerializeField] private GameObject RedRocket;
+    [SerializeField] private GameObject GreenRocket;
 
     [Header("Symbol Animation Sprites")]
     [SerializeField] private Sprite[] BlueSymbolLoopSprites;
     [SerializeField] private Sprite[] RedSymbolLoopSprites;
     [SerializeField] private Sprite[] GreenSymbolLoopSprites;
-    [SerializeField] private Sprite[] BlueSymbolBlastSprites;
-    [SerializeField] private Sprite[] RedSymbolBlastSprites;
-    [SerializeField] private Sprite[] GreenSymbolBlastSprites;
+    [SerializeField] private Sprite[] BlueSymbolShootUpSprites;
+    [SerializeField] private Sprite[] RedSymbolShootUpSprites;
+    [SerializeField] private Sprite[] GreenSymbolShootUpSprites;
 
-    [Header("Blast Animations")]
+    [Header("Full Burst Animations")]
     [SerializeField] private Sprite[] BlueCrackerBlast;
     [SerializeField] private Sprite[] RedCrackerBlast;
     [SerializeField] private Sprite[] GreenCrackerBlast;
 
     [Header("Blue Crackers")]
+    [SerializeField] private Sprite[] BlueEmptyLoop;
     [SerializeField] private Sprite[] BlueOneLoop;
     [SerializeField] private Sprite[] BlueTwoLoop;
     [SerializeField] private Sprite[] BlueThreeLoop;
@@ -68,6 +65,7 @@ public class RocketManager : MonoBehaviour
     [SerializeField] private Sprite[] BlueEightBlast;
 
     [Header("Red Crackers")]
+    [SerializeField] private Sprite[] RedEmptyLoop;
     [SerializeField] private Sprite[] RedOneLoop;
     [SerializeField] private Sprite[] RedTwoLoop;
     [SerializeField] private Sprite[] RedThreeLoop;
@@ -87,6 +85,7 @@ public class RocketManager : MonoBehaviour
     [SerializeField] private Sprite[] RedEightBlast;
 
     [Header("Green Crackers")]
+    [SerializeField] private Sprite[] GreenEmptyLoop;
     [SerializeField] private Sprite[] GreenOneLoop;
     [SerializeField] private Sprite[] GreenTwoLoop;
     [SerializeField] private Sprite[] GreenThreeLoop;
@@ -110,151 +109,402 @@ public class RocketManager : MonoBehaviour
     [SerializeField] private float rocketTravelTime = 2.8f;
     [SerializeField] private float blastAnimationDuration = 0.8f;
     [SerializeField] private float delayBetweenRockets = 0.3f;
+    [SerializeField] private float delayBetweenBlasts = 0.15f;     // small gap between consecutive blast stages
+    [SerializeField] private float delayBeforeFullBurst = 0.3f;    // pause before the final full-burst animation
+    [SerializeField] private float delayAfterShootUp = 0.5f;       // pause after shootUp before resetting
 
-    // Internal tracking
-    private List<GameObject> activeRockets = new List<GameObject>();
-    private List<Coroutine> activeAnimations = new List<Coroutine>();
     internal bool isRocketAnimationComplete = true;
+    //internal bool isCrackerAnimationComplete = true;
+
+    internal bool blueCrackerAnimationComplete = true;
+    internal bool redCrackerAnimationComplete = true;
+    internal bool greenCrackerAnimationComplete = true;
+
+    private int blueCurrentStage = 0;
+    private int redCurrentStage = 0;
+    private int greenCurrentStage = 0;
+
+    private Coroutine blueLoopCoroutine = null;
+    private Coroutine redLoopCoroutine = null;
+    private Coroutine greenLoopCoroutine = null;
+
+    [SerializeField] private SocketIOManager socketManager;
+    [SerializeField] private AudioController audioController;
 
 
     private void Start()
     {
-
+        InitializeCrackerLoops();
     }
 
+    internal void InitializeCrackerLoops()
+    {
+        blueCurrentStage = 0;
+        redCurrentStage = 0;
+        greenCurrentStage = 0;
+
+        StopLoopCoroutine(ref blueLoopCoroutine);
+        StopLoopCoroutine(ref redLoopCoroutine);
+        StopLoopCoroutine(ref greenLoopCoroutine);
+
+        blueLoopCoroutine = StartCoroutine(PlayLoopAnimation(BlueCrackerObject, BlueEmptyLoop));
+        redLoopCoroutine = StartCoroutine(PlayLoopAnimation(RedCrackerObject, RedEmptyLoop));
+        greenLoopCoroutine = StartCoroutine(PlayLoopAnimation(GreenCrackerObject, GreenEmptyLoop));
+    }
 
     internal void RocketAnimation(List<BonusSymbolData> bonusSymbols)
     {
         isRocketAnimationComplete = false;
         foreach (var bonusSymbol in bonusSymbols)
         {
-            //GameObject rocket = InstantiateRocket(bonusSymbol.symbolId);
-            //Debug.Log("rocket Animation Started");
             StartCoroutine(StartRocketAnimation(bonusSymbol));
         }
+        audioController.PlayRocket();
     }
 
     private IEnumerator StartRocketAnimation(BonusSymbolData bonusSymbol)
     {
-        //foreach (var bonusSymbol in bonusSymbols)
-        //Debug.Log("rocket Instantiate started");
         GameObject rocket = InstantiateRocket(bonusSymbol.symbolId);
-        //Debug.Log("rocket Instantiate Finished");
-        //Debug.Log("rocket path started");
         Transform pathRoot = GetPathForPosition(bonusSymbol.position[0], bonusSymbol.position[1], bonusSymbol.symbolId);
-        //Debug.Log("rocket path finished");
-        //Debug.Log("rocket animation started");
+
         RocketMovement rocketMovement = rocket.GetComponent<RocketMovement>();
         rocketMovement.pathRoot = pathRoot;
         rocketMovement.PlayRocket();
         yield return new WaitForSeconds(0.28f);
         rocketMovement.rocket.gameObject.SetActive(true);
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(1.8f);
         rocketMovement.StopRocket();
         RocketHitAnimation(bonusSymbol.symbolId);
-        //Debug.Log("rocket animation finished");
+        yield return new WaitForSeconds(0.5f);
         yield return new WaitUntil(() => rocketMovement.rocketAnimationFinished);
-        isRocketAnimationComplete = true;
+
         BlueRocketHitObject.GetComponent<ImageAnimation>().ResetImageState();
         RedRocketHitObject.GetComponent<ImageAnimation>().ResetImageState();
         GreenRocketHitObject.GetComponent<ImageAnimation>().ResetImageState();
+        isRocketAnimationComplete = true;
     }
 
-    private GameObject InstantiateRocket(int symbolId) //,Vector3 position)
+    internal void CrackerAnimation(List<BonusSymbolData> bonusSymbols)
     {
-        GameObject rocketPrefab = null;
-        //Debug.Log(symbolId);
-        switch (symbolId)
+        //isCrackerAnimationComplete = false;
+
+        int blueValue = 0;
+        int redValue = 0;
+        int greenValue = 0;
+
+        foreach (var b in bonusSymbols)
         {
-            case 11: // Blue
-                rocketPrefab = BlueRocket;
-                break;
-            case 12: // Red
-                rocketPrefab = RedRocket;
-                break;
-            case 13: // Green
-                rocketPrefab = GreenRocket;
-                break;
-        }
-
-        if (rocketPrefab == null)
-        {
-            Debug.LogError($"No rocket prefab assigned for symbol ID: {symbolId}");
-            return null;
-        }
-
-        GameObject rocket = Instantiate(rocketPrefab, RocketParent.transform);
-        //rocket.transform.position = position;
-        return rocket;
-    }
-
-    private void PopulateCrackerLoopAnimation(ImageAnimation animScript, int symbolId, int value)
-    {
-        animScript.textureArray.Clear();
-        animScript.doLoopAnimation = true;
-        animScript.AnimationSpeed = 10f;
-
-        Sprite[] loopSprites = GetCrackerLoopSprites(symbolId, value);
-        if (loopSprites != null)
-        {
-            foreach (var sprite in loopSprites)
+            switch (b.symbolId)
             {
-                animScript.textureArray.Add(sprite);
+                case 11: blueValue += b.value; break;
+                case 12: redValue += b.value; break;
+                case 13: greenValue += b.value; break;
             }
         }
-    }
 
-    /// <summary>
-    /// Populate cracker blast animation based on value
-    /// </summary>
-    private void PopulateCrackerBlastAnimation(ImageAnimation animScript, int symbolId, int value)
-    {
-        animScript.textureArray.Clear();
-        animScript.doLoopAnimation = false;
-        animScript.AnimationSpeed = 15f;
+        bool blueTrigger = false;
+        bool redTrigger = false;
+        bool greenTrigger = false;
 
-        Sprite[] blastSprites = GetCrackerBlastSprites(symbolId, value);
-        if (blastSprites != null)
+        //if (socketManager?.resultData?.payload?.bonusGame?.features != null)
         {
-            foreach (var sprite in blastSprites)
+            var feat = socketManager.resultData.payload.bonusGame.features;
+            blueTrigger = feat.ultraSpins;
+            redTrigger = feat.doubleReel;
+            greenTrigger = feat.extraSpins;
+        }
+
+        if (blueValue > 0)
+        {
+            blueCrackerAnimationComplete = false;
+            StartCoroutine(RunCrackerSequence(11, blueValue, blueTrigger));
+        }
+        if (redValue > 0)
+        {
+            redCrackerAnimationComplete = false;
+            StartCoroutine(RunCrackerSequence(12, redValue, redTrigger));
+        }
+        if (greenValue > 0)
+        {
+            greenCrackerAnimationComplete = false;
+            StartCoroutine(RunCrackerSequence(13, greenValue, greenTrigger));
+        }
+
+    }
+    private IEnumerator RunCrackerSequence(int symbolId, int addedValue, bool isTriggerActive)
+    {
+        int currentStage = GetCurrentStage(symbolId);
+        GameObject crackerObj = GetCrackerObject(symbolId);
+        GameObject symbolObj = GetSymbolObject(symbolId);
+
+        StopCrackerLoop(symbolId);
+
+        int targetStage;
+        if (isTriggerActive)
+        {
+            targetStage = 8;
+        }
+        else
+        {
+            targetStage = Mathf.Min(currentStage + addedValue, 8);
+        }
+
+        for (int stage = currentStage + 1; stage <= targetStage; stage++)
+        {
+            yield return StartCoroutine(PlayOneBlast(crackerObj, symbolId, stage));
+            yield return new WaitForSeconds(delayBetweenBlasts);
+        }
+
+        // update persisted stage
+        SetCurrentStage(symbolId, targetStage);
+
+        if (isTriggerActive)
+        {
+            yield return new WaitForSeconds(delayBeforeFullBurst);
+
+            yield return StartCoroutine(PlayFullBurst(crackerObj, symbolId));
+
+            yield return StartCoroutine(PlaySymbolShootUp(symbolObj, symbolId));
+
+            if (symbolId == 11)
             {
-                animScript.textureArray.Add(sprite);
+                blueCrackerAnimationComplete = true;
             }
+            if (symbolId == 12)
+            {
+                redCrackerAnimationComplete = true;
+            }
+            if (symbolId == 13)
+            {
+                greenCrackerAnimationComplete = true;
+            }
+
+            yield return new WaitForSeconds(delayAfterShootUp);
+
+            SetCurrentStage(symbolId, 0);
+            Sprite[] emptyLoop = GetCrackerLoopSprites(symbolId, 0);
+            SetCrackerLoopCoroutine(symbolId, StartCoroutine(PlayLoopAnimation(crackerObj, emptyLoop)));
+
+            StartCoroutine(PlaySymbolLoop(symbolObj, symbolId));
+        }
+        else
+        {
+            Sprite[] loopSprites = GetCrackerLoopSprites(symbolId, targetStage);
+            SetCrackerLoopCoroutine(symbolId, StartCoroutine(PlayLoopAnimation(crackerObj, loopSprites)));
+        }
+        //isCrackerAnimationComplete = true;
+        if (symbolId == 11)
+        {
+            blueCrackerAnimationComplete = true;
+        }
+        if (symbolId == 12)
+        {
+            redCrackerAnimationComplete = true;
+        }
+        if (symbolId == 13)
+        {
+            greenCrackerAnimationComplete = true;
         }
     }
 
-    /// <summary>
-    /// Get the path for a specific reel position and symbol
-    /// </summary>
-    private Transform GetPathForPosition(int col, int row, int symbolId)
+    private IEnumerator PlayOneBlast(GameObject crackerObj, int symbolId, int stage)
     {
-        //if (col >= rocketPaths.Count) return null;
-        //if (row >= rocketPaths[col].reel.Count) return null;
+        ImageAnimation anim = crackerObj.GetComponent<ImageAnimation>();
+        Sprite[] blastSprites = GetCrackerBlastSprites(symbolId, stage);
 
-        ReelImage reelImage = rocketPaths[row].reel[col];
+        if (blastSprites == null || blastSprites.Length == 0)
+        {
+            Debug.LogWarning($"[CrackerAnim] No blast sprites for symbolId={symbolId} stage={stage}");
+            yield break;
+        }
 
+        anim.StopAnimation();
+        anim.textureArray.Clear();
+        anim.textureArray.TrimExcess();
+        foreach (var s in blastSprites) anim.textureArray.Add(s);
+        anim.doLoopAnimation = false;
+        anim.AnimationSpeed = 50f;
+        anim.ResetImageState();
+        anim.IsComplete = false;
+        anim.StartAnimation();
+
+        // Wait until this one-shot finishes
+        yield return new WaitUntil(() => anim.IsComplete);
+    }
+
+    private IEnumerator PlayFullBurst(GameObject crackerObj, int symbolId)
+    {
+        ImageAnimation anim = crackerObj.GetComponent<ImageAnimation>();
+        Sprite[] burstSprites = GetFullBurstSprites(symbolId);
+
+        if (burstSprites == null || burstSprites.Length == 0)
+        {
+            Debug.LogWarning($"[CrackerAnim] No full-burst sprites for symbolId={symbolId}");
+            yield break;
+        }
+
+        anim.StopAnimation();
+        anim.textureArray.Clear();
+        anim.textureArray.TrimExcess();
+        foreach (var s in burstSprites) anim.textureArray.Add(s);
+        anim.doLoopAnimation = false;
+        anim.AnimationSpeed = 15f;
+        anim.ResetImageState();
+        anim.IsComplete = false;
+        anim.StartAnimation();
+
+        yield return new WaitUntil(() => anim.IsComplete);
+    }
+
+    private IEnumerator PlaySymbolShootUp(GameObject symbolObj, int symbolId)
+    {
+        ImageAnimation anim = symbolObj.GetComponent<ImageAnimation>();
+        Sprite[] shootSprites = GetSymbolBlastSprites(symbolId);   // these are the ShootUp sprite arrays
+
+        if (shootSprites == null || shootSprites.Length == 0)
+        {
+            Debug.LogWarning($"[CrackerAnim] No shoot-up sprites for symbolId={symbolId}");
+            yield break;
+        }
+
+        anim.StopAnimation();
+        anim.textureArray.Clear();
+        anim.textureArray.TrimExcess();
+        foreach (var s in shootSprites) anim.textureArray.Add(s);
+        anim.doLoopAnimation = false;
+        anim.AnimationSpeed = 10f;
+        anim.ResetImageState();
+        anim.IsComplete = false;
+        anim.StartAnimation();
+
+        yield return new WaitUntil(() => anim.IsComplete);
+    }
+
+    private IEnumerator PlaySymbolLoop(GameObject symbolObj, int symbolId)
+    {
+        ImageAnimation anim = symbolObj.GetComponent<ImageAnimation>();
+        Sprite[] loopSprites = GetSymbolLoopSprites(symbolId);
+
+        if (loopSprites == null || loopSprites.Length == 0) yield break;
+
+        anim.StopAnimation();
+        anim.textureArray.Clear();
+        anim.textureArray.TrimExcess();
+        foreach (var s in loopSprites) anim.textureArray.Add(s);
+        anim.doLoopAnimation = true;
+        anim.AnimationSpeed = 47f;
+        anim.ResetImageState();
+        anim.IsComplete = false;
+        anim.StartAnimation();
+
+        yield return null;
+    }
+
+    private IEnumerator PlayLoopAnimation(GameObject crackerObj, Sprite[] loopSprites)
+    {
+        if (loopSprites == null || loopSprites.Length == 0)
+        {
+            Debug.LogWarning($"[CrackerAnim] PlayLoopAnimation called with null/empty sprites on {crackerObj.name}");
+            yield break;
+        }
+
+        ImageAnimation anim = crackerObj.GetComponent<ImageAnimation>();
+        anim.StopAnimation();
+        anim.textureArray.Clear();
+        anim.textureArray.TrimExcess();
+        foreach (var s in loopSprites) anim.textureArray.Add(s);
+        anim.doLoopAnimation = true;
+        anim.AnimationSpeed = 10f;
+        anim.ResetImageState();
+        anim.IsComplete = false;
+        anim.StartAnimation();
+
+        while (true) yield return null;
+    }
+
+    private int GetCurrentStage(int symbolId)
+    {
         switch (symbolId)
         {
-            case 11: // Blue
-                if (reelImage.bluePositions.positions.Count > 0)
-                    return reelImage.bluePositions.positions[0].GetComponentInParent<RectTransform>();
-                break;
-            case 12: // Red
-                if (reelImage.redPositions.positions.Count > 0)
-                    return reelImage.redPositions.positions[0].GetComponentInParent<RectTransform>();
-                break;
-            case 13: // Green
-                if (reelImage.greenpositions.positions.Count > 0)
-                    return reelImage.greenpositions.positions[0].GetComponentInParent<RectTransform>();
-                break;
+            case 11: return blueCurrentStage;
+            case 12: return redCurrentStage;
+            case 13: return greenCurrentStage;
+            default: return 0;
         }
-
-        return null;
     }
 
-    /// <summary>
-    /// Get symbol loop sprites based on symbol ID
-    /// </summary>
+    private void SetCurrentStage(int symbolId, int value)
+    {
+        switch (symbolId)
+        {
+            case 11: blueCurrentStage = value; break;
+            case 12: redCurrentStage = value; break;
+            case 13: greenCurrentStage = value; break;
+        }
+    }
+
+    private GameObject GetCrackerObject(int symbolId)
+    {
+        switch (symbolId)
+        {
+            case 11: return BlueCrackerObject;
+            case 12: return RedCrackerObject;
+            case 13: return GreenCrackerObject;
+            default: return null;
+        }
+    }
+
+    private GameObject GetSymbolObject(int symbolId)
+    {
+        switch (symbolId)
+        {
+            case 11: return BlueSymbolObject;
+            case 12: return RedSymbolObject;
+            case 13: return GreenSymbolObject;
+            default: return null;
+        }
+    }
+
+    private void StopCrackerLoop(int symbolId)
+    {
+        switch (symbolId)
+        {
+            case 11: StopLoopCoroutine(ref blueLoopCoroutine); break;
+            case 12: StopLoopCoroutine(ref redLoopCoroutine); break;
+            case 13: StopLoopCoroutine(ref greenLoopCoroutine); break;
+        }
+    }
+
+    private void SetCrackerLoopCoroutine(int symbolId, Coroutine co)
+    {
+        switch (symbolId)
+        {
+            case 11: blueLoopCoroutine = co; break;
+            case 12: redLoopCoroutine = co; break;
+            case 13: greenLoopCoroutine = co; break;
+        }
+    }
+
+    private void StopLoopCoroutine(ref Coroutine co)
+    {
+        if (co != null)
+        {
+            StopCoroutine(co);
+            co = null;
+        }
+    }
+
+    private Sprite[] GetFullBurstSprites(int symbolId)
+    {
+        switch (symbolId)
+        {
+            case 11: return BlueCrackerBlast;
+            case 12: return RedCrackerBlast;
+            case 13: return GreenCrackerBlast;
+            default: return null;
+        }
+    }
+
     private Sprite[] GetSymbolLoopSprites(int symbolId)
     {
         switch (symbolId)
@@ -266,30 +516,25 @@ public class RocketManager : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Get symbol blast sprites based on symbol ID
-    /// </summary>
     private Sprite[] GetSymbolBlastSprites(int symbolId)
     {
         switch (symbolId)
         {
-            case 11: return BlueSymbolBlastSprites;
-            case 12: return RedSymbolBlastSprites;
-            case 13: return GreenSymbolBlastSprites;
+            case 11: return BlueSymbolShootUpSprites;
+            case 12: return RedSymbolShootUpSprites;
+            case 13: return GreenSymbolShootUpSprites;
             default: return null;
         }
     }
 
-    /// <summary>
-    /// Get cracker loop sprites based on symbol and value
-    /// </summary>
-    private Sprite[] GetCrackerLoopSprites(int symbolId, int value)
+    private Sprite[] GetCrackerLoopSprites(int symbolId, int stage)
     {
         switch (symbolId)
         {
             case 11: // Blue
-                switch (value)
+                switch (stage)
                 {
+                    case 0: return BlueEmptyLoop;
                     case 1: return BlueOneLoop;
                     case 2: return BlueTwoLoop;
                     case 3: return BlueThreeLoop;
@@ -301,8 +546,9 @@ public class RocketManager : MonoBehaviour
                 }
                 break;
             case 12: // Red
-                switch (value)
+                switch (stage)
                 {
+                    case 0: return RedEmptyLoop;
                     case 1: return RedOneLoop;
                     case 2: return RedTwoLoop;
                     case 3: return RedThreeLoop;
@@ -314,8 +560,9 @@ public class RocketManager : MonoBehaviour
                 }
                 break;
             case 13: // Green
-                switch (value)
+                switch (stage)
                 {
+                    case 0: return GreenEmptyLoop;
                     case 1: return GreenOneLoop;
                     case 2: return GreenTwoLoop;
                     case 3: return GreenThreeLoop;
@@ -330,15 +577,12 @@ public class RocketManager : MonoBehaviour
         return null;
     }
 
-    /// <summary>
-    /// Get cracker blast sprites based on symbol and value
-    /// </summary>
-    private Sprite[] GetCrackerBlastSprites(int symbolId, int value)
+    private Sprite[] GetCrackerBlastSprites(int symbolId, int stage)
     {
         switch (symbolId)
         {
             case 11: // Blue
-                switch (value)
+                switch (stage)
                 {
                     case 1: return BlueOneBlast;
                     case 2: return BlueTwoBlast;
@@ -351,7 +595,7 @@ public class RocketManager : MonoBehaviour
                 }
                 break;
             case 12: // Red
-                switch (value)
+                switch (stage)
                 {
                     case 1: return RedOneBlast;
                     case 2: return RedTwoBlast;
@@ -364,7 +608,7 @@ public class RocketManager : MonoBehaviour
                 }
                 break;
             case 13: // Green
-                switch (value)
+                switch (stage)
                 {
                     case 1: return GreenOneBlast;
                     case 2: return GreenTwoBlast;
@@ -380,48 +624,66 @@ public class RocketManager : MonoBehaviour
         return null;
     }
 
-    private void RocketHitAnimation(int symbolId)
+    private GameObject InstantiateRocket(int symbolId)
     {
+        GameObject rocketPrefab = null;
+        switch (symbolId)
+        {
+            case 11: rocketPrefab = BlueRocket; break;
+            case 12: rocketPrefab = RedRocket; break;
+            case 13: rocketPrefab = GreenRocket; break;
+        }
+
+        if (rocketPrefab == null)
+        {
+            Debug.LogError($"No rocket prefab assigned for symbol ID: {symbolId}");
+            return null;
+        }
+
+        return Instantiate(rocketPrefab, RocketParent.transform);
+    }
+
+    private Transform GetPathForPosition(int col, int row, int symbolId)
+    {
+        ReelImage reelImage = rocketPaths[row].reel[col];
 
         switch (symbolId)
         {
             case 11:
-                ImageAnimation blueImage = BlueRocketHitObject.GetComponent<ImageAnimation>();
-                if (blueImage.ImageAnimationPlaying())
-                {
-                    break;
-                }
-                else
-                {
-                    blueImage.ResetImageState();
-                    blueImage.StartAnimation();
-                    break;
-                }
+                if (reelImage.bluePositions.positions.Count > 0)
+                    return reelImage.bluePositions.positions[0].GetComponentInParent<RectTransform>();
+                break;
             case 12:
-                ImageAnimation redImage = RedRocketHitObject.GetComponent<ImageAnimation>();
-                if (redImage.ImageAnimationPlaying())
-                {
-                    break;
-                }
-                else
-                {
-                    redImage.ResetImageState();
-                    redImage.StartAnimation();
-                    break;
-                }
+                if (reelImage.redPositions.positions.Count > 0)
+                    return reelImage.redPositions.positions[0].GetComponentInParent<RectTransform>();
+                break;
             case 13:
-                ImageAnimation greenImage = GreenRocketHitObject.GetComponent<ImageAnimation>();
-                if (greenImage.ImageAnimationPlaying())
-                {
-                    break;
-                }
-                else
-                {
-                    greenImage.ResetImageState();
-                    greenImage.StartAnimation();
-                    break;
-                }
+                if (reelImage.greenpositions.positions.Count > 0)
+                    return reelImage.greenpositions.positions[0].GetComponentInParent<RectTransform>();
+                break;
         }
+
+        return null;
+    }
+
+    private void RocketHitAnimation(int symbolId)
+    {
+        GameObject hitObj = null;
+        switch (symbolId)
+        {
+            case 11: hitObj = BlueRocketHitObject; break;
+            case 12: hitObj = RedRocketHitObject; break;
+            case 13: hitObj = GreenRocketHitObject; break;
+        }
+        if (hitObj == null) return;
+
+        ImageAnimation img = hitObj.GetComponent<ImageAnimation>();
+        if (img.ImageAnimationPlaying()) return;
+
+        audioController.PlayRocketBlast();
+        img.AnimationSpeed = 17f;
+        img.ResetImageState();
+        img.StartAnimation();
     }
 }
 
@@ -460,7 +722,7 @@ public class Green
 [Serializable]
 public class BonusSymbolData
 {
-    public int[] position; // [col, row]
-    public int symbolId;   // 11=Blue, 12=Red, 13=Green
-    public int value;      // 1-8
+    public int[] position;  // [col, row]
+    public int symbolId;    // 11=Blue, 12=Red, 13=Green
+    public int value;       // blast value from backend
 }

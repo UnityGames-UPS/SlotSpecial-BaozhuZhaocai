@@ -6,7 +6,7 @@ mergeInto(LibraryManager.library, {
           window.ReactNativeWebView.postMessage(message);
         } 
     },
-
+ 
     SendPostMessage: function(messagePtr) {
       var message = UTF8ToString(messagePtr);
       // console.log('SendReactPostMessage, message sent: ' + message);
@@ -15,7 +15,7 @@ mergeInto(LibraryManager.library, {
           window.ReactNativeWebView.postMessage("if message is authtoken");
           var injectedObjectJson = window.ReactNativeWebView.injectedObjectJson();
           var injectedObj = JSON.parse(injectedObjectJson);
-
+ 
           window.ReactNativeWebView.postMessage('Injected obj : ' + injectedObjectJson);
           
           var combinedData = JSON.stringify({
@@ -23,7 +23,7 @@ mergeInto(LibraryManager.library, {
               cookie: injectedObj.token.trim(),
               nameSpace: injectedObj.nameSpace ? injectedObj.nameSpace.trim() : ""
           });
-
+ 
           if (typeof SendMessage === 'function') {
             SendMessage('SocketManager', 'ReceiveAuthToken', combinedData);
           }

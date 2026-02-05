@@ -79,37 +79,30 @@ public class BonusManager : MonoBehaviour
     private bool isPayoutDone = true;
     private bool StopSpinToggle;
     private int tweenHeight = 0;
-    private int remainingSpins = 0;
     Vector2 slotInitialPos = new Vector2(0, -1250f);
     private void Start()
     {
         if (GreenSpinStartButton) GreenSpinStartButton.onClick.AddListener(() => StartCoroutine(GreenSpin()));
         if (BlueSpinStartButton) BlueSpinStartButton.onClick.AddListener(() => StartCoroutine(BlueSpin()));
         if (RedSpinStartButton) RedSpinStartButton.onClick.AddListener(() => StartCoroutine(RedSpin()));
-        //MultiplierAnimation(GreeSpinMultiplierPanel);
     }
 
     internal void BonusStarted()
     {
+        audioManager.PlayBonusStarted();
         tweenHeight = slotManager.tweenHeight;
         isBonusComplete = false;
-        
-        // Clear any leftover coins from previous bonus rounds
+
         multiplierObjects.Clear();
-        
+
         GreenSpinPanel.SetActive(false);
         RedSpinPanel.SetActive(false);
         BlueSpinPanel.SetActive(false);
         BonusPanel.SetActive(true);
         if (socketManager.resultData.payload.bonusGame.features.extraSpins)
         {
-            //StartCoroutine(GreenSpin());
             GreenSpinReset();
             GreenSpinPanel.SetActive(true);
-            //yield return new WaitForSeconds(0.1f);
-            // GreenSymbolAnimationObject.GetComponent<ImageAnimation>().textureArray = null;
-            // GreenSymbolAnimationObject.GetComponent<ImageAnimation>().textureArray = GreenSpinDoorSymbolSprites;
-            // GreenSpinDoor.GetComponent<ImageAnimation>().StartAnimation();
             StartCoroutine(DoorAnimation(GreenSpinDoor, GreenSymbolAnimationObject, GreenSpinDoorSymbolSprites, GreenSpinLoopSprites));
             GreenSpinStartButton.gameObject.SetActive(true);
         }
@@ -117,7 +110,6 @@ public class BonusManager : MonoBehaviour
         {
             BlueSpinReset();
             BlueSpinPanel.SetActive(true);
-            //BlueSpinDoor.GetComponent<ImageAnimation>().StartAnimation();
             StartCoroutine(DoorAnimation(BlueSpinDoor, BlueSymbolAnimationObject, BlueSpinDoorSymbolSprites, BlueSpinLoopSprites));
             BlueSpinStartButton.gameObject.SetActive(true);
         }
@@ -125,14 +117,9 @@ public class BonusManager : MonoBehaviour
         {
             RedSpinReset();
             RedSpinPanel.SetActive(true);
-            //RedSpinDoor.GetComponent<ImageAnimation>().StartAnimation();
             StartCoroutine(DoorAnimation(RedSpinDoor, RedSymbolAnimationObject, RedSpinDoorSymbolSprites, RedSpinLoopSprites));
             RedSpinStartButton.gameObject.SetActive(true);
         }
-        // else
-        // {
-        //     isBonusComplete = true;
-        // }
     }
 
     private IEnumerator GreenSpin()
@@ -155,15 +142,14 @@ public class BonusManager : MonoBehaviour
         int currentSpinCount = socketManager.resultData.payload.bonusGame.reselectSpinsRemaining;
         while (socketManager.resultData.payload.bonusGame.reselectSpinsRemaining > 0)
         {
+            audioManager.PlaySpinStarts();
 
-            // Activate slots
             foreach (var slot in GreenSpinSlots)
             {
                 slot.SetActive(true);
             }
             yield return new WaitForSeconds(0.4f);
 
-            // Start tweening
             for (int i = 0; i < GreenSpinSlots.Count; i++)
             {
                 InitializeTweening(GreenSpinSlots[i].transform);
@@ -178,11 +164,9 @@ public class BonusManager : MonoBehaviour
                 currentSpinCount--;
             }
 
-            // Get result from server
             socketManager.AccumulateResult(uiManager.betCounter);
             yield return new WaitUntil(() => socketManager.isResultdone);
 
-            // Populate results
             for (int j = 0; j < socketManager.resultData.payload.reels.Count; j++)
             {
                 for (int i = 0; i < socketManager.resultData.payload.reels[j].Count; i++)
@@ -195,18 +179,19 @@ public class BonusManager : MonoBehaviour
                 }
             }
 
-            // Stop tweening
             for (int i = 0; i < GreenSpinSlots.Count; i++)
             {
                 yield return StopTweening(GreenSpinSlots[i].transform, i, StopSpinToggle);
             }
             StopSpinToggle = false;
+            audioManager.PlaySpinStops();
 
             int spinsAfter = socketManager.resultData.payload.bonusGame.reselectSpinsRemaining;
 
             // If spins increased, activate new indicators
             if (spinsAfter > currentSpinCount)
             {
+                audioManager.PlayRepeatSlotWin();
                 for (int i = currentSpinCount; i < spinsAfter + 1 && i < GreenSpinIndicators.Count; i++)
                 {
                     //GreenSpinIndicators[i].SetActive(true);
@@ -218,7 +203,6 @@ public class BonusManager : MonoBehaviour
                 currentSpinCount = spinsAfter;
             }
 
-            // Display all current bonus symbols (just display, don't add to multiplierObjects yet)
             foreach (var bonusSymbol in socketManager.resultData.payload.bonusGame.bonusSymbols)
             {
                 int col = bonusSymbol.position[0];
@@ -226,6 +210,10 @@ public class BonusManager : MonoBehaviour
 
                 var slotGO = GreenSpinCoinImages[row].slotImages[col];
                 slotGO.sprite = BrightCoinSprite;
+                if (!slotGO.gameObject.activeSelf)
+                {
+                    audioManager.PlayGoldenCoin();
+                }
                 slotGO.gameObject.SetActive(true);
                 var imageText = slotGO.GetComponentInChildren<TMP_Text>();
                 imageText.text = bonusSymbol.value.ToString();
@@ -235,21 +223,18 @@ public class BonusManager : MonoBehaviour
             KillAllTweens();
         }
 
-        // ALL SPINS COMPLETE - Now collect all the coins for multiplier animation
         foreach (var bonusSymbol in socketManager.resultData.payload.bonusGame.bonusSymbols)
         {
             int col = bonusSymbol.position[0];
             int row = bonusSymbol.position[1];
             var slotGO = GreenSpinCoinImages[row].slotImages[col];
-            
-            // Add to multiplier list (no duplicates since we're adding from final server state)
+
             if (!multiplierObjects.Contains(slotGO.gameObject))
             {
                 multiplierObjects.Add(slotGO.gameObject);
             }
         }
 
-        // Hide all indicators
         for (int i = 0; i < GreenSpinIndicators.Count; i++)
         {
             GreenSpinIndicators[i].SetActive(false);
@@ -260,6 +245,17 @@ public class BonusManager : MonoBehaviour
         yield return new WaitForSeconds(1f);
         StartCoroutine(MultiplierAnimation(GreeSpinMultiplierPanel));
         yield return new WaitUntil(() => isPayoutDone);
+
+        if (socketManager.resultData.payload.win > socketManager.initialData.bets[uiManager.betCounter] * 15)
+        {
+            uiManager.PopulateWin(2, socketManager.resultData.payload.win);
+            yield return new WaitUntil(() => !slotManager.CheckPopups);
+        }
+        else
+        {
+            uiManager.PopulateWin(1, socketManager.resultData.payload.win);
+            yield return new WaitUntil(() => !slotManager.CheckPopups);
+        }
 
         isBonusComplete = true;
         yield return new WaitForSeconds(1f);
@@ -275,7 +271,6 @@ public class BonusManager : MonoBehaviour
         InitializeBonusSlots(BlueSpinSlotImages, false, false, true);
         yield return new WaitForSeconds(0.5f);
 
-        // Show initial indicators
         for (int i = 0; i < BlueSpinIndicators.Count; i++)
         {
             BlueSpinIndicators[i].SetActive(true);
@@ -287,14 +282,12 @@ public class BonusManager : MonoBehaviour
         int currentSpinCount = socketManager.resultData.payload.bonusGame.reselectSpinsRemaining;
         while (socketManager.resultData.payload.bonusGame.reselectSpinsRemaining > 0)
         {
-            // Activate slots
             foreach (var slot in BlueSpinSlots)
             {
                 slot.SetActive(true);
             }
             yield return new WaitForSeconds(0.4f);
 
-            // Start tweening
             for (int i = 0; i < BlueSpinSlots.Count; i++)
             {
                 InitializeTweening(BlueSpinSlots[i].transform);
@@ -309,11 +302,9 @@ public class BonusManager : MonoBehaviour
                 currentSpinCount--;
             }
 
-            // Get result from server
             socketManager.AccumulateResult(uiManager.betCounter);
             yield return new WaitUntil(() => socketManager.isResultdone);
 
-            // Populate results
             for (int j = 0; j < socketManager.resultData.payload.reels.Count; j++)
             {
                 for (int i = 0; i < socketManager.resultData.payload.reels[j].Count; i++)
@@ -326,7 +317,6 @@ public class BonusManager : MonoBehaviour
                 }
             }
 
-            // Stop tweening
             for (int i = 0; i < BlueSpinSlots.Count; i++)
             {
                 yield return StopTweening(BlueSpinSlots[i].transform, i, StopSpinToggle);
@@ -338,6 +328,7 @@ public class BonusManager : MonoBehaviour
             // If spins increased, activate new indicators
             if (spinsAfter > currentSpinCount)
             {
+                audioManager.PlayRepeatSlotWin();
                 for (int i = currentSpinCount; i < spinsAfter + 1 && i < BlueSpinIndicators.Count; i++)
                 {
                     //BlueSpinIndicators[i].SetActive(true);
@@ -349,7 +340,6 @@ public class BonusManager : MonoBehaviour
                 currentSpinCount = spinsAfter;
             }
 
-            // Display all current bonus symbols (just display, don't add to multiplierObjects yet)
             foreach (var bonusSymbol in socketManager.resultData.payload.bonusGame.bonusSymbols)
             {
                 int col = bonusSymbol.position[0];
@@ -357,15 +347,33 @@ public class BonusManager : MonoBehaviour
 
                 var slotGO = BlueSpinCoinImages[row].slotImages[col];
                 slotGO.sprite = BrightCoinSprite;
+                if (!slotGO.gameObject.activeSelf)
+                {
+                    audioManager.PlayGoldenCoin();
+                }
                 slotGO.gameObject.SetActive(true);
                 var imageText = slotGO.GetComponentInChildren<TMP_Text>();
                 imageText.text = bonusSymbol.value.ToString();
             }
 
+            for (int i = 0; i < socketManager.resultData.payload.bonusGame.bonusSymbols.Count; i++)
+            {
+                var bonusSymbol = socketManager.resultData.payload.bonusGame.bonusSymbols[i];
+                if (bonusSymbol.added)
+                {
+                    var birdAnim = BlueBirdAnimationObject.GetComponent<ImageAnimation>();
+                    birdAnim.StartAnimation();
+                    yield return new WaitForSeconds(1f);
+                    birdAnim.ResetImageState();
+                    yield return new WaitForSeconds(0.3f);
+                    break;
+                }
+            }
+
             // Show bird animation and numAdded for newly added symbols
             foreach (var bonusSymbol in socketManager.resultData.payload.bonusGame.bonusSymbols)
             {
-                if (bonusSymbol.added)
+                //if (bonusSymbol.added)
                 {
                     int col = bonusSymbol.position[0];
                     int row = bonusSymbol.position[1];
@@ -373,14 +381,14 @@ public class BonusManager : MonoBehaviour
                     var slotGO = BlueSpinCoinImages[row].slotImages[col];
 
                     // Bird animation
-                    var birdAnim = BlueBirdAnimationObject.GetComponent<ImageAnimation>();
-                    birdAnim.StartAnimation();
-                    yield return new WaitForSeconds(1f);
-                    birdAnim.ResetImageState();
-                    yield return new WaitForSeconds(0.3f);
+                    // var birdAnim = BlueBirdAnimationObject.GetComponent<ImageAnimation>();
+                    // birdAnim.StartAnimation();
+                    // yield return new WaitForSeconds(1f);
+                    // birdAnim.ResetImageState();
+                    // yield return new WaitForSeconds(0.3f);
 
                     // Show numAdded animation
-                    TMP_Text winText = slotGO.transform.GetChild(2).GetComponent<TMP_Text>();
+                    TMP_Text winText = slotGO.transform.GetChild(3).GetComponent<TMP_Text>();
                     RectTransform winRect = winText.GetComponent<RectTransform>();
 
                     winText.text = bonusSymbol.numAdded.ToString();
@@ -393,12 +401,11 @@ public class BonusManager : MonoBehaviour
                     // Pop animation
                     Sequence seq = DOTween.Sequence();
                     seq.Insert(0f, winRect.DOPunchScale(Vector3.one * 0.2f, 0.3f));
-                    seq.Append(winRect.DOAnchorPosY(startPos.y + 100f, 0.8f).SetEase(Ease.OutCubic));
+                    seq.Append(winRect.DOAnchorPosY(startPos.y + 170f, 0.8f).SetEase(Ease.OutCubic));
                     seq.Join(winText.DOFade(0f, 0.8f));
 
                     yield return seq.WaitForCompletion();
 
-                    // Cleanup
                     winText.gameObject.SetActive(false);
                     winText.alpha = 1f;
                     winRect.anchoredPosition = startPos;
@@ -409,21 +416,18 @@ public class BonusManager : MonoBehaviour
             KillAllTweens();
         }
 
-        // ALL SPINS COMPLETE - Now collect all the coins for multiplier animation
         foreach (var bonusSymbol in socketManager.resultData.payload.bonusGame.bonusSymbols)
         {
             int col = bonusSymbol.position[0];
             int row = bonusSymbol.position[1];
             var slotGO = BlueSpinCoinImages[row].slotImages[col];
-            
-            // Add to multiplier list (no duplicates since we're adding from final server state)
+
             if (!multiplierObjects.Contains(slotGO.gameObject))
             {
                 multiplierObjects.Add(slotGO.gameObject);
             }
         }
 
-        // Hide all indicators
         for (int i = 0; i < BlueSpinIndicators.Count; i++)
         {
             BlueSpinIndicators[i].SetActive(false);
@@ -434,6 +438,17 @@ public class BonusManager : MonoBehaviour
         yield return new WaitForSeconds(1f);
         StartCoroutine(MultiplierAnimation(BlueSpinMultiplierPanel));
         yield return new WaitUntil(() => isPayoutDone);
+
+        if (socketManager.resultData.payload.win > socketManager.initialData.bets[uiManager.betCounter] * 15)
+        {
+            uiManager.PopulateWin(2, socketManager.resultData.payload.win);
+            yield return new WaitUntil(() => !slotManager.CheckPopups);
+        }
+        else
+        {
+            uiManager.PopulateWin(1, socketManager.resultData.payload.win);
+            yield return new WaitUntil(() => !slotManager.CheckPopups);
+        }
 
         isBonusComplete = true;
         yield return new WaitForSeconds(1f);
@@ -446,23 +461,17 @@ public class BonusManager : MonoBehaviour
         yield return new WaitForSeconds(1f);
         RedSpinStartButton.gameObject.SetActive(false);
 
-        // Animate both slot panels simultaneously
         SlotAnimation(RedTopSpinSlotPanel, 200f);
         SlotAnimation(RedBottomSpinSlotPanel, -450f);
 
-        // Initialize both sets of bonus slots with random sprites
         InitializeBonusSlots(RedTopSpinSlotImages, false, true, false);
         InitializeBonusSlots(RedBottomSpinSlotImages, false, true, false);
 
-        //yield return new WaitForSeconds(0.5f);
-
         yield return new WaitForSeconds(0.5f);
 
-        // Start both reel coroutines simultaneously
         Coroutine topReelCoroutine = StartCoroutine(RedTopReelSpin());
         Coroutine bottomReelCoroutine = StartCoroutine(RedBottomReelSpin());
 
-        // Wait for both reels to complete
         yield return topReelCoroutine;
         yield return bottomReelCoroutine;
 
@@ -482,10 +491,20 @@ public class BonusManager : MonoBehaviour
             //yield return new WaitForSeconds(0.5f);
         }
 
-        // Both reels are complete, play the multiplier animation (same as green/blue)
         yield return new WaitForSeconds(1f);
         StartCoroutine(MultiplierAnimation(RedSpinMultiplierPanel));
         yield return new WaitUntil(() => isPayoutDone);
+
+        if (socketManager.resultData.payload.win > socketManager.initialData.bets[uiManager.betCounter] * 15)
+        {
+            uiManager.PopulateWin(2, socketManager.resultData.payload.win);
+            yield return new WaitUntil(() => !slotManager.CheckPopups);
+        }
+        else
+        {
+            uiManager.PopulateWin(1, socketManager.resultData.payload.win);
+            yield return new WaitUntil(() => !slotManager.CheckPopups);
+        }
 
         isBonusComplete = true;
         yield return new WaitForSeconds(1f);
@@ -503,12 +522,10 @@ public class BonusManager : MonoBehaviour
             yield return new WaitForSeconds(1.5f);
         }
 
-        // Track which symbols we've already added to multiplierObjects
         int currentSpinCount = socketManager.resultData.payload.bonusGame.doubleReel.topReel.reselectSpinsRemaining;
         while (socketManager.resultData.payload.bonusGame.doubleReel.topReel.reselectSpinsRemaining > 0)
         {
 
-            // Activate top reel slots
             foreach (var slot in RedTopSpinSlots)
             {
                 slot.SetActive(true);
@@ -516,7 +533,6 @@ public class BonusManager : MonoBehaviour
 
             yield return new WaitForSeconds(0.4f);
 
-            // Initialize tweening for top reel
             List<Tweener> topTweens = new List<Tweener>();
             for (int i = 0; i < RedTopSpinSlots.Count; i++)
             {
@@ -535,11 +551,9 @@ public class BonusManager : MonoBehaviour
                 currentSpinCount--;
             }
 
-            // Request result from server
             socketManager.AccumulateResult(uiManager.betCounter);
             yield return new WaitUntil(() => socketManager.isResultdone);
 
-            // Populate top reel results
             if (socketManager.resultData.payload.bonusGame.doubleReel.topReel.reels != null)
             {
                 for (int j = 0; j < socketManager.resultData.payload.bonusGame.doubleReel.topReel.reels.Count; j++)
@@ -555,7 +569,6 @@ public class BonusManager : MonoBehaviour
                 }
             }
 
-            // Stop tweening for top reel
             for (int i = 0; i < RedTopSpinSlots.Count; i++)
             {
                 bool isComplete = false;
@@ -574,6 +587,7 @@ public class BonusManager : MonoBehaviour
             // If spins increased, activate new indicators
             if (spinsAfter > currentSpinCount)
             {
+                audioManager.PlayRepeatSlotWin();
                 for (int i = currentSpinCount; i < spinsAfter + 1 && i < RedTopSpinIndicators.Count; i++)
                 {
                     //RedTopSpinIndicators[i].SetActive(true);
@@ -585,7 +599,6 @@ public class BonusManager : MonoBehaviour
                 currentSpinCount = spinsAfter;
             }
 
-            // Display bonus symbols for top reel (just display, don't add to multiplierObjects yet)
             foreach (var bonusSymbol in socketManager.resultData.payload.bonusGame.doubleReel.topReel.bonusSymbols)
             {
                 int col = bonusSymbol.position[0];
@@ -593,12 +606,15 @@ public class BonusManager : MonoBehaviour
 
                 var slotGO = RedTopSpinCoinImages[row].slotImages[col];
                 slotGO.sprite = BrightCoinSprite;
+                if (!slotGO.gameObject.activeSelf)
+                {
+                    audioManager.PlayGoldenCoin();
+                }
                 slotGO.gameObject.SetActive(true);
                 var imageText = slotGO.GetComponentInChildren<TMP_Text>();
                 imageText.text = bonusSymbol.value.ToString();
             }
 
-            // Wait for the last tween to complete and clean up
             yield return topTweens[^1].WaitForCompletion();
             foreach (var tween in topTweens)
             {
@@ -609,15 +625,13 @@ public class BonusManager : MonoBehaviour
             }
             topTweens.Clear();
         }
-        
-        // ALL TOP REEL SPINS COMPLETE - Collect all coins for multiplier animation
+
         foreach (var bonusSymbol in socketManager.resultData.payload.bonusGame.doubleReel.topReel.bonusSymbols)
         {
             int col = bonusSymbol.position[0];
             int row = bonusSymbol.position[1];
             var slotGO = RedTopSpinCoinImages[row].slotImages[col];
-            
-            // Add to multiplier list
+
             if (!multiplierObjects.Contains(slotGO.gameObject))
             {
                 multiplierObjects.Add(slotGO.gameObject);
@@ -634,12 +648,10 @@ public class BonusManager : MonoBehaviour
             yield return new WaitForSeconds(1.5f);
         }
 
-        // Track which symbols we've already added to multiplierObjects
         int currentSpinCount = socketManager.resultData.payload.bonusGame.doubleReel.bottomReel.reselectSpinsRemaining;
         while (socketManager.resultData.payload.bonusGame.doubleReel.bottomReel.reselectSpinsRemaining > 0)
         {
 
-            // Activate bottom reel slots
             foreach (var slot in RedBottomSpinSlots)
             {
                 slot.SetActive(true);
@@ -647,7 +659,6 @@ public class BonusManager : MonoBehaviour
 
             yield return new WaitForSeconds(0.4f);
 
-            // Initialize tweening for bottom reel
             List<Tweener> bottomTweens = new List<Tweener>();
             for (int i = 0; i < RedBottomSpinSlots.Count; i++)
             {
@@ -666,11 +677,9 @@ public class BonusManager : MonoBehaviour
                 currentSpinCount--;
             }
 
-            // Request result from server (bottom reel has its own call)
             socketManager.AccumulateResult(uiManager.betCounter);
             yield return new WaitUntil(() => socketManager.isResultdone);
 
-            // Populate bottom reel results
             if (socketManager.resultData.payload.bonusGame.doubleReel.bottomReel.reels != null)
             {
                 for (int j = 0; j < socketManager.resultData.payload.bonusGame.doubleReel.bottomReel.reels.Count; j++)
@@ -686,7 +695,6 @@ public class BonusManager : MonoBehaviour
                 }
             }
 
-            // Stop tweening for bottom reel
             for (int i = 0; i < RedBottomSpinSlots.Count; i++)
             {
                 bool isComplete = false;
@@ -705,6 +713,7 @@ public class BonusManager : MonoBehaviour
             // If spins increased, activate new indicators
             if (spinsAfter > currentSpinCount)
             {
+                audioManager.PlayRepeatSlotWin();
                 for (int i = currentSpinCount; i < spinsAfter + 1 && i < RedBottomSpinIndicators.Count; i++)
                 {
                     //RedBottomSpinIndicators[i].SetActive(true);
@@ -724,6 +733,10 @@ public class BonusManager : MonoBehaviour
 
                 var slotGO = RedBottomSpinCoinImages[row].slotImages[col];
                 slotGO.sprite = BrightCoinSprite;
+                if (!slotGO.gameObject.activeSelf)
+                {
+                    audioManager.PlayGoldenCoin();
+                }
                 slotGO.gameObject.SetActive(true);
                 var imageText = slotGO.GetComponentInChildren<TMP_Text>();
                 imageText.text = bonusSymbol.value.ToString();
@@ -740,14 +753,14 @@ public class BonusManager : MonoBehaviour
             }
             bottomTweens.Clear();
         }
-        
+
         // ALL BOTTOM REEL SPINS COMPLETE - Collect all coins for multiplier animation
         foreach (var bonusSymbol in socketManager.resultData.payload.bonusGame.doubleReel.bottomReel.bonusSymbols)
         {
             int col = bonusSymbol.position[0];
             int row = bonusSymbol.position[1];
             var slotGO = RedBottomSpinCoinImages[row].slotImages[col];
-            
+
             // Add to multiplier list
             if (!multiplierObjects.Contains(slotGO.gameObject))
             {
@@ -771,7 +784,7 @@ public class BonusManager : MonoBehaviour
                 slotImage[i].slotImages[j].sprite = image;
             }
         }
-        
+
         // Just display initial bonus symbols, don't add to multiplierObjects
         // They will be collected at the end of all spins
         if (isGreenSpin)
@@ -885,9 +898,10 @@ public class BonusManager : MonoBehaviour
             coin.GetComponent<Image>().sprite = DullCoinSprite;
             light.SetActive(true);
 
-            Tweener moveTween = lightRect.DOLocalMove(targetRect.localPosition, 1.7f).SetEase(Ease.Linear);
+            Tweener moveTween = lightRect.DOLocalMove(targetRect.localPosition, 1f).SetEase(Ease.Linear);
 
             yield return moveTween.WaitForCompletion();
+            audioManager.PlayLightSound();
             light.SetActive(false);
 
             // Reset light position after animation
@@ -1050,8 +1064,10 @@ public class BonusManager : MonoBehaviour
         doorObject.GetComponent<ImageAnimation>().ResetImageState();
         symbolAnimationObject.GetComponent<ImageAnimation>().textureArray = null;
         symbolAnimationObject.GetComponent<ImageAnimation>().textureArray = doorSymbolSprites;
-        symbolAnimationObject.GetComponent<ImageAnimation>().doLoopAnimation = false;
         symbolAnimationObject.GetComponent<ImageAnimation>().ResetImageState();
+        symbolAnimationObject.GetComponent<ImageAnimation>().doLoopAnimation = false;
+        symbolAnimationObject.GetComponent<ImageAnimation>().AnimationSpeed = 85f;
+        symbolAnimationObject.GetComponent<Image>().preserveAspect = true;
         doorObject.GetComponent<ImageAnimation>().StartAnimation();
         symbolAnimationObject.GetComponent<ImageAnimation>().StartAnimation();
         yield return new WaitUntil(() => symbolAnimationObject.GetComponent<ImageAnimation>().IsComplete);
@@ -1060,14 +1076,10 @@ public class BonusManager : MonoBehaviour
         symbolAnimationObject.GetComponent<ImageAnimation>().textureArray = loopSprites;
         symbolAnimationObject.GetComponent<ImageAnimation>().ResetImageState();
         symbolAnimationObject.GetComponent<ImageAnimation>().doLoopAnimation = true;
-        symbolAnimationObject.GetComponent<ImageAnimation>().AnimationSpeed = 35f;
+        symbolAnimationObject.GetComponent<ImageAnimation>().AnimationSpeed = 47f;
+        symbolAnimationObject.GetComponent<Image>().preserveAspect = true;
         symbolAnimationObject.GetComponent<ImageAnimation>().StartAnimation();
         yield return new WaitForSeconds(0.1f);
-    }
-
-    private void SpinCountDecreaseAnimation(List<GameObject> indicators)
-    {
-
     }
 
 }

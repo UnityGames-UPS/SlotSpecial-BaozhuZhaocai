@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: 81d38d24ba3e94849b259374f319473b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2554837800363827103
+    second: Win_Blast_Animation_29FPS_27_0
+  - first:
+      213: -645612473474338092
+    second: Win_Blast_Animation_29FPS_27_1
+  - first:
+      213: -8287839905443850619
+    second: Win_Blast_Animation_29FPS_27_2
+  - first:
+      213: 8179207684943338501
+    second: Win_Blast_Animation_29FPS_27_3
+  - first:
+      213: 3827839799088623390
+    second: Win_Blast_Animation_29FPS_27_4
+  - first:
+      213: 479735274569696781
+    second: Win_Blast_Animation_29FPS_27_5
+  - first:
+      213: -4803782362054910037
+    second: Win_Blast_Animation_29FPS_27_6
+  - first:
+      213: 7669240475264654410
+    second: Win_Blast_Animation_29FPS_27_7
+  - first:
+      213: 1031290979760183102
+    second: Win_Blast_Animation_29FPS_27_8
+  - first:
+      213: -1887786179448395163
+    second: Win_Blast_Animation_29FPS_27_9
+  - first:
+      213: 4802987914312249417
+    second: Win_Blast_Animation_29FPS_27_10
+  - first:
+      213: -8493834153829119685
+    second: Win_Blast_Animation_29FPS_27_11
+  - first:
+      213: -6192131923590658104
+    second: Win_Blast_Animation_29FPS_27_12
+  - first:
+      213: 8729437664002803498
+    second: Win_Blast_Animation_29FPS_27_13
+  - first:
+      213: -4153498017844413817
+    second: Win_Blast_Animation_29FPS_27_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 3
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Win_Blast_Animation_29FPS_27_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 193
+        width: 475
+        height: 533
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 160e2928e846b8cd0800000000000000
+      internalID: -2554837800363827103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win_Blast_Animation_29FPS_27_1
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 574
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d2300040e25a07f0800000000000000
+      internalID: -645612473474338092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win_Blast_Animation_29FPS_27_2
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 539
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58656b0548dabfc80800000000000000
+      internalID: -8287839905443850619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win_Blast_Animation_29FPS_27_3
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 507
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50c513ddd02628170800000000000000
+      internalID: 8179207684943338501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win_Blast_Animation_29FPS_27_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 491
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1fa7c934083f1530800000000000000
+      internalID: 3827839799088623390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win_Blast_Animation_29FPS_27_5
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 460
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0683f2c0bc58a600800000000000000
+      internalID: 479735274569696781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win_Blast_Animation_29FPS_27_6
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 368
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baf1e6ba469855db0800000000000000
+      internalID: -4803782362054910037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win_Blast_Animation_29FPS_27_7
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 309
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4c9231349d9e6a60800000000000000
+      internalID: 7669240475264654410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win_Blast_Animation_29FPS_27_8
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 169
+        width: 67
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e379bac9ea1ef4e00800000000000000
+      internalID: 1031290979760183102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win_Blast_Animation_29FPS_27_9
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 216
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56a2612c87c3dc5e0800000000000000
+      internalID: -1887786179448395163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win_Blast_Animation_29FPS_27_10
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 206
+        width: 14
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 940731d8f04a7a240800000000000000
+      internalID: 4802987914312249417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win_Blast_Animation_29FPS_27_11
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 167
+        width: 84
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b394fefd6d6df1a80800000000000000
+      internalID: -8493834153829119685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win_Blast_Animation_29FPS_27_12
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 103
+        width: 82
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c7c504a2d0211aa0800000000000000
+      internalID: -6192131923590658104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win_Blast_Animation_29FPS_27_13
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 0
+        width: 56
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a278dcb0e41352970800000000000000
+      internalID: 8729437664002803498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win_Blast_Animation_29FPS_27_14
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 0
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78a38171f8fcb56c0800000000000000
+      internalID: -4153498017844413817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Win_Blast_Animation_29FPS_27_0: -2554837800363827103
+      Win_Blast_Animation_29FPS_27_1: -645612473474338092
+      Win_Blast_Animation_29FPS_27_10: 4802987914312249417
+      Win_Blast_Animation_29FPS_27_11: -8493834153829119685
+      Win_Blast_Animation_29FPS_27_12: -6192131923590658104
+      Win_Blast_Animation_29FPS_27_13: 8729437664002803498
+      Win_Blast_Animation_29FPS_27_14: -4153498017844413817
+      Win_Blast_Animation_29FPS_27_2: -8287839905443850619
+      Win_Blast_Animation_29FPS_27_3: 8179207684943338501
+      Win_Blast_Animation_29FPS_27_4: 3827839799088623390
+      Win_Blast_Animation_29FPS_27_5: 479735274569696781
+      Win_Blast_Animation_29FPS_27_6: -4803782362054910037
+      Win_Blast_Animation_29FPS_27_7: 7669240475264654410
+      Win_Blast_Animation_29FPS_27_8: 1031290979760183102
+      Win_Blast_Animation_29FPS_27_9: -1887786179448395163
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

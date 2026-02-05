@@ -1,175 +1,201 @@
-using System.Collections;
-using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
-using System;
-
-public class AudioController : MonoBehaviour
+using UnityEngine.UI;
+internal class AudioController : MonoBehaviour
 {
-    [SerializeField] private AudioSource bg_adudio;
-    [SerializeField] internal AudioSource audioPlayer_wl;
-    [SerializeField] internal AudioSource audioPlayer_button;
-    [SerializeField] internal AudioSource audioSpin_button;
-    [SerializeField] private AudioClip[] clips;
-    [SerializeField] private AudioClip[] Bonusclips;
-    [SerializeField] private AudioSource bg_audioBonus;
-    [SerializeField] private AudioSource audioPlayer_Bonus;
+    [Header("Audio Sources")]
+    [SerializeField] private AudioSource bgMusicSource;
+    [SerializeField] private AudioSource gameSoundSource;
+    // [SerializeField] private AudioSource uiSource;
+
+    [Header("Background")]
+    [SerializeField] private AudioClip bgMusic;
+
+    [Header("Game Sounds")]
+    [SerializeField] private AudioClip goldenCoin;
+    [SerializeField] private AudioClip rocket;
+    [SerializeField] private AudioClip rocketBlast;
+    [SerializeField] private AudioClip SpinStarts;
+    [SerializeField] private AudioClip SpinStops;
+    [SerializeField] private AudioClip LightSound;
+    [SerializeField] private AudioClip BonusStarted;
+    [SerializeField] private AudioClip RepeatSlotWin;
+    [SerializeField] private AudioClip WinPopup;
+
+    [Header("UI Sounds")]
+    [SerializeField] private AudioClip uiButton;
+
+    [Header("Sound Buttons")]
+    [SerializeField] private Button SoundButton;
+    [SerializeField] private Button SoundMuteButton;
+    [SerializeField] private Button MusicButton;
+    [SerializeField] private Button MusicMuteButton;
+
+    private bool isGameMuted = false;
+    private bool isMusicMuted = false;
 
     private void Start()
     {
-        if (bg_adudio) bg_adudio.Play();
-        audioPlayer_button.clip = clips[clips.Length-1];
-        audioSpin_button.clip = clips[clips.Length-2];
+        if (SoundButton)
+        {
+            SoundButton.onClick.RemoveAllListeners();
+            SoundButton.onClick.AddListener(ToggleGameSound);
+        }
+
+        if (MusicButton)
+        {
+            MusicButton.onClick.RemoveAllListeners();
+            MusicButton.onClick.AddListener(ToggleBackgroundMusic);
+        }
+
+        if (SoundMuteButton)
+        {
+            SoundMuteButton.onClick.RemoveAllListeners();
+            SoundMuteButton.onClick.AddListener(ToggleGameSound);
+        }
+
+        if (MusicMuteButton)
+        {
+            MusicMuteButton.onClick.RemoveAllListeners();
+            MusicMuteButton.onClick.AddListener(ToggleBackgroundMusic);
+        }
+
+        PlayBackground();
     }
 
-    internal void CheckFocusFunction(bool focus, bool IsSpinning)
+    private void ToggleGameSound()
     {
-        if (!focus)
+        Debug.Log("button pressed!");
+        if (!isGameMuted)
         {
-            bg_adudio.Pause();
-            audioPlayer_wl.Pause();
-            audioPlayer_button.Pause();
+            SoundMuteButton.gameObject.SetActive(true);
+            SoundButton.gameObject.SetActive(false);
         }
         else
         {
-            if (!bg_adudio.mute) bg_adudio.UnPause();
-            if (IsSpinning)
-            {
-                if (!audioPlayer_wl.mute) audioPlayer_wl.UnPause();
-            }
-            else
-            {
-                StopWLAaudio();
-            }
-            if (!audioPlayer_button.mute) audioPlayer_button.UnPause();
-
+            SoundButton.gameObject.SetActive(true);
+            SoundMuteButton.gameObject.SetActive(false);
         }
+        isGameMuted = !isGameMuted;
+        MuteGame(isGameMuted);
     }
 
-    internal void SwitchBGSound(bool isbonus)
+    private void ToggleBackgroundMusic()
     {
-        if(isbonus)
+        if (!isMusicMuted)
         {
-            if (bg_audioBonus) bg_audioBonus.enabled = true;
-            if (bg_adudio) bg_adudio.enabled = false;
+            MusicMuteButton.gameObject.SetActive(true);
+            MusicButton.gameObject.SetActive(false);
         }
         else
         {
-            if (bg_audioBonus) bg_audioBonus.enabled = false;
-            if (bg_adudio) bg_adudio.enabled = true;
+            MusicButton.gameObject.SetActive(true);
+            MusicMuteButton.gameObject.SetActive(false);
         }
+        isMusicMuted = !isMusicMuted;
+        MuteBackground(isMusicMuted);
     }
 
-    internal void PlayWLAudio(string type)
+
+    internal void PlayBackground()
     {
-        audioPlayer_wl.loop = false;
-        int index = 0;
-        switch (type)
-        {
-            case "spin":
-                index = 250;
-                //audioPlayer_wl.loop = true;
-                break;
-            case "win":
-                index = 8;
-                break;
-            case "lose":
-                index = 2;
-                break;
-            case "spinStop":
-                index = 10;
-                break;
-            case "megaWin":
-                index = 0;
-                break;
-            case "bonusStart":
-                index = 1;
-                break;
-            case "fireBlast":
-                index = 4;
-                break;
-            case "fireWhoose":
-                index = 5;
-                break;
-        }
-        StopWLAaudio();
-        audioPlayer_wl.clip = clips[index];
-        audioPlayer_wl.Play();
+        if (!bgMusic) return;
 
+        bgMusicSource.clip = bgMusic;
+        bgMusicSource.loop = true;
+        if (!bgMusicSource.isPlaying)
+            bgMusicSource.Play();
     }
 
-    internal void PlayBonusAudio(string type)
+    internal void StopBackground()
     {
-        audioPlayer_wl.loop = false;
-        int index = 0;
-        switch (type)
-        {
-            case "win":
-                index = 0;
-                break;
-            case "lose":
-                index = 1;
-                break;
-            case "cycleSpin":
-                index = 2;
-                break;
-        }
-        StopBonusAaudio();
-        audioPlayer_Bonus.clip = Bonusclips[index];
-        audioPlayer_Bonus.Play();
-
+        bgMusicSource.Stop();
     }
 
-    internal void PlayButtonAudio()
+    internal void PlayGoldenCoin()
     {
-        audioPlayer_button.clip = clips[3];
-        audioPlayer_button.Play();
+        PlayGame(goldenCoin, false);
     }
 
-    internal void PlaySpinButtonAudio()
+    internal void PlayRocket()
     {
-        audioSpin_button.Play();
+        PlayGame(rocket, false);
     }
-
-    internal void StopWLAaudio()
+    internal void PlayRocketBlast()
     {
-        audioPlayer_wl.Stop();
-        audioPlayer_wl.loop = false;
+        PlayGame(rocketBlast, false);
     }
 
-    internal void StopBonusAaudio()
+    internal void PlaySpinStarts()
     {
-        audioPlayer_Bonus.Stop();
-        audioPlayer_Bonus.loop = false;
+        PlayGame(SpinStarts, false);
     }
-
-    internal void StopBgAudio()
+    internal void PlaySpinStops()
     {
-        bg_adudio.Stop();
+        PlayGame(SpinStops, false);
     }
-
-    internal void ToggleMute(bool toggle, string type="all")
+    internal void PlayLightSound()
     {
-        switch (type)
-        {
-            case "bg":
-                bg_adudio.mute = toggle;
-                bg_audioBonus.mute = toggle;
-                break;
-            case "button":
-                audioPlayer_button.mute=toggle;
-                audioSpin_button.mute=toggle;
-                break;
-            case "wl":
-                audioPlayer_wl.mute=toggle;
-                audioPlayer_Bonus.mute = toggle;
-                break;
-            case "all":
-                audioPlayer_wl.mute = toggle;
-                bg_adudio.mute = toggle;
-                audioPlayer_button.mute = toggle;
-                audioSpin_button.mute = toggle;
-                break;
-        }
+        PlayGame(LightSound, false);
+    }
+    internal void PlayBonusStarted()
+    {
+        PlayGame(BonusStarted, false);
+    }
+    internal void PlayRepeatSlotWin()
+    {
+        PlayGame(RepeatSlotWin, false);
+    }
+    internal void PlayWin()
+    {
+        PlayGame(WinPopup, false);
     }
 
+    private void PlayGame(AudioClip clip, bool loop)
+    {
+        if (!clip) return;
+
+        gameSoundSource.Stop();
+        gameSoundSource.clip = clip;
+        gameSoundSource.loop = loop;
+        gameSoundSource.Play();
+    }
+
+    internal void StopGameAudio()
+    {
+        gameSoundSource.Stop();
+        gameSoundSource.loop = false;
+    }
+
+    // internal void PlayChip()
+    // {
+    //     gameSoundSource.PlayOneShot(chipSound);
+    // }
+
+    // internal void PlayCardPlaced()
+    // {
+    //     gameSoundSource.PlayOneShot(cardPlaced);
+    // }
+
+    internal void PlayUIButton()
+    {
+        gameSoundSource.PlayOneShot(uiButton);
+    }
+
+    // internal void PlayNavigation()
+    // {
+    //     uiSource.PlayOneShot(navigation);
+    // }
+
+    internal void MuteAll(bool mute)
+    {
+        bgMusicSource.mute = mute;
+        gameSoundSource.mute = mute;
+        // uiSource.mute = mute;
+    }
+
+
+    internal void MuteBackground(bool mute) => bgMusicSource.mute = mute;
+    internal void MuteGame(bool mute) => gameSoundSource.mute = mute;
+    // internal void MuteUI(bool mute) => uiSource.mute = mute;
 }
