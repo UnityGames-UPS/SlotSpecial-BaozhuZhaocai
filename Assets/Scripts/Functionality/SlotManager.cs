@@ -431,6 +431,10 @@ public class SlotManager : MonoBehaviour
             yield return new WaitUntil(() => !CheckPopups);
         }
 
+        uiManager.StartTextAnim(currentBalance, SocketManager.resultData.payload.balance, uiManager.BalanceText, 1f);
+        currentBalance = SocketManager.resultData.payload.balance;
+        uiManager.BalanceText.text = SocketManager.resultData.payload.balance.ToString();
+
         // TRIGGER ROCKET SEQUENCE if bonus symbols exist
         if (bonusSymbolsData.Count > 0)
         {
@@ -439,8 +443,8 @@ public class SlotManager : MonoBehaviour
             yield return new WaitUntil(() => rocketManager.isRocketAnimationComplete);
             rocketManager.CrackerAnimation(bonusSymbolsData);
             //yield return new WaitUntil(() => rocketManager.isCrackerAnimationComplete);
-            yield return new WaitUntil(()=> rocketManager.blueCrackerAnimationComplete && rocketManager.redCrackerAnimationComplete && rocketManager.greenCrackerAnimationComplete);
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitUntil(() => rocketManager.blueCrackerAnimationComplete && rocketManager.redCrackerAnimationComplete && rocketManager.greenCrackerAnimationComplete);
+            yield return new WaitForSeconds(1f);
         }
         // Then handle bonus game
         if (SocketManager.resultData.payload.bonusGame.isActive)
@@ -449,6 +453,7 @@ public class SlotManager : MonoBehaviour
             wasBonusActive = true;
         }
         yield return new WaitUntil(() => bonusManager.isBonusComplete);
+        yield return new WaitForSeconds(0.7f);
 
         if (wasBonusActive)
         {
@@ -456,7 +461,11 @@ public class SlotManager : MonoBehaviour
             yield return new WaitUntil(() => !CheckPopups);
             wasBonusActive = false;
         }
+
         uiManager.WinAmountText.text = SocketManager.resultData.payload.totalWin.ToString();
+        uiManager.StartTextAnim(currentBalance, SocketManager.resultData.payload.balance, uiManager.BalanceText, 1f);
+        currentBalance = SocketManager.resultData.payload.balance;
+        uiManager.BalanceText.text = SocketManager.resultData.payload.balance.ToString();
 
         IsSpinning = false;
         if (!IsAutoSpin)

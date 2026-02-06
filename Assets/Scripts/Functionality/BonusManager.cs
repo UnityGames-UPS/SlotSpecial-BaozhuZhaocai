@@ -221,17 +221,17 @@ public class BonusManager : MonoBehaviour
 
             yield return alltweens[^1].WaitForCompletion();
             KillAllTweens();
-        }
 
-        foreach (var bonusSymbol in socketManager.resultData.payload.bonusGame.bonusSymbols)
-        {
-            int col = bonusSymbol.position[0];
-            int row = bonusSymbol.position[1];
-            var slotGO = GreenSpinCoinImages[row].slotImages[col];
-
-            if (!multiplierObjects.Contains(slotGO.gameObject))
+            foreach (var bonusSymbol in socketManager.resultData.payload.bonusGame.bonusSymbols)
             {
-                multiplierObjects.Add(slotGO.gameObject);
+                int col = bonusSymbol.position[0];
+                int row = bonusSymbol.position[1];
+                var slotGO = GreenSpinCoinImages[row].slotImages[col];
+
+                if (!multiplierObjects.Contains(slotGO.gameObject))
+                {
+                    multiplierObjects.Add(slotGO.gameObject);
+                }
             }
         }
 
@@ -353,7 +353,10 @@ public class BonusManager : MonoBehaviour
                 }
                 slotGO.gameObject.SetActive(true);
                 var imageText = slotGO.GetComponentInChildren<TMP_Text>();
-                imageText.text = bonusSymbol.value.ToString();
+                if (!bonusSymbol.added)
+                {
+                    imageText.text = bonusSymbol.value.ToString();
+                }
             }
 
             for (int i = 0; i < socketManager.resultData.payload.bonusGame.bonusSymbols.Count; i++)
@@ -373,7 +376,7 @@ public class BonusManager : MonoBehaviour
             // Show bird animation and numAdded for newly added symbols
             foreach (var bonusSymbol in socketManager.resultData.payload.bonusGame.bonusSymbols)
             {
-                //if (bonusSymbol.added)
+                if (bonusSymbol.added)
                 {
                     int col = bonusSymbol.position[0];
                     int row = bonusSymbol.position[1];
@@ -386,6 +389,9 @@ public class BonusManager : MonoBehaviour
                     // yield return new WaitForSeconds(1f);
                     // birdAnim.ResetImageState();
                     // yield return new WaitForSeconds(0.3f);
+
+                    var imageText = slotGO.transform.GetChild(0).GetComponent<TMP_Text>();
+                    imageText.text = bonusSymbol.value.ToString();
 
                     // Show numAdded animation
                     TMP_Text winText = slotGO.transform.GetChild(3).GetComponent<TMP_Text>();
@@ -414,19 +420,22 @@ public class BonusManager : MonoBehaviour
 
             yield return alltweens[^1].WaitForCompletion();
             KillAllTweens();
-        }
-
-        foreach (var bonusSymbol in socketManager.resultData.payload.bonusGame.bonusSymbols)
-        {
-            int col = bonusSymbol.position[0];
-            int row = bonusSymbol.position[1];
-            var slotGO = BlueSpinCoinImages[row].slotImages[col];
-
-            if (!multiplierObjects.Contains(slotGO.gameObject))
+            foreach (var bonusSymbol in socketManager.resultData.payload.bonusGame.bonusSymbols)
             {
-                multiplierObjects.Add(slotGO.gameObject);
+                int col = bonusSymbol.position[0];
+                int row = bonusSymbol.position[1];
+                var slotGO = BlueSpinCoinImages[row].slotImages[col];
+
+                Debug.Log("before check");
+
+                if (!multiplierObjects.Contains(slotGO.gameObject))
+                {
+                    multiplierObjects.Add(slotGO.gameObject);
+                    Debug.Log("Multiplier Object Added");
+                }
             }
         }
+
 
         for (int i = 0; i < BlueSpinIndicators.Count; i++)
         {
@@ -519,9 +528,9 @@ public class BonusManager : MonoBehaviour
         {
             RedTopSpinIndicators[i].SetActive(true);
             RedTopSpinIndicators[i].GetComponent<ImageAnimation>().StartAnimation();
-            yield return new WaitForSeconds(1.5f);
+            yield return new WaitForSeconds(0.5f);
         }
-
+        yield return new WaitForSeconds(1f);
         int currentSpinCount = socketManager.resultData.payload.bonusGame.doubleReel.topReel.reselectSpinsRemaining;
         while (socketManager.resultData.payload.bonusGame.doubleReel.topReel.reselectSpinsRemaining > 0)
         {
@@ -645,9 +654,10 @@ public class BonusManager : MonoBehaviour
         {
             RedBottomSpinIndicators[i].SetActive(true);
             RedBottomSpinIndicators[i].GetComponent<ImageAnimation>().StartAnimation();
-            yield return new WaitForSeconds(1.5f);
+            yield return new WaitForSeconds(0.5f);
         }
 
+        yield return new WaitForSeconds(1f);
         int currentSpinCount = socketManager.resultData.payload.bonusGame.doubleReel.bottomReel.reselectSpinsRemaining;
         while (socketManager.resultData.payload.bonusGame.doubleReel.bottomReel.reselectSpinsRemaining > 0)
         {

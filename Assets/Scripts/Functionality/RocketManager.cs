@@ -6,6 +6,7 @@ using DG.Tweening;
 using TMPro;
 using System;
 using NUnit.Framework;
+using Unity.VisualScripting;
 
 public class RocketManager : MonoBehaviour
 {
@@ -323,7 +324,7 @@ public class RocketManager : MonoBehaviour
         anim.textureArray.TrimExcess();
         foreach (var s in blastSprites) anim.textureArray.Add(s);
         anim.doLoopAnimation = false;
-        anim.AnimationSpeed = 50f;
+        anim.AnimationSpeed = 70f;
         anim.ResetImageState();
         anim.IsComplete = false;
         anim.StartAnimation();
@@ -348,7 +349,7 @@ public class RocketManager : MonoBehaviour
         anim.textureArray.TrimExcess();
         foreach (var s in burstSprites) anim.textureArray.Add(s);
         anim.doLoopAnimation = false;
-        anim.AnimationSpeed = 15f;
+        anim.AnimationSpeed = 20f;
         anim.ResetImageState();
         anim.IsComplete = false;
         anim.StartAnimation();
