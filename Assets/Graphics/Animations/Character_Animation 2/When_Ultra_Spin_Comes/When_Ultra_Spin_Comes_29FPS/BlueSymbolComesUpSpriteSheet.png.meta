@@ -1,0 +1,2841 @@
+fileFormatVersion: 2
+guid: 9e5431c1acbad4450aba506ee61befc8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6423717022629757020
+    second: BlueSymbolComesUpSpriteSheet_0
+  - first:
+      213: -9201934837093301441
+    second: BlueSymbolComesUpSpriteSheet_1
+  - first:
+      213: -8165895955672512
+    second: BlueSymbolComesUpSpriteSheet_2
+  - first:
+      213: -2645459294307207072
+    second: BlueSymbolComesUpSpriteSheet_3
+  - first:
+      213: 8401239526264274986
+    second: BlueSymbolComesUpSpriteSheet_4
+  - first:
+      213: -5518503206952609452
+    second: BlueSymbolComesUpSpriteSheet_5
+  - first:
+      213: 821885914497957532
+    second: BlueSymbolComesUpSpriteSheet_6
+  - first:
+      213: -5012715190305877532
+    second: BlueSymbolComesUpSpriteSheet_7
+  - first:
+      213: 4743933328431906255
+    second: BlueSymbolComesUpSpriteSheet_8
+  - first:
+      213: -1462186001908908996
+    second: BlueSymbolComesUpSpriteSheet_9
+  - first:
+      213: 2999527947767760347
+    second: BlueSymbolComesUpSpriteSheet_10
+  - first:
+      213: -8375178893217407298
+    second: BlueSymbolComesUpSpriteSheet_11
+  - first:
+      213: 2015299826082657055
+    second: BlueSymbolComesUpSpriteSheet_12
+  - first:
+      213: -534112978928456661
+    second: BlueSymbolComesUpSpriteSheet_13
+  - first:
+      213: -3196150018254242368
+    second: BlueSymbolComesUpSpriteSheet_14
+  - first:
+      213: -1312646028287403827
+    second: BlueSymbolComesUpSpriteSheet_15
+  - first:
+      213: 8350720808281654516
+    second: BlueSymbolComesUpSpriteSheet_16
+  - first:
+      213: -7209509891786390409
+    second: BlueSymbolComesUpSpriteSheet_17
+  - first:
+      213: 1824894840444371320
+    second: BlueSymbolComesUpSpriteSheet_18
+  - first:
+      213: -4475861010341167683
+    second: BlueSymbolComesUpSpriteSheet_19
+  - first:
+      213: -6226638699592014046
+    second: BlueSymbolComesUpSpriteSheet_20
+  - first:
+      213: 8413055008312083687
+    second: BlueSymbolComesUpSpriteSheet_21
+  - first:
+      213: -7041989220057212752
+    second: BlueSymbolComesUpSpriteSheet_22
+  - first:
+      213: 3960551916256060161
+    second: BlueSymbolComesUpSpriteSheet_23
+  - first:
+      213: -8102820437013749301
+    second: BlueSymbolComesUpSpriteSheet_24
+  - first:
+      213: 2833831680725701759
+    second: BlueSymbolComesUpSpriteSheet_25
+  - first:
+      213: 4807834914242060618
+    second: BlueSymbolComesUpSpriteSheet_26
+  - first:
+      213: -4911333782859288584
+    second: BlueSymbolComesUpSpriteSheet_27
+  - first:
+      213: -1988603762238952110
+    second: BlueSymbolComesUpSpriteSheet_28
+  - first:
+      213: 1217050291725430426
+    second: BlueSymbolComesUpSpriteSheet_29
+  - first:
+      213: -4377198468348937454
+    second: BlueSymbolComesUpSpriteSheet_30
+  - first:
+      213: -8036659816619246901
+    second: BlueSymbolComesUpSpriteSheet_31
+  - first:
+      213: -4525021393270188696
+    second: BlueSymbolComesUpSpriteSheet_32
+  - first:
+      213: -2827911541475073445
+    second: BlueSymbolComesUpSpriteSheet_33
+  - first:
+      213: 4954688615116114155
+    second: BlueSymbolComesUpSpriteSheet_34
+  - first:
+      213: -7431474449668268869
+    second: BlueSymbolComesUpSpriteSheet_35
+  - first:
+      213: 2509856127061443361
+    second: BlueSymbolComesUpSpriteSheet_36
+  - first:
+      213: -8210654451518056363
+    second: BlueSymbolComesUpSpriteSheet_37
+  - first:
+      213: 1865121408686805186
+    second: BlueSymbolComesUpSpriteSheet_38
+  - first:
+      213: 2661127883039252211
+    second: BlueSymbolComesUpSpriteSheet_39
+  - first:
+      213: 1344015490010778116
+    second: BlueSymbolComesUpSpriteSheet_40
+  - first:
+      213: 2042206427039679657
+    second: BlueSymbolComesUpSpriteSheet_41
+  - first:
+      213: -8374660879166007369
+    second: BlueSymbolComesUpSpriteSheet_42
+  - first:
+      213: 4411460563801288734
+    second: BlueSymbolComesUpSpriteSheet_43
+  - first:
+      213: -5621837285981801602
+    second: BlueSymbolComesUpSpriteSheet_44
+  - first:
+      213: -1101317760302308174
+    second: BlueSymbolComesUpSpriteSheet_45
+  - first:
+      213: 6032001641717545449
+    second: BlueSymbolComesUpSpriteSheet_46
+  - first:
+      213: -4382620884565676222
+    second: BlueSymbolComesUpSpriteSheet_47
+  - first:
+      213: -975223440962396277
+    second: BlueSymbolComesUpSpriteSheet_48
+  - first:
+      213: -5567081670198248221
+    second: BlueSymbolComesUpSpriteSheet_49
+  - first:
+      213: -1276966968582641700
+    second: BlueSymbolComesUpSpriteSheet_50
+  - first:
+      213: -8269905782169521862
+    second: BlueSymbolComesUpSpriteSheet_51
+  - first:
+      213: -6861679850178376839
+    second: BlueSymbolComesUpSpriteSheet_52
+  - first:
+      213: 1292048995283066466
+    second: BlueSymbolComesUpSpriteSheet_53
+  - first:
+      213: 9047934661363303987
+    second: BlueSymbolComesUpSpriteSheet_54
+  - first:
+      213: -7704214947693513678
+    second: BlueSymbolComesUpSpriteSheet_55
+  - first:
+      213: -7998000283699157229
+    second: BlueSymbolComesUpSpriteSheet_56
+  - first:
+      213: 5047181260723400677
+    second: BlueSymbolComesUpSpriteSheet_57
+  - first:
+      213: 6099779807538893689
+    second: BlueSymbolComesUpSpriteSheet_58
+  - first:
+      213: -5200054487229598275
+    second: BlueSymbolComesUpSpriteSheet_59
+  - first:
+      213: -5772160617998660452
+    second: BlueSymbolComesUpSpriteSheet_60
+  - first:
+      213: 827690899954144519
+    second: BlueSymbolComesUpSpriteSheet_61
+  - first:
+      213: -5333027671278967975
+    second: BlueSymbolComesUpSpriteSheet_62
+  - first:
+      213: -1993390286681392316
+    second: BlueSymbolComesUpSpriteSheet_63
+  - first:
+      213: -2151473039711259268
+    second: BlueSymbolComesUpSpriteSheet_64
+  - first:
+      213: -71769710701181680
+    second: BlueSymbolComesUpSpriteSheet_65
+  - first:
+      213: 7556306129043057573
+    second: BlueSymbolComesUpSpriteSheet_66
+  - first:
+      213: -1051532701466666710
+    second: BlueSymbolComesUpSpriteSheet_67
+  - first:
+      213: 3363350137906232458
+    second: BlueSymbolComesUpSpriteSheet_68
+  - first:
+      213: 6837732979695351858
+    second: BlueSymbolComesUpSpriteSheet_69
+  - first:
+      213: 8785307830878483657
+    second: BlueSymbolComesUpSpriteSheet_70
+  - first:
+      213: -6072924418103569868
+    second: BlueSymbolComesUpSpriteSheet_71
+  - first:
+      213: -5624668374121676069
+    second: BlueSymbolComesUpSpriteSheet_72
+  - first:
+      213: -5571895723166123078
+    second: BlueSymbolComesUpSpriteSheet_73
+  - first:
+      213: -3567995107859655233
+    second: BlueSymbolComesUpSpriteSheet_74
+  - first:
+      213: 5152647967930523421
+    second: BlueSymbolComesUpSpriteSheet_75
+  - first:
+      213: 1840163267600464554
+    second: BlueSymbolComesUpSpriteSheet_76
+  - first:
+      213: 7240399301096902461
+    second: BlueSymbolComesUpSpriteSheet_77
+  - first:
+      213: -7484696646269970809
+    second: BlueSymbolComesUpSpriteSheet_78
+  - first:
+      213: 64313449256505980
+    second: BlueSymbolComesUpSpriteSheet_79
+  - first:
+      213: -2603918924199504096
+    second: BlueSymbolComesUpSpriteSheet_80
+  - first:
+      213: 8611715807804686507
+    second: BlueSymbolComesUpSpriteSheet_81
+  - first:
+      213: 6469742830626818932
+    second: BlueSymbolComesUpSpriteSheet_82
+  - first:
+      213: 6442637064803296499
+    second: BlueSymbolComesUpSpriteSheet_83
+  - first:
+      213: -3228777019488389165
+    second: BlueSymbolComesUpSpriteSheet_84
+  - first:
+      213: -1449784852545189208
+    second: BlueSymbolComesUpSpriteSheet_85
+  - first:
+      213: -6509553514603381636
+    second: BlueSymbolComesUpSpriteSheet_86
+  - first:
+      213: -4775929050930777874
+    second: BlueSymbolComesUpSpriteSheet_87
+  - first:
+      213: 6681205654238738474
+    second: BlueSymbolComesUpSpriteSheet_88
+  - first:
+      213: -845251248737571741
+    second: BlueSymbolComesUpSpriteSheet_89
+  - first:
+      213: 7375180369219960186
+    second: BlueSymbolComesUpSpriteSheet_90
+  - first:
+      213: -5712922783943365789
+    second: BlueSymbolComesUpSpriteSheet_91
+  - first:
+      213: 7753285127842658165
+    second: BlueSymbolComesUpSpriteSheet_92
+  - first:
+      213: -6396528057747402668
+    second: BlueSymbolComesUpSpriteSheet_93
+  - first:
+      213: 1993652131861754389
+    second: BlueSymbolComesUpSpriteSheet_94
+  - first:
+      213: 2688664217593248676
+    second: BlueSymbolComesUpSpriteSheet_95
+  - first:
+      213: 3298372816513017454
+    second: BlueSymbolComesUpSpriteSheet_96
+  - first:
+      213: 4409286551738753543
+    second: BlueSymbolComesUpSpriteSheet_97
+  - first:
+      213: -3321804594096621120
+    second: BlueSymbolComesUpSpriteSheet_98
+  - first:
+      213: -1643806501440289695
+    second: BlueSymbolComesUpSpriteSheet_99
+  - first:
+      213: -6475784507382441094
+    second: BlueSymbolComesUpSpriteSheet_100
+  - first:
+      213: -3495823101832264205
+    second: BlueSymbolComesUpSpriteSheet_101
+  - first:
+      213: -6384189937936373186
+    second: BlueSymbolComesUpSpriteSheet_102
+  - first:
+      213: 4611228656430306412
+    second: BlueSymbolComesUpSpriteSheet_103
+  - first:
+      213: -3534828173514794776
+    second: BlueSymbolComesUpSpriteSheet_104
+  - first:
+      213: 5718296865802722588
+    second: BlueSymbolComesUpSpriteSheet_105
+  - first:
+      213: -8093498221166940699
+    second: BlueSymbolComesUpSpriteSheet_106
+  - first:
+      213: -5422284251125216848
+    second: BlueSymbolComesUpSpriteSheet_107
+  - first:
+      213: -1932481146784544042
+    second: BlueSymbolComesUpSpriteSheet_108
+  - first:
+      213: 5375904872589950247
+    second: BlueSymbolComesUpSpriteSheet_109
+  - first:
+      213: 1909121195305019533
+    second: BlueSymbolComesUpSpriteSheet_110
+  - first:
+      213: 4966564240809520235
+    second: BlueSymbolComesUpSpriteSheet_111
+  - first:
+      213: 4195666684737523202
+    second: BlueSymbolComesUpSpriteSheet_112
+  - first:
+      213: -4317475852219250070
+    second: BlueSymbolComesUpSpriteSheet_113
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8100
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aff588f66f5ad6a0800000000000000
+      internalID: -6423717022629757020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 8100
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3303c405092c4080800000000000000
+      internalID: -9201934837093301441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 8100
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0421a40392df2eff0800000000000000
+      internalID: -8165895955672512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 8100
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 068301fb9c0794bd0800000000000000
+      internalID: -2645459294307207072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 8100
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2004f366d2379470800000000000000
+      internalID: 8401239526264274986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 8100
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4595cb152965a63b0800000000000000
+      internalID: -5518503206952609452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 8100
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9e3c8b72ece76b00800000000000000
+      internalID: 821885914497957532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 4536
+        y: 8100
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e11d99c7124f6ab0800000000000000
+      internalID: -5012715190305877532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 8100
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcdf15f4a36d5d140800000000000000
+      internalID: 4743933328431906255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 5832
+        y: 8100
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3cbba8049545bbe0800000000000000
+      internalID: -1462186001908908996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 8100
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd5cd8cb6c670a920800000000000000
+      internalID: 2999527947767760347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7200
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe5d639b2365cb80800000000000000
+      internalID: -8375178893217407298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 7200
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f133099a388c7fb10800000000000000
+      internalID: 2015299826082657055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 7200
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2c2b0553137698f0800000000000000
+      internalID: -534112978928456661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 7200
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cdf8190e7ef4a3d0800000000000000
+      internalID: -3196150018254242368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 7200
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc81a18546b88cde0800000000000000
+      internalID: -1312646028287403827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 7200
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f44714c458b3e370800000000000000
+      internalID: 8350720808281654516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 7200
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 774486773fca2fb90800000000000000
+      internalID: -7209509891786390409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 4536
+        y: 7200
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 871412d4034535910800000000000000
+      internalID: 1824894840444371320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 7200
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbdf79e002c82e1c0800000000000000
+      internalID: -4475861010341167683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 5832
+        y: 7200
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2272e16c7198699a0800000000000000
+      internalID: -6226638699592014046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 7200
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e4434ea4fc21c470800000000000000
+      internalID: 8413055008312083687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6300
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b81c5a4d14d54e90800000000000000
+      internalID: -7041989220057212752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 6300
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1036fe2ebf4b6f630800000000000000
+      internalID: 3960551916256060161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 6300
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc1250d3ebffc8f80800000000000000
+      internalID: -8102820437013749301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 6300
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7457ea36eac35720800000000000000
+      internalID: 2833831680725701759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 6300
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a416e1aa16cd8b240800000000000000
+      internalID: 4807834914242060618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 6300
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ffeb4322ff67dbb0800000000000000
+      internalID: -4911333782859288584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 6300
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25dedb01a6f0764e0800000000000000
+      internalID: -1988603762238952110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 4536
+        y: 6300
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9e6418cac4d3e010800000000000000
+      internalID: 1217050291725430426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 6300
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21b7da63f211143c0800000000000000
+      internalID: -4377198468348937454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 5832
+        y: 6300
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcaf0c11a7c087090800000000000000
+      internalID: -8036659816619246901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 6300
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86556157405e331c0800000000000000
+      internalID: -4525021393270188696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5400
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b52a62a9f6d31c8d0800000000000000
+      internalID: -2827911541475073445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 5400
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be80bac5b0792c440800000000000000
+      internalID: 4954688615116114155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 5400
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbc91269c591ed890800000000000000
+      internalID: -7431474449668268869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 5400
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 123c5da89dcc4d220800000000000000
+      internalID: 2509856127061443361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 5400
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55859cb3745ed0e80800000000000000
+      internalID: -8210654451518056363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 5400
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c0d0c31a0e32e910800000000000000
+      internalID: 1865121408686805186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 5400
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe117ad5b93ee420800000000000000
+      internalID: 2661127883039252211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 4536
+        y: 5400
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40a07be97f6e6a210800000000000000
+      internalID: 1344015490010778116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 5400
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a448b1ecef575c10800000000000000
+      internalID: 2042206427039679657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 5832
+        y: 5400
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b713fe1d4a37cb80800000000000000
+      internalID: -8374660879166007369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 5400
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1035068208a83d30800000000000000
+      internalID: 4411460563801288734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4500
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e73320036c83bf1b0800000000000000
+      internalID: -5621837285981801602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 4500
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b42a50055557b0f0800000000000000
+      internalID: -1101317760302308174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 4500
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e9b523c889f5b350800000000000000
+      internalID: 6032001641717545449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 4500
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24f214e868dcd23c0800000000000000
+      internalID: -4382620884565676222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 4500
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8f5dc8827f4772f0800000000000000
+      internalID: -975223440962396277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 4500
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ecbe3477b0cdb2b0800000000000000
+      internalID: -5567081670198248221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 4500
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd769b7ce4d474ee0800000000000000
+      internalID: -1276966968582641700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 4536
+        y: 4500
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3136d7c1846b3d80800000000000000
+      internalID: -8269905782169521862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 4500
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97b89afe78a66c0a0800000000000000
+      internalID: -6861679850178376839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 5832
+        y: 4500
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26e5f3437b74ee110800000000000000
+      internalID: 1292048995283066466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 4500
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3360181f2a8b09d70800000000000000
+      internalID: 9047934661363303987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3600
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2343971e251251590800000000000000
+      internalID: -7704214947693513678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 3600
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31763a00e15610190800000000000000
+      internalID: -7998000283699157229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 3600
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ef2d629d903b0640800000000000000
+      internalID: 5047181260723400677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 3600
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 973d47cba65c6a450800000000000000
+      internalID: 6099779807538893689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 3600
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db5f004bef1b5d7b0800000000000000
+      internalID: -5200054487229598275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 3600
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9cc0b9008a25efa0800000000000000
+      internalID: -5772160617998660452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 3600
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 705179bfc7c8c7b00800000000000000
+      internalID: 827690899954144519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 4536
+        y: 3600
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 953a61ca6974df5b0800000000000000
+      internalID: -5333027671278967975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 3600
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44b34af781e0654e0800000000000000
+      internalID: -1993390286681392316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_64
+      rect:
+        serializedVersion: 2
+        x: 5832
+        y: 3600
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c753e2c5bae6422e0800000000000000
+      internalID: -2151473039711259268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_65
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 3600
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 015060014d5010ff0800000000000000
+      internalID: -71769710701181680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2700
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5abe7bba3646dd860800000000000000
+      internalID: 7556306129043057573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_67
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 2700
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a295f5b44943861f0800000000000000
+      internalID: -1051532701466666710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_68
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 2700
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8c792171250dae20800000000000000
+      internalID: 3363350137906232458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_69
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 2700
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 238f6bbcae184ee50800000000000000
+      internalID: 6837732979695351858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_70
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 2700
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c438f5fceeabe970800000000000000
+      internalID: 8785307830878483657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_71
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 2700
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 432142fda63a8bba0800000000000000
+      internalID: -6072924418103569868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_72
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 2700
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd28a1d1ae921f1b0800000000000000
+      internalID: -5624668374121676069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_73
+      rect:
+        serializedVersion: 2
+        x: 4536
+        y: 2700
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abb3a276c56aca2b0800000000000000
+      internalID: -5571895723166123078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_74
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 2700
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb591bb7a5feb7ec0800000000000000
+      internalID: -3567995107859655233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_75
+      rect:
+        serializedVersion: 2
+        x: 5832
+        y: 2700
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1f1325e602e18740800000000000000
+      internalID: 5152647967930523421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_76
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 2700
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa3c060eb2998910800000000000000
+      internalID: 1840163267600464554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1800
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3f0ed59dc01b7460800000000000000
+      internalID: 7240399301096902461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_78
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1800
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 786558b4e04012890800000000000000
+      internalID: -7484696646269970809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_79
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 1800
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c72d639cdbc74e000800000000000000
+      internalID: 64313449256505980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_80
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 1800
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 027db2bd8850ddbd0800000000000000
+      internalID: -2603918924199504096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_81
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 1800
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba080de76e5f28770800000000000000
+      internalID: 8611715807804686507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_82
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 1800
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b44a783d429c950800000000000000
+      internalID: 6469742830626818932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_83
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 1800
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f4ad50a648d86950800000000000000
+      internalID: 6442637064803296499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_84
+      rect:
+        serializedVersion: 2
+        x: 4536
+        y: 1800
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d7337658641133d0800000000000000
+      internalID: -3228777019488389165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_85
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 1800
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa4d4f9b5451ebe0800000000000000
+      internalID: -1449784852545189208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_86
+      rect:
+        serializedVersion: 2
+        x: 5832
+        y: 1800
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7c7bab419b69a5a0800000000000000
+      internalID: -6509553514603381636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_87
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 1800
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee07dc605dd78bdb0800000000000000
+      internalID: -4775929050930777874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a283b3cd42968bc50800000000000000
+      internalID: 6681205654238738474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_89
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 900
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36caa05b7701544f0800000000000000
+      internalID: -845251248737571741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_90
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 900
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7d3acd6877e95660800000000000000
+      internalID: 7375180369219960186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_91
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 900
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36be1d11ffe97b0b0800000000000000
+      internalID: -5712922783943365789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_92
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 900
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 577716fbeb3399b60800000000000000
+      internalID: 7753285127842658165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_93
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 900
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 450952a2f97fa37a0800000000000000
+      internalID: -6396528057747402668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_94
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 900
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 512f1551d00eaab10800000000000000
+      internalID: 1993652131861754389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_95
+      rect:
+        serializedVersion: 2
+        x: 4536
+        y: 900
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4abf2f95cdd005520800000000000000
+      internalID: 2688664217593248676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_96
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 900
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e662011e99c26cd20800000000000000
+      internalID: 3298372816513017454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_97
+      rect:
+        serializedVersion: 2
+        x: 5832
+        y: 900
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 702ab45e1cee03d30800000000000000
+      internalID: 4409286551738753543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_98
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 900
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c93c93425496e1d0800000000000000
+      internalID: -3321804594096621120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_99
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1648c2a32b60039e0800000000000000
+      internalID: -1643806501440289695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_100
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 0
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7bdd7bfc446126a0800000000000000
+      internalID: -6475784507382441094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_101
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 0
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f50fa919675c7fc0800000000000000
+      internalID: -3495823101832264205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSymbolComesUpSpriteSheet_102
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 0
+        width: 648
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3aedaa831dc667a0800000000000000
+      internalID: -6384189937936373186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 901d0c3a8ebe4449db7f8d8a5723f5f5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BlueSymbolComesUpSpriteSheet_0: -6423717022629757020
+      BlueSymbolComesUpSpriteSheet_1: -9201934837093301441
+      BlueSymbolComesUpSpriteSheet_10: 2999527947767760347
+      BlueSymbolComesUpSpriteSheet_100: -6475784507382441094
+      BlueSymbolComesUpSpriteSheet_101: -3495823101832264205
+      BlueSymbolComesUpSpriteSheet_102: -6384189937936373186
+      BlueSymbolComesUpSpriteSheet_11: -8375178893217407298
+      BlueSymbolComesUpSpriteSheet_12: 2015299826082657055
+      BlueSymbolComesUpSpriteSheet_13: -534112978928456661
+      BlueSymbolComesUpSpriteSheet_14: -3196150018254242368
+      BlueSymbolComesUpSpriteSheet_15: -1312646028287403827
+      BlueSymbolComesUpSpriteSheet_16: 8350720808281654516
+      BlueSymbolComesUpSpriteSheet_17: -7209509891786390409
+      BlueSymbolComesUpSpriteSheet_18: 1824894840444371320
+      BlueSymbolComesUpSpriteSheet_19: -4475861010341167683
+      BlueSymbolComesUpSpriteSheet_2: -8165895955672512
+      BlueSymbolComesUpSpriteSheet_20: -6226638699592014046
+      BlueSymbolComesUpSpriteSheet_21: 8413055008312083687
+      BlueSymbolComesUpSpriteSheet_22: -7041989220057212752
+      BlueSymbolComesUpSpriteSheet_23: 3960551916256060161
+      BlueSymbolComesUpSpriteSheet_24: -8102820437013749301
+      BlueSymbolComesUpSpriteSheet_25: 2833831680725701759
+      BlueSymbolComesUpSpriteSheet_26: 4807834914242060618
+      BlueSymbolComesUpSpriteSheet_27: -4911333782859288584
+      BlueSymbolComesUpSpriteSheet_28: -1988603762238952110
+      BlueSymbolComesUpSpriteSheet_29: 1217050291725430426
+      BlueSymbolComesUpSpriteSheet_3: -2645459294307207072
+      BlueSymbolComesUpSpriteSheet_30: -4377198468348937454
+      BlueSymbolComesUpSpriteSheet_31: -8036659816619246901
+      BlueSymbolComesUpSpriteSheet_32: -4525021393270188696
+      BlueSymbolComesUpSpriteSheet_33: -2827911541475073445
+      BlueSymbolComesUpSpriteSheet_34: 4954688615116114155
+      BlueSymbolComesUpSpriteSheet_35: -7431474449668268869
+      BlueSymbolComesUpSpriteSheet_36: 2509856127061443361
+      BlueSymbolComesUpSpriteSheet_37: -8210654451518056363
+      BlueSymbolComesUpSpriteSheet_38: 1865121408686805186
+      BlueSymbolComesUpSpriteSheet_39: 2661127883039252211
+      BlueSymbolComesUpSpriteSheet_4: 8401239526264274986
+      BlueSymbolComesUpSpriteSheet_40: 1344015490010778116
+      BlueSymbolComesUpSpriteSheet_41: 2042206427039679657
+      BlueSymbolComesUpSpriteSheet_42: -8374660879166007369
+      BlueSymbolComesUpSpriteSheet_43: 4411460563801288734
+      BlueSymbolComesUpSpriteSheet_44: -5621837285981801602
+      BlueSymbolComesUpSpriteSheet_45: -1101317760302308174
+      BlueSymbolComesUpSpriteSheet_46: 6032001641717545449
+      BlueSymbolComesUpSpriteSheet_47: -4382620884565676222
+      BlueSymbolComesUpSpriteSheet_48: -975223440962396277
+      BlueSymbolComesUpSpriteSheet_49: -5567081670198248221
+      BlueSymbolComesUpSpriteSheet_5: -5518503206952609452
+      BlueSymbolComesUpSpriteSheet_50: -1276966968582641700
+      BlueSymbolComesUpSpriteSheet_51: -8269905782169521862
+      BlueSymbolComesUpSpriteSheet_52: -6861679850178376839
+      BlueSymbolComesUpSpriteSheet_53: 1292048995283066466
+      BlueSymbolComesUpSpriteSheet_54: 9047934661363303987
+      BlueSymbolComesUpSpriteSheet_55: -7704214947693513678
+      BlueSymbolComesUpSpriteSheet_56: -7998000283699157229
+      BlueSymbolComesUpSpriteSheet_57: 5047181260723400677
+      BlueSymbolComesUpSpriteSheet_58: 6099779807538893689
+      BlueSymbolComesUpSpriteSheet_59: -5200054487229598275
+      BlueSymbolComesUpSpriteSheet_6: 821885914497957532
+      BlueSymbolComesUpSpriteSheet_60: -5772160617998660452
+      BlueSymbolComesUpSpriteSheet_61: 827690899954144519
+      BlueSymbolComesUpSpriteSheet_62: -5333027671278967975
+      BlueSymbolComesUpSpriteSheet_63: -1993390286681392316
+      BlueSymbolComesUpSpriteSheet_64: -2151473039711259268
+      BlueSymbolComesUpSpriteSheet_65: -71769710701181680
+      BlueSymbolComesUpSpriteSheet_66: 7556306129043057573
+      BlueSymbolComesUpSpriteSheet_67: -1051532701466666710
+      BlueSymbolComesUpSpriteSheet_68: 3363350137906232458
+      BlueSymbolComesUpSpriteSheet_69: 6837732979695351858
+      BlueSymbolComesUpSpriteSheet_7: -5012715190305877532
+      BlueSymbolComesUpSpriteSheet_70: 8785307830878483657
+      BlueSymbolComesUpSpriteSheet_71: -6072924418103569868
+      BlueSymbolComesUpSpriteSheet_72: -5624668374121676069
+      BlueSymbolComesUpSpriteSheet_73: -5571895723166123078
+      BlueSymbolComesUpSpriteSheet_74: -3567995107859655233
+      BlueSymbolComesUpSpriteSheet_75: 5152647967930523421
+      BlueSymbolComesUpSpriteSheet_76: 1840163267600464554
+      BlueSymbolComesUpSpriteSheet_77: 7240399301096902461
+      BlueSymbolComesUpSpriteSheet_78: -7484696646269970809
+      BlueSymbolComesUpSpriteSheet_79: 64313449256505980
+      BlueSymbolComesUpSpriteSheet_8: 4743933328431906255
+      BlueSymbolComesUpSpriteSheet_80: -2603918924199504096
+      BlueSymbolComesUpSpriteSheet_81: 8611715807804686507
+      BlueSymbolComesUpSpriteSheet_82: 6469742830626818932
+      BlueSymbolComesUpSpriteSheet_83: 6442637064803296499
+      BlueSymbolComesUpSpriteSheet_84: -3228777019488389165
+      BlueSymbolComesUpSpriteSheet_85: -1449784852545189208
+      BlueSymbolComesUpSpriteSheet_86: -6509553514603381636
+      BlueSymbolComesUpSpriteSheet_87: -4775929050930777874
+      BlueSymbolComesUpSpriteSheet_88: 6681205654238738474
+      BlueSymbolComesUpSpriteSheet_89: -845251248737571741
+      BlueSymbolComesUpSpriteSheet_9: -1462186001908908996
+      BlueSymbolComesUpSpriteSheet_90: 7375180369219960186
+      BlueSymbolComesUpSpriteSheet_91: -5712922783943365789
+      BlueSymbolComesUpSpriteSheet_92: 7753285127842658165
+      BlueSymbolComesUpSpriteSheet_93: -6396528057747402668
+      BlueSymbolComesUpSpriteSheet_94: 1993652131861754389
+      BlueSymbolComesUpSpriteSheet_95: 2688664217593248676
+      BlueSymbolComesUpSpriteSheet_96: 3298372816513017454
+      BlueSymbolComesUpSpriteSheet_97: 4409286551738753543
+      BlueSymbolComesUpSpriteSheet_98: -3321804594096621120
+      BlueSymbolComesUpSpriteSheet_99: -1643806501440289695
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

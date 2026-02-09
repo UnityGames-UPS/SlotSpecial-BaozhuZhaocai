@@ -1,0 +1,2328 @@
+fileFormatVersion: 2
+guid: 814b3ba600019408fbf50bc9af159cc0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5402719460756550549
+    second: RedSymbolComesUpSpriteSheet_0
+  - first:
+      213: -746923196110287867
+    second: RedSymbolComesUpSpriteSheet_1
+  - first:
+      213: -1923294645130903348
+    second: RedSymbolComesUpSpriteSheet_2
+  - first:
+      213: -5543952525899067239
+    second: RedSymbolComesUpSpriteSheet_3
+  - first:
+      213: -2275004286635563874
+    second: RedSymbolComesUpSpriteSheet_4
+  - first:
+      213: 10968355031208790
+    second: RedSymbolComesUpSpriteSheet_5
+  - first:
+      213: -5252850586861796110
+    second: RedSymbolComesUpSpriteSheet_6
+  - first:
+      213: 5137524245053394383
+    second: RedSymbolComesUpSpriteSheet_7
+  - first:
+      213: 462752326365644543
+    second: RedSymbolComesUpSpriteSheet_8
+  - first:
+      213: 2695652403361603476
+    second: RedSymbolComesUpSpriteSheet_9
+  - first:
+      213: -3312588512381050235
+    second: RedSymbolComesUpSpriteSheet_10
+  - first:
+      213: 5023523099342764853
+    second: RedSymbolComesUpSpriteSheet_11
+  - first:
+      213: 5929916748347092787
+    second: RedSymbolComesUpSpriteSheet_12
+  - first:
+      213: 135094639496971699
+    second: RedSymbolComesUpSpriteSheet_13
+  - first:
+      213: 7823772690861171133
+    second: RedSymbolComesUpSpriteSheet_14
+  - first:
+      213: 4895645259358904109
+    second: RedSymbolComesUpSpriteSheet_15
+  - first:
+      213: 3539752958983940741
+    second: RedSymbolComesUpSpriteSheet_16
+  - first:
+      213: -106580426452133638
+    second: RedSymbolComesUpSpriteSheet_17
+  - first:
+      213: 2289004656364426262
+    second: RedSymbolComesUpSpriteSheet_18
+  - first:
+      213: -5023544862496230215
+    second: RedSymbolComesUpSpriteSheet_19
+  - first:
+      213: 8369078117434349514
+    second: RedSymbolComesUpSpriteSheet_20
+  - first:
+      213: -3585724491107243280
+    second: RedSymbolComesUpSpriteSheet_21
+  - first:
+      213: 8898096114915430206
+    second: RedSymbolComesUpSpriteSheet_22
+  - first:
+      213: -1651941884165573931
+    second: RedSymbolComesUpSpriteSheet_23
+  - first:
+      213: -1962716174180622832
+    second: RedSymbolComesUpSpriteSheet_24
+  - first:
+      213: 2826301584254967032
+    second: RedSymbolComesUpSpriteSheet_25
+  - first:
+      213: -1550940633110350513
+    second: RedSymbolComesUpSpriteSheet_26
+  - first:
+      213: 7960625002717774564
+    second: RedSymbolComesUpSpriteSheet_27
+  - first:
+      213: -2784245415079308542
+    second: RedSymbolComesUpSpriteSheet_28
+  - first:
+      213: -9147860906364879879
+    second: RedSymbolComesUpSpriteSheet_29
+  - first:
+      213: -8816608666267011058
+    second: RedSymbolComesUpSpriteSheet_30
+  - first:
+      213: 3634349161241748084
+    second: RedSymbolComesUpSpriteSheet_31
+  - first:
+      213: 8025715963933519857
+    second: RedSymbolComesUpSpriteSheet_32
+  - first:
+      213: -1081923787416169392
+    second: RedSymbolComesUpSpriteSheet_33
+  - first:
+      213: 5574738472270723871
+    second: RedSymbolComesUpSpriteSheet_34
+  - first:
+      213: -2984169480626973601
+    second: RedSymbolComesUpSpriteSheet_35
+  - first:
+      213: 7858898584584627477
+    second: RedSymbolComesUpSpriteSheet_36
+  - first:
+      213: 6439151630215343873
+    second: RedSymbolComesUpSpriteSheet_37
+  - first:
+      213: -5125784863284536631
+    second: RedSymbolComesUpSpriteSheet_38
+  - first:
+      213: 5640772759215641265
+    second: RedSymbolComesUpSpriteSheet_39
+  - first:
+      213: 990616526216151992
+    second: RedSymbolComesUpSpriteSheet_40
+  - first:
+      213: -5235976883418715349
+    second: RedSymbolComesUpSpriteSheet_41
+  - first:
+      213: -349961020396307947
+    second: RedSymbolComesUpSpriteSheet_42
+  - first:
+      213: -6087860320436376112
+    second: RedSymbolComesUpSpriteSheet_43
+  - first:
+      213: 8072082242382921286
+    second: RedSymbolComesUpSpriteSheet_44
+  - first:
+      213: -8750135247675800933
+    second: RedSymbolComesUpSpriteSheet_45
+  - first:
+      213: 4770049383205436448
+    second: RedSymbolComesUpSpriteSheet_46
+  - first:
+      213: 1396421599743381486
+    second: RedSymbolComesUpSpriteSheet_47
+  - first:
+      213: -3708756699786587612
+    second: RedSymbolComesUpSpriteSheet_48
+  - first:
+      213: 4456343393069658174
+    second: RedSymbolComesUpSpriteSheet_49
+  - first:
+      213: 2833063861129553146
+    second: RedSymbolComesUpSpriteSheet_50
+  - first:
+      213: 3559408706963066750
+    second: RedSymbolComesUpSpriteSheet_51
+  - first:
+      213: -5523738333984662051
+    second: RedSymbolComesUpSpriteSheet_52
+  - first:
+      213: 1241111687498975194
+    second: RedSymbolComesUpSpriteSheet_53
+  - first:
+      213: 5225141516819135118
+    second: RedSymbolComesUpSpriteSheet_54
+  - first:
+      213: -421214735737605670
+    second: RedSymbolComesUpSpriteSheet_55
+  - first:
+      213: -8122991711647167593
+    second: RedSymbolComesUpSpriteSheet_56
+  - first:
+      213: 5173567326005242321
+    second: RedSymbolComesUpSpriteSheet_57
+  - first:
+      213: -7038735823557873940
+    second: RedSymbolComesUpSpriteSheet_58
+  - first:
+      213: -6392237903232589369
+    second: RedSymbolComesUpSpriteSheet_59
+  - first:
+      213: -7844567781579127801
+    second: RedSymbolComesUpSpriteSheet_60
+  - first:
+      213: 496357598151063904
+    second: RedSymbolComesUpSpriteSheet_61
+  - first:
+      213: -361217045685404874
+    second: RedSymbolComesUpSpriteSheet_62
+  - first:
+      213: -1027591295656502607
+    second: RedSymbolComesUpSpriteSheet_63
+  - first:
+      213: -2086874981316821415
+    second: RedSymbolComesUpSpriteSheet_64
+  - first:
+      213: -679005101454888490
+    second: RedSymbolComesUpSpriteSheet_65
+  - first:
+      213: -9140946239067374229
+    second: RedSymbolComesUpSpriteSheet_66
+  - first:
+      213: -3857997211693287483
+    second: RedSymbolComesUpSpriteSheet_67
+  - first:
+      213: 4399651469799342172
+    second: RedSymbolComesUpSpriteSheet_68
+  - first:
+      213: -3617790387817418165
+    second: RedSymbolComesUpSpriteSheet_69
+  - first:
+      213: -7940189185299283255
+    second: RedSymbolComesUpSpriteSheet_70
+  - first:
+      213: -2671247314046316258
+    second: RedSymbolComesUpSpriteSheet_71
+  - first:
+      213: -248267431582055601
+    second: RedSymbolComesUpSpriteSheet_72
+  - first:
+      213: 7831454446928699433
+    second: RedSymbolComesUpSpriteSheet_73
+  - first:
+      213: 3660264917105612315
+    second: RedSymbolComesUpSpriteSheet_74
+  - first:
+      213: -612618373900701740
+    second: RedSymbolComesUpSpriteSheet_75
+  - first:
+      213: -4287809984488751084
+    second: RedSymbolComesUpSpriteSheet_76
+  - first:
+      213: -7327642460775728928
+    second: RedSymbolComesUpSpriteSheet_77
+  - first:
+      213: -5400443160360504738
+    second: RedSymbolComesUpSpriteSheet_78
+  - first:
+      213: 2005990584060913047
+    second: RedSymbolComesUpSpriteSheet_79
+  - first:
+      213: 6274609689833958583
+    second: RedSymbolComesUpSpriteSheet_80
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 6480
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 593fb7789b05afa40800000000000000
+      internalID: 5402719460756550549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 6480
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50cc85d7f4562a5f0800000000000000
+      internalID: -746923196110287867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 6480
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc0cf86d5b51f45e0800000000000000
+      internalID: -1923294645130903348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 6480
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99018220d8cef03b0800000000000000
+      internalID: -5543952525899067239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 6480
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e94a890a7af8d60e0800000000000000
+      internalID: -2275004286635563874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 6480
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 653d76929a7f62000800000000000000
+      internalID: 10968355031208790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 4536
+        y: 6480
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f486e7d8302a17b0800000000000000
+      internalID: -5252850586861796110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 6480
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcd4d53c4172c4740800000000000000
+      internalID: 5137524245053394383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 5832
+        y: 6480
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff682000ac60c6600800000000000000
+      internalID: 462752326365644543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5670
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49fdb442491e86520800000000000000
+      internalID: 2695652403361603476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 5670
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 582ec708c425702d0800000000000000
+      internalID: -3312588512381050235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 5670
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53b7b41a4a327b540800000000000000
+      internalID: 5023523099342764853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 5670
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f2ed45ddb4b4250800000000000000
+      internalID: 5929916748347092787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 5670
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b5c64edbd3ffd100800000000000000
+      internalID: 135094639496971699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 5670
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db1ae2a6fcf939c60800000000000000
+      internalID: 7823772690861171133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 5670
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2f9966dc63d0f340800000000000000
+      internalID: 4895645259358904109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 4536
+        y: 5670
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58a20e0df8abf1130800000000000000
+      internalID: 3539752958983940741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 5670
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af89f45baa9558ef0800000000000000
+      internalID: -106580426452133638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 5832
+        y: 5670
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61411d77b9d24cf10800000000000000
+      internalID: 2289004656364426262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4860
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b47cad3098c84ab0800000000000000
+      internalID: -5023544862496230215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 4860
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac75b2fd430f42470800000000000000
+      internalID: 8369078117434349514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 4860
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fa6225c292fc3ec0800000000000000
+      internalID: -3585724491107243280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 4860
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3f41dab5436c7b70800000000000000
+      internalID: 8898096114915430206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 4860
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d2b8b4db9f1319e0800000000000000
+      internalID: -1651941884165573931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 4860
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01edc0bd90803c4e0800000000000000
+      internalID: -1962716174180622832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 4860
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc14a5015a093720800000000000000
+      internalID: 2826301584254967032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 4536
+        y: 4860
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f45fcbf16b3f97ae0800000000000000
+      internalID: -1550940633110350513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 4860
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e206154342d97e60800000000000000
+      internalID: 7960625002717774564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 5832
+        y: 4860
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20310baeb8f5c59d0800000000000000
+      internalID: -2784245415079308542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4050
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fb307d19f44c0180800000000000000
+      internalID: -9147860906364879879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 4050
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e083683612d15a580800000000000000
+      internalID: -8816608666267011058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 4050
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 472ad897e4dcf6230800000000000000
+      internalID: 3634349161241748084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 4050
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ff607aa522116f60800000000000000
+      internalID: 8025715963933519857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 4050
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05493013c0c3cf0f0800000000000000
+      internalID: -1081923787416169392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 4050
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1b7663ba137d5d40800000000000000
+      internalID: 5574738472270723871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 4050
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f54daad0ba91696d0800000000000000
+      internalID: -2984169480626973601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 4536
+        y: 4050
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 515acfbdf9a601d60800000000000000
+      internalID: 7858898584584627477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 4050
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10fecd5aa467c5950800000000000000
+      internalID: 6439151630215343873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 5832
+        y: 4050
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cad9dc03dd8dd8b0800000000000000
+      internalID: -5125784863284536631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3240
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b29fbb30fc084e40800000000000000
+      internalID: 5640772759215641265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 3240
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b3ceb96b706fbd00800000000000000
+      internalID: 990616526216151992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 3240
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2baba314c21657b0800000000000000
+      internalID: -5235976883418715349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 3240
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51a7b0e5e40b42bf0800000000000000
+      internalID: -349961020396307947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 3240
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dda13e1b43938ba0800000000000000
+      internalID: -6087860320436376112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 3240
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64ef8fe180cc50070800000000000000
+      internalID: 8072082242382921286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 3240
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b92c8a93a56419680800000000000000
+      internalID: -8750135247675800933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 4536
+        y: 3240
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02cf70724ae923240800000000000000
+      internalID: 4770049383205436448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 3240
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eef0361eb06116310800000000000000
+      internalID: 1396421599743381486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 5832
+        y: 3240
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 422dede6e69d78cc0800000000000000
+      internalID: -3708756699786587612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2430
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e30731d84bc18dd30800000000000000
+      internalID: 4456343393069658174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 2430
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af4af9c4290115720800000000000000
+      internalID: 2833063861129553146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 2430
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7f47f44c5f856130800000000000000
+      internalID: 3559408706963066750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 2430
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dddd2a2504db753b0800000000000000
+      internalID: -5523738333984662051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 2430
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad746fb0180593110800000000000000
+      internalID: 1241111687498975194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 2430
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8a762b868e638840800000000000000
+      internalID: 5225141516819135118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 2430
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad13336fd6b872af0800000000000000
+      internalID: -421214735737605670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 4536
+        y: 2430
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79b04d16316554f80800000000000000
+      internalID: -8122991711647167593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 2430
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d92c1082143cc740800000000000000
+      internalID: 5173567326005242321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 5832
+        y: 2430
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cee2401bf03615e90800000000000000
+      internalID: -7038735823557873940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1620
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c1a80a9e753a47a0800000000000000
+      internalID: -6392237903232589369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1620
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 704808a3a2f722390800000000000000
+      internalID: -7844567781579127801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 1620
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0693c5f0b9a63e600800000000000000
+      internalID: 496357598151063904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 1620
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63bfa11c203bcfaf0800000000000000
+      internalID: -361217045685404874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 1620
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba5c1839234db1f0800000000000000
+      internalID: -1027591295656502607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_64
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 1620
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95ef5ffd24ee903e0800000000000000
+      internalID: -2086874981316821415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_65
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 1620
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d17a1f2570b396f0800000000000000
+      internalID: -679005101454888490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_66
+      rect:
+        serializedVersion: 2
+        x: 4536
+        y: 1620
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6d327d83d5d42180800000000000000
+      internalID: -9140946239067374229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_67
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 1620
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c7f29cf9f3a57ac0800000000000000
+      internalID: -3857997211693287483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_68
+      rect:
+        serializedVersion: 2
+        x: 5832
+        y: 1620
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c504ae093b3be0d30800000000000000
+      internalID: 4399651469799342172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 810
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b42f1566fc60bcdc0800000000000000
+      internalID: -3617790387817418165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_70
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 810
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c286d04108cec190800000000000000
+      internalID: -7940189185299283255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_71
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 810
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e119d0388b2ddead0800000000000000
+      internalID: -2671247314046316258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_72
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 810
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f43c04b161afd8cf0800000000000000
+      internalID: -248267431582055601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_73
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 810
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 920a6df935aeeac60800000000000000
+      internalID: 7831454446928699433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_74
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 810
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1697e79c8fdbc230800000000000000
+      internalID: 3660264917105612315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_75
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 810
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4df65c0b5da8f77f0800000000000000
+      internalID: -612618373900701740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_76
+      rect:
+        serializedVersion: 2
+        x: 4536
+        y: 810
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 410cc227983ae74c0800000000000000
+      internalID: -4287809984488751084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_77
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 810
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e8b464610cfe4a90800000000000000
+      internalID: -7327642460775728928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_78
+      rect:
+        serializedVersion: 2
+        x: 5832
+        y: 810
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e523605fe85cd05b0800000000000000
+      internalID: -5400443160360504738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_79
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 795aab9dec5b6db10800000000000000
+      internalID: 2005990584060913047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_80
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 0
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bce6c2c444e31750800000000000000
+      internalID: 6274609689833958583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_81
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 0
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b785d3279d54306a65bc3c4f63ded5
+      internalID: -2118556117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_82
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 0
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a731e4f4891534a72a45b3b312ccb2d5
+      internalID: -264896479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_83
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 0
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266db45846bd2408aa8b648f69ffc109
+      internalID: -971465174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSymbolComesUpSpriteSheet_84
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 0
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d482c6a006c07442b85d34676d3fc6ac
+      internalID: -1361595472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 16ee57ccf52af4391a7ca189ac13bd16
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RedSymbolComesUpSpriteSheet_0: 5402719460756550549
+      RedSymbolComesUpSpriteSheet_1: -746923196110287867
+      RedSymbolComesUpSpriteSheet_10: -3312588512381050235
+      RedSymbolComesUpSpriteSheet_11: 5023523099342764853
+      RedSymbolComesUpSpriteSheet_12: 5929916748347092787
+      RedSymbolComesUpSpriteSheet_13: 135094639496971699
+      RedSymbolComesUpSpriteSheet_14: 7823772690861171133
+      RedSymbolComesUpSpriteSheet_15: 4895645259358904109
+      RedSymbolComesUpSpriteSheet_16: 3539752958983940741
+      RedSymbolComesUpSpriteSheet_17: -106580426452133638
+      RedSymbolComesUpSpriteSheet_18: 2289004656364426262
+      RedSymbolComesUpSpriteSheet_19: -5023544862496230215
+      RedSymbolComesUpSpriteSheet_2: -1923294645130903348
+      RedSymbolComesUpSpriteSheet_20: 8369078117434349514
+      RedSymbolComesUpSpriteSheet_21: -3585724491107243280
+      RedSymbolComesUpSpriteSheet_22: 8898096114915430206
+      RedSymbolComesUpSpriteSheet_23: -1651941884165573931
+      RedSymbolComesUpSpriteSheet_24: -1962716174180622832
+      RedSymbolComesUpSpriteSheet_25: 2826301584254967032
+      RedSymbolComesUpSpriteSheet_26: -1550940633110350513
+      RedSymbolComesUpSpriteSheet_27: 7960625002717774564
+      RedSymbolComesUpSpriteSheet_28: -2784245415079308542
+      RedSymbolComesUpSpriteSheet_29: -9147860906364879879
+      RedSymbolComesUpSpriteSheet_3: -5543952525899067239
+      RedSymbolComesUpSpriteSheet_30: -8816608666267011058
+      RedSymbolComesUpSpriteSheet_31: 3634349161241748084
+      RedSymbolComesUpSpriteSheet_32: 8025715963933519857
+      RedSymbolComesUpSpriteSheet_33: -1081923787416169392
+      RedSymbolComesUpSpriteSheet_34: 5574738472270723871
+      RedSymbolComesUpSpriteSheet_35: -2984169480626973601
+      RedSymbolComesUpSpriteSheet_36: 7858898584584627477
+      RedSymbolComesUpSpriteSheet_37: 6439151630215343873
+      RedSymbolComesUpSpriteSheet_38: -5125784863284536631
+      RedSymbolComesUpSpriteSheet_39: 5640772759215641265
+      RedSymbolComesUpSpriteSheet_4: -2275004286635563874
+      RedSymbolComesUpSpriteSheet_40: 990616526216151992
+      RedSymbolComesUpSpriteSheet_41: -5235976883418715349
+      RedSymbolComesUpSpriteSheet_42: -349961020396307947
+      RedSymbolComesUpSpriteSheet_43: -6087860320436376112
+      RedSymbolComesUpSpriteSheet_44: 8072082242382921286
+      RedSymbolComesUpSpriteSheet_45: -8750135247675800933
+      RedSymbolComesUpSpriteSheet_46: 4770049383205436448
+      RedSymbolComesUpSpriteSheet_47: 1396421599743381486
+      RedSymbolComesUpSpriteSheet_48: -3708756699786587612
+      RedSymbolComesUpSpriteSheet_49: 4456343393069658174
+      RedSymbolComesUpSpriteSheet_5: 10968355031208790
+      RedSymbolComesUpSpriteSheet_50: 2833063861129553146
+      RedSymbolComesUpSpriteSheet_51: 3559408706963066750
+      RedSymbolComesUpSpriteSheet_52: -5523738333984662051
+      RedSymbolComesUpSpriteSheet_53: 1241111687498975194
+      RedSymbolComesUpSpriteSheet_54: 5225141516819135118
+      RedSymbolComesUpSpriteSheet_55: -421214735737605670
+      RedSymbolComesUpSpriteSheet_56: -8122991711647167593
+      RedSymbolComesUpSpriteSheet_57: 5173567326005242321
+      RedSymbolComesUpSpriteSheet_58: -7038735823557873940
+      RedSymbolComesUpSpriteSheet_59: -6392237903232589369
+      RedSymbolComesUpSpriteSheet_6: -5252850586861796110
+      RedSymbolComesUpSpriteSheet_60: -7844567781579127801
+      RedSymbolComesUpSpriteSheet_61: 496357598151063904
+      RedSymbolComesUpSpriteSheet_62: -361217045685404874
+      RedSymbolComesUpSpriteSheet_63: -1027591295656502607
+      RedSymbolComesUpSpriteSheet_64: -2086874981316821415
+      RedSymbolComesUpSpriteSheet_65: -679005101454888490
+      RedSymbolComesUpSpriteSheet_66: -9140946239067374229
+      RedSymbolComesUpSpriteSheet_67: -3857997211693287483
+      RedSymbolComesUpSpriteSheet_68: 4399651469799342172
+      RedSymbolComesUpSpriteSheet_69: -3617790387817418165
+      RedSymbolComesUpSpriteSheet_7: 5137524245053394383
+      RedSymbolComesUpSpriteSheet_70: -7940189185299283255
+      RedSymbolComesUpSpriteSheet_71: -2671247314046316258
+      RedSymbolComesUpSpriteSheet_72: -248267431582055601
+      RedSymbolComesUpSpriteSheet_73: 7831454446928699433
+      RedSymbolComesUpSpriteSheet_74: 3660264917105612315
+      RedSymbolComesUpSpriteSheet_75: -612618373900701740
+      RedSymbolComesUpSpriteSheet_76: -4287809984488751084
+      RedSymbolComesUpSpriteSheet_77: -7327642460775728928
+      RedSymbolComesUpSpriteSheet_78: -5400443160360504738
+      RedSymbolComesUpSpriteSheet_79: 2005990584060913047
+      RedSymbolComesUpSpriteSheet_8: 462752326365644543
+      RedSymbolComesUpSpriteSheet_80: 6274609689833958583
+      RedSymbolComesUpSpriteSheet_81: -2118556117
+      RedSymbolComesUpSpriteSheet_82: -264896479
+      RedSymbolComesUpSpriteSheet_83: -971465174
+      RedSymbolComesUpSpriteSheet_84: -1361595472
+      RedSymbolComesUpSpriteSheet_9: 2695652403361603476
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

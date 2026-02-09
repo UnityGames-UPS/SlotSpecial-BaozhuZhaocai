@@ -1,0 +1,1172 @@
+fileFormatVersion: 2
+guid: 1d66cd42faf094df1a8df899ec9b5690
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1623701344970892356
+    second: GreenCrackerBlastSpriteSheet_0
+  - first:
+      213: -4202787303746047376
+    second: GreenCrackerBlastSpriteSheet_1
+  - first:
+      213: 431801318362232387
+    second: GreenCrackerBlastSpriteSheet_2
+  - first:
+      213: 1568827938744203539
+    second: GreenCrackerBlastSpriteSheet_3
+  - first:
+      213: 3613711692448409099
+    second: GreenCrackerBlastSpriteSheet_4
+  - first:
+      213: 8174752993644948554
+    second: GreenCrackerBlastSpriteSheet_5
+  - first:
+      213: 7795230292740388260
+    second: GreenCrackerBlastSpriteSheet_6
+  - first:
+      213: -8450586934306375318
+    second: GreenCrackerBlastSpriteSheet_7
+  - first:
+      213: 5926208820869505923
+    second: GreenCrackerBlastSpriteSheet_8
+  - first:
+      213: -2259425443845203584
+    second: GreenCrackerBlastSpriteSheet_9
+  - first:
+      213: 7056418372195080388
+    second: GreenCrackerBlastSpriteSheet_10
+  - first:
+      213: -3804881121566727356
+    second: GreenCrackerBlastSpriteSheet_11
+  - first:
+      213: -1826737923482469683
+    second: GreenCrackerBlastSpriteSheet_12
+  - first:
+      213: 2240538922751767684
+    second: GreenCrackerBlastSpriteSheet_13
+  - first:
+      213: -6755785624322679623
+    second: GreenCrackerBlastSpriteSheet_14
+  - first:
+      213: -8074281367508217324
+    second: GreenCrackerBlastSpriteSheet_15
+  - first:
+      213: 1829891243381487530
+    second: GreenCrackerBlastSpriteSheet_16
+  - first:
+      213: 7098004103641533125
+    second: GreenCrackerBlastSpriteSheet_17
+  - first:
+      213: -5626629164577269724
+    second: GreenCrackerBlastSpriteSheet_18
+  - first:
+      213: -6207463083174609745
+    second: GreenCrackerBlastSpriteSheet_19
+  - first:
+      213: 7395097891461222925
+    second: GreenCrackerBlastSpriteSheet_20
+  - first:
+      213: 9205865119456941079
+    second: GreenCrackerBlastSpriteSheet_21
+  - first:
+      213: 1113287566359272413
+    second: GreenCrackerBlastSpriteSheet_22
+  - first:
+      213: 6124264048249731555
+    second: GreenCrackerBlastSpriteSheet_23
+  - first:
+      213: -4369386180968669995
+    second: GreenCrackerBlastSpriteSheet_24
+  - first:
+      213: -629556082285013207
+    second: GreenCrackerBlastSpriteSheet_25
+  - first:
+      213: 1372899082317107242
+    second: GreenCrackerBlastSpriteSheet_26
+  - first:
+      213: -6369306067239072967
+    second: GreenCrackerBlastSpriteSheet_27
+  - first:
+      213: 3986813800528496635
+    second: GreenCrackerBlastSpriteSheet_28
+  - first:
+      213: 1459956905950713686
+    second: GreenCrackerBlastSpriteSheet_29
+  - first:
+      213: 2318965131161593436
+    second: GreenCrackerBlastSpriteSheet_30
+  - first:
+      213: -3785652049405683954
+    second: GreenCrackerBlastSpriteSheet_31
+  - first:
+      213: 2620103824922030191
+    second: GreenCrackerBlastSpriteSheet_32
+  - first:
+      213: -3032777462604958420
+    second: GreenCrackerBlastSpriteSheet_33
+  - first:
+      213: -1923678293227050215
+    second: GreenCrackerBlastSpriteSheet_34
+  - first:
+      213: -1685127428410460611
+    second: GreenCrackerBlastSpriteSheet_35
+  - first:
+      213: -636455326606434110
+    second: GreenCrackerBlastSpriteSheet_36
+  - first:
+      213: 3383127557612123006
+    second: GreenCrackerBlastSpriteSheet_37
+  - first:
+      213: 5978675168599070088
+    second: GreenCrackerBlastSpriteSheet_38
+  - first:
+      213: 2498776311267459748
+    second: GreenCrackerBlastSpriteSheet_39
+  - first:
+      213: 4774925526548295270
+    second: GreenCrackerBlastSpriteSheet_40
+  - first:
+      213: -4423480853237227503
+    second: GreenCrackerBlastSpriteSheet_41
+  - first:
+      213: 870777281902770757
+    second: GreenCrackerBlastSpriteSheet_42
+  - first:
+      213: 3248610698297039904
+    second: GreenCrackerBlastSpriteSheet_43
+  - first:
+      213: -7794728070382682641
+    second: GreenCrackerBlastSpriteSheet_44
+  - first:
+      213: 4854617870566540760
+    second: GreenCrackerBlastSpriteSheet_45
+  - first:
+      213: 8818122715990793944
+    second: GreenCrackerBlastSpriteSheet_46
+  - first:
+      213: -2298983776221891365
+    second: GreenCrackerBlastSpriteSheet_47
+  - first:
+      213: 6655189408181232710
+    second: GreenCrackerBlastSpriteSheet_48
+  - first:
+      213: -2519547620645686626
+    second: GreenCrackerBlastSpriteSheet_49
+  - first:
+      213: 2453252775438714435
+    second: GreenCrackerBlastSpriteSheet_50
+  - first:
+      213: 5140129875267894906
+    second: GreenCrackerBlastSpriteSheet_51
+  - first:
+      213: 6695601754434499860
+    second: GreenCrackerBlastSpriteSheet_52
+  - first:
+      213: 1219629855063160150
+    second: GreenCrackerBlastSpriteSheet_53
+  - first:
+      213: -7053720473075474870
+    second: GreenCrackerBlastSpriteSheet_54
+  - first:
+      213: -1255029916663022537
+    second: GreenCrackerBlastSpriteSheet_55
+  - first:
+      213: -3088119731118488626
+    second: GreenCrackerBlastSpriteSheet_56
+  - first:
+      213: 683854468568747032
+    second: GreenCrackerBlastSpriteSheet_57
+  - first:
+      213: -8580613030960263734
+    second: GreenCrackerBlastSpriteSheet_58
+  - first:
+      213: 7543440875334595770
+    second: GreenCrackerBlastSpriteSheet_59
+  - first:
+      213: -5474572172213411306
+    second: GreenCrackerBlastSpriteSheet_60
+  - first:
+      213: -5253279624005583353
+    second: GreenCrackerBlastSpriteSheet_61
+  - first:
+      213: 7308214128309821084
+    second: GreenCrackerBlastSpriteSheet_62
+  - first:
+      213: 9222180344730212584
+    second: GreenCrackerBlastSpriteSheet_63
+  - first:
+      213: -4717411924799501580
+    second: GreenCrackerBlastSpriteSheet_64
+  - first:
+      213: 2811804173498002383
+    second: GreenCrackerBlastSpriteSheet_65
+  - first:
+      213: 544428863624636155
+    second: GreenCrackerBlastSpriteSheet_66
+  - first:
+      213: -497490305222152178
+    second: GreenCrackerBlastSpriteSheet_67
+  - first:
+      213: 8265535663904483323
+    second: GreenCrackerBlastSpriteSheet_68
+  - first:
+      213: 6954401788744631256
+    second: GreenCrackerBlastSpriteSheet_69
+  - first:
+      213: -8732150999984943306
+    second: GreenCrackerBlastSpriteSheet_70
+  - first:
+      213: -8746742111664280080
+    second: GreenCrackerBlastSpriteSheet_71
+  - first:
+      213: 6493196231228980627
+    second: GreenCrackerBlastSpriteSheet_72
+  - first:
+      213: 8406214740647179892
+    second: GreenCrackerBlastSpriteSheet_73
+  - first:
+      213: 6311117299177003155
+    second: GreenCrackerBlastSpriteSheet_74
+  - first:
+      213: 8125551760078546662
+    second: GreenCrackerBlastSpriteSheet_75
+  - first:
+      213: 7650418137056337761
+    second: GreenCrackerBlastSpriteSheet_76
+  - first:
+      213: 4212985639295182381
+    second: GreenCrackerBlastSpriteSheet_77
+  - first:
+      213: -2665390483583907026
+    second: GreenCrackerBlastSpriteSheet_78
+  - first:
+      213: -4330631769902892869
+    second: GreenCrackerBlastSpriteSheet_79
+  - first:
+      213: -7673073407671374393
+    second: GreenCrackerBlastSpriteSheet_80
+  - first:
+      213: -8673526591728809973
+    second: GreenCrackerBlastSpriteSheet_81
+  - first:
+      213: 2100997529721302293
+    second: GreenCrackerBlastSpriteSheet_82
+  - first:
+      213: -8761534990516810358
+    second: GreenCrackerBlastSpriteSheet_83
+  - first:
+      213: 5399752686795388366
+    second: GreenCrackerBlastSpriteSheet_84
+  - first:
+      213: 6774768274526919475
+    second: GreenCrackerBlastSpriteSheet_85
+  - first:
+      213: -4826486775420454812
+    second: GreenCrackerBlastSpriteSheet_86
+  - first:
+      213: -5800333578134020591
+    second: GreenCrackerBlastSpriteSheet_87
+  - first:
+      213: -1687082803490795310
+    second: GreenCrackerBlastSpriteSheet_88
+  - first:
+      213: 5212424001875413106
+    second: GreenCrackerBlastSpriteSheet_89
+  - first:
+      213: 5225694923453349521
+    second: GreenCrackerBlastSpriteSheet_90
+  - first:
+      213: 3165879270706894982
+    second: GreenCrackerBlastSpriteSheet_91
+  - first:
+      213: 3805394948216743609
+    second: GreenCrackerBlastSpriteSheet_92
+  - first:
+      213: 7979676365631489375
+    second: GreenCrackerBlastSpriteSheet_93
+  - first:
+      213: 5671658042319826235
+    second: GreenCrackerBlastSpriteSheet_94
+  - first:
+      213: 794216877821926001
+    second: GreenCrackerBlastSpriteSheet_95
+  - first:
+      213: -3502649848593573379
+    second: GreenCrackerBlastSpriteSheet_96
+  - first:
+      213: -7340924708924650395
+    second: GreenCrackerBlastSpriteSheet_97
+  - first:
+      213: 1559033161635125674
+    second: GreenCrackerBlastSpriteSheet_98
+  - first:
+      213: -4191939082770623662
+    second: GreenCrackerBlastSpriteSheet_99
+  - first:
+      213: 4694172960113974448
+    second: GreenCrackerBlastSpriteSheet_100
+  - first:
+      213: 9157857678705537807
+    second: GreenCrackerBlastSpriteSheet_101
+  - first:
+      213: -5479982201041881622
+    second: GreenCrackerBlastSpriteSheet_102
+  - first:
+      213: 3105971079818697725
+    second: GreenCrackerBlastSpriteSheet_103
+  - first:
+      213: 866461837654701160
+    second: GreenCrackerBlastSpriteSheet_104
+  - first:
+      213: 9081380590543586633
+    second: GreenCrackerBlastSpriteSheet_105
+  - first:
+      213: -3124124951674012048
+    second: GreenCrackerBlastSpriteSheet_106
+  - first:
+      213: 1650180889009409955
+    second: GreenCrackerBlastSpriteSheet_107
+  - first:
+      213: -2853248862492416877
+    second: GreenCrackerBlastSpriteSheet_108
+  - first:
+      213: 7048059320577673900
+    second: GreenCrackerBlastSpriteSheet_109
+  - first:
+      213: 6158857770421702308
+    second: GreenCrackerBlastSpriteSheet_110
+  - first:
+      213: -7605568855216444891
+    second: GreenCrackerBlastSpriteSheet_111
+  - first:
+      213: 4180934715918132906
+    second: GreenCrackerBlastSpriteSheet_112
+  - first:
+      213: 2241136081109292940
+    second: GreenCrackerBlastSpriteSheet_113
+  - first:
+      213: -4904663202933248401
+    second: GreenCrackerBlastSpriteSheet_114
+  - first:
+      213: -5298147817530325936
+    second: GreenCrackerBlastSpriteSheet_115
+  - first:
+      213: -4409807198303788958
+    second: GreenCrackerBlastSpriteSheet_116
+  - first:
+      213: 1290755288218564329
+    second: GreenCrackerBlastSpriteSheet_117
+  - first:
+      213: -2981097280903076431
+    second: GreenCrackerBlastSpriteSheet_118
+  - first:
+      213: 8236340405385002425
+    second: GreenCrackerBlastSpriteSheet_119
+  - first:
+      213: -8877752598801541563
+    second: GreenCrackerBlastSpriteSheet_120
+  - first:
+      213: -8466178093403815341
+    second: GreenCrackerBlastSpriteSheet_121
+  - first:
+      213: -8267216539008434879
+    second: GreenCrackerBlastSpriteSheet_122
+  - first:
+      213: 1113745992220686358
+    second: GreenCrackerBlastSpriteSheet_123
+  - first:
+      213: -5042611669686891218
+    second: GreenCrackerBlastSpriteSheet_124
+  - first:
+      213: -6736681235173575522
+    second: GreenCrackerBlastSpriteSheet_125
+  - first:
+      213: 8038339599170963783
+    second: GreenCrackerBlastSpriteSheet_126
+  - first:
+      213: 7483489598663420924
+    second: GreenCrackerBlastSpriteSheet_127
+  - first:
+      213: 6430318899255980459
+    second: GreenCrackerBlastSpriteSheet_128
+  - first:
+      213: 4756470150772983747
+    second: GreenCrackerBlastSpriteSheet_129
+  - first:
+      213: 5843475830411405993
+    second: GreenCrackerBlastSpriteSheet_130
+  - first:
+      213: 3754996259859770324
+    second: GreenCrackerBlastSpriteSheet_131
+  - first:
+      213: -4052207465168162318
+    second: GreenCrackerBlastSpriteSheet_132
+  - first:
+      213: -7409512200516933860
+    second: GreenCrackerBlastSpriteSheet_133
+  - first:
+      213: -5884198400721609065
+    second: GreenCrackerBlastSpriteSheet_134
+  - first:
+      213: -42591779730949973
+    second: GreenCrackerBlastSpriteSheet_135
+  - first:
+      213: 8726414375952684283
+    second: GreenCrackerBlastSpriteSheet_136
+  - first:
+      213: -3003076134968521249
+    second: GreenCrackerBlastSpriteSheet_137
+  - first:
+      213: -4576874297882833660
+    second: GreenCrackerBlastSpriteSheet_138
+  - first:
+      213: -4069824642196375268
+    second: GreenCrackerBlastSpriteSheet_139
+  - first:
+      213: 1680757817385376014
+    second: GreenCrackerBlastSpriteSheet_140
+  - first:
+      213: -7826101972061338366
+    second: GreenCrackerBlastSpriteSheet_141
+  - first:
+      213: -7457196603544935566
+    second: GreenCrackerBlastSpriteSheet_142
+  - first:
+      213: -6759868484316148360
+    second: GreenCrackerBlastSpriteSheet_143
+  - first:
+      213: -8547193798820509241
+    second: GreenCrackerBlastSpriteSheet_144
+  - first:
+      213: 4990039139140009715
+    second: GreenCrackerBlastSpriteSheet_145
+  - first:
+      213: -6138995970175452471
+    second: GreenCrackerBlastSpriteSheet_146
+  - first:
+      213: -3962647937286069179
+    second: GreenCrackerBlastSpriteSheet_147
+  - first:
+      213: -1628094558010756228
+    second: GreenCrackerBlastSpriteSheet_148
+  - first:
+      213: 4549953712656173475
+    second: GreenCrackerBlastSpriteSheet_149
+  - first:
+      213: -446819716440505850
+    second: GreenCrackerBlastSpriteSheet_150
+  - first:
+      213: 9044787498959239929
+    second: GreenCrackerBlastSpriteSheet_151
+  - first:
+      213: -3555526757767868821
+    second: GreenCrackerBlastSpriteSheet_152
+  - first:
+      213: -3976216319430885080
+    second: GreenCrackerBlastSpriteSheet_153
+  - first:
+      213: 5210596959653088681
+    second: GreenCrackerBlastSpriteSheet_154
+  - first:
+      213: 4322528244260493993
+    second: GreenCrackerBlastSpriteSheet_155
+  - first:
+      213: 1468820253080215252
+    second: GreenCrackerBlastSpriteSheet_156
+  - first:
+      213: 5998535854339853096
+    second: GreenCrackerBlastSpriteSheet_157
+  - first:
+      213: 4859873036564922920
+    second: GreenCrackerBlastSpriteSheet_158
+  - first:
+      213: 1313801886048668417
+    second: GreenCrackerBlastSpriteSheet_159
+  - first:
+      213: 4962611724652583445
+    second: GreenCrackerBlastSpriteSheet_160
+  - first:
+      213: -1169239290772455364
+    second: GreenCrackerBlastSpriteSheet_161
+  - first:
+      213: 8694001495635684264
+    second: GreenCrackerBlastSpriteSheet_162
+  - first:
+      213: 6595731465752430121
+    second: GreenCrackerBlastSpriteSheet_163
+  - first:
+      213: -4795474688462176670
+    second: GreenCrackerBlastSpriteSheet_164
+  - first:
+      213: 3381009320540936316
+    second: GreenCrackerBlastSpriteSheet_165
+  - first:
+      213: 7872064712594523688
+    second: GreenCrackerBlastSpriteSheet_166
+  - first:
+      213: 4680702639891188455
+    second: GreenCrackerBlastSpriteSheet_167
+  - first:
+      213: 3210522712822469987
+    second: GreenCrackerBlastSpriteSheet_168
+  - first:
+      213: 8502181970870028464
+    second: GreenCrackerBlastSpriteSheet_169
+  - first:
+      213: 6971250741869237400
+    second: GreenCrackerBlastSpriteSheet_170
+  - first:
+      213: -980557829429851795
+    second: GreenCrackerBlastSpriteSheet_171
+  - first:
+      213: -7969316738367937548
+    second: GreenCrackerBlastSpriteSheet_172
+  - first:
+      213: -5713200558959991068
+    second: GreenCrackerBlastSpriteSheet_173
+  - first:
+      213: -4547867228795863934
+    second: GreenCrackerBlastSpriteSheet_174
+  - first:
+      213: -7256240231074006173
+    second: GreenCrackerBlastSpriteSheet_175
+  - first:
+      213: 2479277590978189982
+    second: GreenCrackerBlastSpriteSheet_176
+  - first:
+      213: 4792051978708462550
+    second: GreenCrackerBlastSpriteSheet_177
+  - first:
+      213: -868351480836762281
+    second: GreenCrackerBlastSpriteSheet_178
+  - first:
+      213: 2710210924588196285
+    second: GreenCrackerBlastSpriteSheet_179
+  - first:
+      213: 3545446562703569114
+    second: GreenCrackerBlastSpriteSheet_180
+  - first:
+      213: -3817553747163574716
+    second: GreenCrackerBlastSpriteSheet_181
+  - first:
+      213: -8260973866523349
+    second: GreenCrackerBlastSpriteSheet_182
+  - first:
+      213: 8863817449802516753
+    second: GreenCrackerBlastSpriteSheet_183
+  - first:
+      213: 2639709385288897470
+    second: GreenCrackerBlastSpriteSheet_184
+  - first:
+      213: 6973091456681134821
+    second: GreenCrackerBlastSpriteSheet_185
+  - first:
+      213: 5384901003305924787
+    second: GreenCrackerBlastSpriteSheet_186
+  - first:
+      213: 7277917354436555753
+    second: GreenCrackerBlastSpriteSheet_187
+  - first:
+      213: 1372885809074525928
+    second: GreenCrackerBlastSpriteSheet_188
+  - first:
+      213: 6815917157588625244
+    second: GreenCrackerBlastSpriteSheet_189
+  - first:
+      213: 2514434020496955641
+    second: GreenCrackerBlastSpriteSheet_190
+  - first:
+      213: -5814493140851361127
+    second: GreenCrackerBlastSpriteSheet_191
+  - first:
+      213: 1063263337515595126
+    second: GreenCrackerBlastSpriteSheet_192
+  - first:
+      213: -7104886868270875907
+    second: GreenCrackerBlastSpriteSheet_193
+  - first:
+      213: 2520771079020480755
+    second: GreenCrackerBlastSpriteSheet_194
+  - first:
+      213: -939136704075621144
+    second: GreenCrackerBlastSpriteSheet_195
+  - first:
+      213: 4852042675754246217
+    second: GreenCrackerBlastSpriteSheet_196
+  - first:
+      213: -2599624601219854734
+    second: GreenCrackerBlastSpriteSheet_197
+  - first:
+      213: 6933777240449998367
+    second: GreenCrackerBlastSpriteSheet_198
+  - first:
+      213: 1876564594215206222
+    second: GreenCrackerBlastSpriteSheet_199
+  - first:
+      213: 144305987485392070
+    second: GreenCrackerBlastSpriteSheet_200
+  - first:
+      213: 4616146854742437429
+    second: GreenCrackerBlastSpriteSheet_201
+  - first:
+      213: -8817914340098084273
+    second: GreenCrackerBlastSpriteSheet_202
+  - first:
+      213: 6572043051431906419
+    second: GreenCrackerBlastSpriteSheet_203
+  - first:
+      213: 2576030233117422797
+    second: GreenCrackerBlastSpriteSheet_204
+  - first:
+      213: 4397360298141874332
+    second: GreenCrackerBlastSpriteSheet_205
+  - first:
+      213: -3692578929398306091
+    second: GreenCrackerBlastSpriteSheet_206
+  - first:
+      213: -218757843455848690
+    second: GreenCrackerBlastSpriteSheet_207
+  - first:
+      213: 1964953756695921660
+    second: GreenCrackerBlastSpriteSheet_208
+  - first:
+      213: 482860346722312542
+    second: GreenCrackerBlastSpriteSheet_209
+  - first:
+      213: -3955909094039156738
+    second: GreenCrackerBlastSpriteSheet_210
+  - first:
+      213: 7365336629683980220
+    second: GreenCrackerBlastSpriteSheet_211
+  - first:
+      213: -4294677099574959198
+    second: GreenCrackerBlastSpriteSheet_212
+  - first:
+      213: 1607378674806057801
+    second: GreenCrackerBlastSpriteSheet_213
+  - first:
+      213: 1573267816982147219
+    second: GreenCrackerBlastSpriteSheet_214
+  - first:
+      213: -4040039240279124050
+    second: GreenCrackerBlastSpriteSheet_215
+  - first:
+      213: -7804759862103419369
+    second: GreenCrackerBlastSpriteSheet_216
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GreenCrackerBlastSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3150
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbb9fafba347779e0800000000000000
+      internalID: -1623701344970892356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerBlastSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 3150
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 072f1bde633bca5c0800000000000000
+      internalID: -4202787303746047376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerBlastSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 3150
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 346b682e2011ef500800000000000000
+      internalID: 431801318362232387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerBlastSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 3150
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3197e82c2b895c510800000000000000
+      internalID: 1568827938744203539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerBlastSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 3150
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b06201553ab762230800000000000000
+      internalID: 3613711692448409099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerBlastSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2100
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ca4c8398e827170800000000000000
+      internalID: 8174752993644948554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerBlastSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 2100
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a5b72d76a83e2c60800000000000000
+      internalID: 7795230292740388260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerBlastSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 2100
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a697c15d4fb79ba80800000000000000
+      internalID: -8450586934306375318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerBlastSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 2100
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 383a6b0368f1e3250800000000000000
+      internalID: 5926208820869505923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerBlastSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 2100
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 089902f9788e4a0e0800000000000000
+      internalID: -2259425443845203584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerBlastSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1050
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c85a3d7f1f6de160800000000000000
+      internalID: 7056418372195080388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerBlastSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1050
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 443ec6077c8523bc0800000000000000
+      internalID: -3804881121566727356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerBlastSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 1050
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcab71d798f16a6e0800000000000000
+      internalID: -1826737923482469683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerBlastSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 1050
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4843e04874ef71f10800000000000000
+      internalID: 2240538922751767684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerBlastSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 1050
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bc5e83b4c0ae32a0800000000000000
+      internalID: -6755785624322679623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerBlastSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4121e1920e362ff80800000000000000
+      internalID: -8074281367508217324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerBlastSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 0
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa7f9530464156910800000000000000
+      internalID: 1829891243381487530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: bbec95260f297472cb8aee1e5bde32c9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GreenCrackerBlastSpriteSheet_0: -1623701344970892356
+      GreenCrackerBlastSpriteSheet_1: -4202787303746047376
+      GreenCrackerBlastSpriteSheet_10: 7056418372195080388
+      GreenCrackerBlastSpriteSheet_11: -3804881121566727356
+      GreenCrackerBlastSpriteSheet_12: -1826737923482469683
+      GreenCrackerBlastSpriteSheet_13: 2240538922751767684
+      GreenCrackerBlastSpriteSheet_14: -6755785624322679623
+      GreenCrackerBlastSpriteSheet_15: -8074281367508217324
+      GreenCrackerBlastSpriteSheet_16: 1829891243381487530
+      GreenCrackerBlastSpriteSheet_2: 431801318362232387
+      GreenCrackerBlastSpriteSheet_3: 1568827938744203539
+      GreenCrackerBlastSpriteSheet_4: 3613711692448409099
+      GreenCrackerBlastSpriteSheet_5: 8174752993644948554
+      GreenCrackerBlastSpriteSheet_6: 7795230292740388260
+      GreenCrackerBlastSpriteSheet_7: -8450586934306375318
+      GreenCrackerBlastSpriteSheet_8: 5926208820869505923
+      GreenCrackerBlastSpriteSheet_9: -2259425443845203584
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

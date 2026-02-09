@@ -1,0 +1,1290 @@
+fileFormatVersion: 2
+guid: 72239703d6bea4ec58a89cc9f09363eb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7993244189345299849
+    second: RedCrackerEightBlastSpriteSheet_0
+  - first:
+      213: 5209226525178338699
+    second: RedCrackerEightBlastSpriteSheet_1
+  - first:
+      213: -7277564181348190685
+    second: RedCrackerEightBlastSpriteSheet_2
+  - first:
+      213: -7380574476359214961
+    second: RedCrackerEightBlastSpriteSheet_3
+  - first:
+      213: 746185127312736344
+    second: RedCrackerEightBlastSpriteSheet_4
+  - first:
+      213: -2418939592498703368
+    second: RedCrackerEightBlastSpriteSheet_5
+  - first:
+      213: -5869780159613227828
+    second: RedCrackerEightBlastSpriteSheet_6
+  - first:
+      213: 6862839494438899070
+    second: RedCrackerEightBlastSpriteSheet_7
+  - first:
+      213: 2296111475589351451
+    second: RedCrackerEightBlastSpriteSheet_8
+  - first:
+      213: 2699724741769434917
+    second: RedCrackerEightBlastSpriteSheet_9
+  - first:
+      213: -3815300376163298858
+    second: RedCrackerEightBlastSpriteSheet_10
+  - first:
+      213: -42309411331617437
+    second: RedCrackerEightBlastSpriteSheet_11
+  - first:
+      213: -4834544642862584689
+    second: RedCrackerEightBlastSpriteSheet_12
+  - first:
+      213: 6314032329544270284
+    second: RedCrackerEightBlastSpriteSheet_13
+  - first:
+      213: 3685359028149573594
+    second: RedCrackerEightBlastSpriteSheet_14
+  - first:
+      213: -6354128570264137627
+    second: RedCrackerEightBlastSpriteSheet_15
+  - first:
+      213: 272472103683835260
+    second: RedCrackerEightBlastSpriteSheet_16
+  - first:
+      213: 3001497457940835507
+    second: RedCrackerEightBlastSpriteSheet_17
+  - first:
+      213: 2574812624392825716
+    second: RedCrackerEightBlastSpriteSheet_18
+  - first:
+      213: -2960305587667561979
+    second: RedCrackerEightBlastSpriteSheet_19
+  - first:
+      213: -5003264411599259538
+    second: RedCrackerEightBlastSpriteSheet_20
+  - first:
+      213: -1791756225541453197
+    second: RedCrackerEightBlastSpriteSheet_21
+  - first:
+      213: 6647122506902116131
+    second: RedCrackerEightBlastSpriteSheet_22
+  - first:
+      213: 743859998231317544
+    second: RedCrackerEightBlastSpriteSheet_23
+  - first:
+      213: -5214750003196283982
+    second: RedCrackerEightBlastSpriteSheet_24
+  - first:
+      213: 8865858519206843306
+    second: RedCrackerEightBlastSpriteSheet_25
+  - first:
+      213: -6635893294255531161
+    second: RedCrackerEightBlastSpriteSheet_26
+  - first:
+      213: 7746467793234916060
+    second: RedCrackerEightBlastSpriteSheet_27
+  - first:
+      213: -8660297605841902042
+    second: RedCrackerEightBlastSpriteSheet_28
+  - first:
+      213: 8925883810041419898
+    second: RedCrackerEightBlastSpriteSheet_29
+  - first:
+      213: -6546404171790333039
+    second: RedCrackerEightBlastSpriteSheet_30
+  - first:
+      213: -2389568023097791958
+    second: RedCrackerEightBlastSpriteSheet_31
+  - first:
+      213: -3974827001592579995
+    second: RedCrackerEightBlastSpriteSheet_32
+  - first:
+      213: -6150201935041735591
+    second: RedCrackerEightBlastSpriteSheet_33
+  - first:
+      213: 2234338323288033597
+    second: RedCrackerEightBlastSpriteSheet_34
+  - first:
+      213: 5436496895629940987
+    second: RedCrackerEightBlastSpriteSheet_35
+  - first:
+      213: 3672781809300653987
+    second: RedCrackerEightBlastSpriteSheet_36
+  - first:
+      213: -6781542571774295541
+    second: RedCrackerEightBlastSpriteSheet_37
+  - first:
+      213: -6700936836466233605
+    second: RedCrackerEightBlastSpriteSheet_38
+  - first:
+      213: 1306831327383507465
+    second: RedCrackerEightBlastSpriteSheet_39
+  - first:
+      213: 3739935411334828155
+    second: RedCrackerEightBlastSpriteSheet_40
+  - first:
+      213: 2971683858110881309
+    second: RedCrackerEightBlastSpriteSheet_41
+  - first:
+      213: 2272931747101510505
+    second: RedCrackerEightBlastSpriteSheet_42
+  - first:
+      213: -6305742812304250538
+    second: RedCrackerEightBlastSpriteSheet_43
+  - first:
+      213: -2034197121573555477
+    second: RedCrackerEightBlastSpriteSheet_44
+  - first:
+      213: -7213907169197815098
+    second: RedCrackerEightBlastSpriteSheet_45
+  - first:
+      213: -2500526572725673651
+    second: RedCrackerEightBlastSpriteSheet_46
+  - first:
+      213: -4738597739902043292
+    second: RedCrackerEightBlastSpriteSheet_47
+  - first:
+      213: 935427132811869175
+    second: RedCrackerEightBlastSpriteSheet_48
+  - first:
+      213: 1788562509661825389
+    second: RedCrackerEightBlastSpriteSheet_49
+  - first:
+      213: -8847784573887774164
+    second: RedCrackerEightBlastSpriteSheet_50
+  - first:
+      213: 2051414962235747435
+    second: RedCrackerEightBlastSpriteSheet_51
+  - first:
+      213: -8098918160710298396
+    second: RedCrackerEightBlastSpriteSheet_52
+  - first:
+      213: 4346725548421338884
+    second: RedCrackerEightBlastSpriteSheet_53
+  - first:
+      213: -6569162275601531059
+    second: RedCrackerEightBlastSpriteSheet_54
+  - first:
+      213: 8789708901581686759
+    second: RedCrackerEightBlastSpriteSheet_55
+  - first:
+      213: 5586521150382659959
+    second: RedCrackerEightBlastSpriteSheet_56
+  - first:
+      213: -5525661970441745234
+    second: RedCrackerEightBlastSpriteSheet_57
+  - first:
+      213: 1009216584367716947
+    second: RedCrackerEightBlastSpriteSheet_58
+  - first:
+      213: 3965866181834650797
+    second: RedCrackerEightBlastSpriteSheet_59
+  - first:
+      213: 660297194906170467
+    second: RedCrackerEightBlastSpriteSheet_60
+  - first:
+      213: 161189670982804943
+    second: RedCrackerEightBlastSpriteSheet_61
+  - first:
+      213: 5162132456327913408
+    second: RedCrackerEightBlastSpriteSheet_62
+  - first:
+      213: 1097413522636808730
+    second: RedCrackerEightBlastSpriteSheet_63
+  - first:
+      213: -644663454791487091
+    second: RedCrackerEightBlastSpriteSheet_64
+  - first:
+      213: -8803317243867089099
+    second: RedCrackerEightBlastSpriteSheet_65
+  - first:
+      213: 1719627771762960220
+    second: RedCrackerEightBlastSpriteSheet_66
+  - first:
+      213: 926725665580182621
+    second: RedCrackerEightBlastSpriteSheet_67
+  - first:
+      213: 1643570328920677473
+    second: RedCrackerEightBlastSpriteSheet_68
+  - first:
+      213: 2974661568673887320
+    second: RedCrackerEightBlastSpriteSheet_69
+  - first:
+      213: 1450974728773931938
+    second: RedCrackerEightBlastSpriteSheet_70
+  - first:
+      213: -695494965029603919
+    second: RedCrackerEightBlastSpriteSheet_71
+  - first:
+      213: 189370585590636469
+    second: RedCrackerEightBlastSpriteSheet_72
+  - first:
+      213: 8640690410279925930
+    second: RedCrackerEightBlastSpriteSheet_73
+  - first:
+      213: 3556023052590381632
+    second: RedCrackerEightBlastSpriteSheet_74
+  - first:
+      213: -4037679764755838423
+    second: RedCrackerEightBlastSpriteSheet_75
+  - first:
+      213: 6343971443441518165
+    second: RedCrackerEightBlastSpriteSheet_76
+  - first:
+      213: 1064299620596451263
+    second: RedCrackerEightBlastSpriteSheet_77
+  - first:
+      213: -7394077801086492390
+    second: RedCrackerEightBlastSpriteSheet_78
+  - first:
+      213: -4957792946379167576
+    second: RedCrackerEightBlastSpriteSheet_79
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RedCrackerEightBlastSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5250
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98db1ec7d35bdee60800000000000000
+      internalID: 7993244189345299849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerEightBlastSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 5250
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8d1ccbcce3ea4840800000000000000
+      internalID: 5209226525178338699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerEightBlastSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 5250
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32672ac6fe5e00b90800000000000000
+      internalID: -7277564181348190685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerEightBlastSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 5250
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f885b422e9ee29990800000000000000
+      internalID: -7380574476359214961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerEightBlastSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 5250
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 850c72a7b6bfa5a00800000000000000
+      internalID: 746185127312736344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerEightBlastSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 5250
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f39cf7b1433e6ed0800000000000000
+      internalID: -2418939592498703368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerEightBlastSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 2820
+        y: 5250
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccc2e945b0a5a8ea0800000000000000
+      internalID: -5869780159613227828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerEightBlastSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4200
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7d4d88c824bd3f50800000000000000
+      internalID: 6862839494438899070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerEightBlastSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 4200
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b188333c83d6ddf10800000000000000
+      internalID: 2296111475589351451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerEightBlastSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 4200
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52710805959577520800000000000000
+      internalID: 2699724741769434917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerEightBlastSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 4200
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d15f5fa5845d0bc0800000000000000
+      internalID: -3815300376163298858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerEightBlastSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 4200
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36d4ce680dfa96ff0800000000000000
+      internalID: -42309411331617437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerEightBlastSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 4200
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8c6867034f38ecb0800000000000000
+      internalID: -4834544642862584689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerEightBlastSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 2820
+        y: 4200
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc181d653f2ff9750800000000000000
+      internalID: 6314032329544270284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerEightBlastSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3150
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad752ae9286052330800000000000000
+      internalID: 3685359028149573594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerEightBlastSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 3150
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 560de302bb991d7a0800000000000000
+      internalID: -6354128570264137627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerEightBlastSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 3150
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7547474fe308c300800000000000000
+      internalID: 272472103683835260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerEightBlastSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 3150
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bc2dce090677a920800000000000000
+      internalID: 3001497457940835507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerEightBlastSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 3150
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b2020a0729bb320800000000000000
+      internalID: 2574812624392825716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerEightBlastSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 3150
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 502987c90c1eae6d0800000000000000
+      internalID: -2960305587667561979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerEightBlastSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 2820
+        y: 3150
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e68b54da685d09ab0800000000000000
+      internalID: -5003264411599259538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerEightBlastSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2100
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37ac18cb4376227e0800000000000000
+      internalID: -1791756225541453197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerEightBlastSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 2100
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 327976ab3b25f3c50800000000000000
+      internalID: 6647122506902116131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerEightBlastSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 2100
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82c433d2ab8b25a00800000000000000
+      internalID: 743859998231317544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerEightBlastSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 2100
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b3b403408c71a7b0800000000000000
+      internalID: -5214750003196283982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerEightBlastSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 2100
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa3d132995bd90b70800000000000000
+      internalID: 8865858519206843306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerEightBlastSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 2100
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76b9084153298e3a0800000000000000
+      internalID: -6635893294255531161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerEightBlastSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 2820
+        y: 2100
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd275c75a6bf08b60800000000000000
+      internalID: 7746467793234916060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerEightBlastSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1050
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 626a0a2363170d780800000000000000
+      internalID: -8660297605841902042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerEightBlastSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1050
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a78ddeba80c1fdb70800000000000000
+      internalID: 8925883810041419898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerEightBlastSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 1050
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19b4d4017108625a0800000000000000
+      internalID: -6546404171790333039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerEightBlastSpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 1050
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2aaf902b8c86ded0800000000000000
+      internalID: -2389568023097791958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerEightBlastSpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 1050
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 568717ec6e396d8c0800000000000000
+      internalID: -3974827001592579995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerEightBlastSpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 1050
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 954daecdce716aaa0800000000000000
+      internalID: -6150201935041735591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerEightBlastSpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 2820
+        y: 1050
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3900a3fdd6f10f10800000000000000
+      internalID: 2234338323288033597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerEightBlastSpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf8598e6f11527b40800000000000000
+      internalID: 5436496895629940987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerEightBlastSpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 0
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a7c1e8a89758f230800000000000000
+      internalID: 3672781809300653987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerEightBlastSpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 0
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b02443c06fe13e1a0800000000000000
+      internalID: -6781542571774295541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerEightBlastSpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 0
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfea918437d7103a0800000000000000
+      internalID: -6700936836466233605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerEightBlastSpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 0
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 902db0a1b2cc22210800000000000000
+      internalID: 1306831327383507465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ad1eac92afbe148919636fcf991b5876
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RedCrackerEightBlastSpriteSheet_0: 7993244189345299849
+      RedCrackerEightBlastSpriteSheet_1: 5209226525178338699
+      RedCrackerEightBlastSpriteSheet_10: -3815300376163298858
+      RedCrackerEightBlastSpriteSheet_11: -42309411331617437
+      RedCrackerEightBlastSpriteSheet_12: -4834544642862584689
+      RedCrackerEightBlastSpriteSheet_13: 6314032329544270284
+      RedCrackerEightBlastSpriteSheet_14: 3685359028149573594
+      RedCrackerEightBlastSpriteSheet_15: -6354128570264137627
+      RedCrackerEightBlastSpriteSheet_16: 272472103683835260
+      RedCrackerEightBlastSpriteSheet_17: 3001497457940835507
+      RedCrackerEightBlastSpriteSheet_18: 2574812624392825716
+      RedCrackerEightBlastSpriteSheet_19: -2960305587667561979
+      RedCrackerEightBlastSpriteSheet_2: -7277564181348190685
+      RedCrackerEightBlastSpriteSheet_20: -5003264411599259538
+      RedCrackerEightBlastSpriteSheet_21: -1791756225541453197
+      RedCrackerEightBlastSpriteSheet_22: 6647122506902116131
+      RedCrackerEightBlastSpriteSheet_23: 743859998231317544
+      RedCrackerEightBlastSpriteSheet_24: -5214750003196283982
+      RedCrackerEightBlastSpriteSheet_25: 8865858519206843306
+      RedCrackerEightBlastSpriteSheet_26: -6635893294255531161
+      RedCrackerEightBlastSpriteSheet_27: 7746467793234916060
+      RedCrackerEightBlastSpriteSheet_28: -8660297605841902042
+      RedCrackerEightBlastSpriteSheet_29: 8925883810041419898
+      RedCrackerEightBlastSpriteSheet_3: -7380574476359214961
+      RedCrackerEightBlastSpriteSheet_30: -6546404171790333039
+      RedCrackerEightBlastSpriteSheet_31: -2389568023097791958
+      RedCrackerEightBlastSpriteSheet_32: -3974827001592579995
+      RedCrackerEightBlastSpriteSheet_33: -6150201935041735591
+      RedCrackerEightBlastSpriteSheet_34: 2234338323288033597
+      RedCrackerEightBlastSpriteSheet_35: 5436496895629940987
+      RedCrackerEightBlastSpriteSheet_36: 3672781809300653987
+      RedCrackerEightBlastSpriteSheet_37: -6781542571774295541
+      RedCrackerEightBlastSpriteSheet_38: -6700936836466233605
+      RedCrackerEightBlastSpriteSheet_39: 1306831327383507465
+      RedCrackerEightBlastSpriteSheet_4: 746185127312736344
+      RedCrackerEightBlastSpriteSheet_5: -2418939592498703368
+      RedCrackerEightBlastSpriteSheet_6: -5869780159613227828
+      RedCrackerEightBlastSpriteSheet_7: 6862839494438899070
+      RedCrackerEightBlastSpriteSheet_8: 2296111475589351451
+      RedCrackerEightBlastSpriteSheet_9: 2699724741769434917
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

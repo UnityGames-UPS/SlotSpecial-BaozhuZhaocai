@@ -1,0 +1,1293 @@
+fileFormatVersion: 2
+guid: 826c2324ca98a4a4ebc2d6ff56edd266
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1330006982564675189
+    second: RedCrackerTwoBlastSpriteSheet_0
+  - first:
+      213: 4591572592554526061
+    second: RedCrackerTwoBlastSpriteSheet_1
+  - first:
+      213: 6684950922396043717
+    second: RedCrackerTwoBlastSpriteSheet_2
+  - first:
+      213: 2098021207028554839
+    second: RedCrackerTwoBlastSpriteSheet_3
+  - first:
+      213: -6719280838189834773
+    second: RedCrackerTwoBlastSpriteSheet_4
+  - first:
+      213: 4454266326373038634
+    second: RedCrackerTwoBlastSpriteSheet_5
+  - first:
+      213: 3799016321628117272
+    second: RedCrackerTwoBlastSpriteSheet_6
+  - first:
+      213: 348236355799214121
+    second: RedCrackerTwoBlastSpriteSheet_7
+  - first:
+      213: -1652923612948203124
+    second: RedCrackerTwoBlastSpriteSheet_8
+  - first:
+      213: -5870899528551381371
+    second: RedCrackerTwoBlastSpriteSheet_9
+  - first:
+      213: 1000462569624352995
+    second: RedCrackerTwoBlastSpriteSheet_10
+  - first:
+      213: -3510636586951425186
+    second: RedCrackerTwoBlastSpriteSheet_11
+  - first:
+      213: -8714089329278870480
+    second: RedCrackerTwoBlastSpriteSheet_12
+  - first:
+      213: 3584406592052498802
+    second: RedCrackerTwoBlastSpriteSheet_13
+  - first:
+      213: 5037183504836672474
+    second: RedCrackerTwoBlastSpriteSheet_14
+  - first:
+      213: -1315062478091058895
+    second: RedCrackerTwoBlastSpriteSheet_15
+  - first:
+      213: 8734846197801358647
+    second: RedCrackerTwoBlastSpriteSheet_16
+  - first:
+      213: -7168447504048248759
+    second: RedCrackerTwoBlastSpriteSheet_17
+  - first:
+      213: -1459961264038778619
+    second: RedCrackerTwoBlastSpriteSheet_18
+  - first:
+      213: -7944310803232013085
+    second: RedCrackerTwoBlastSpriteSheet_19
+  - first:
+      213: 1503855802883684907
+    second: RedCrackerTwoBlastSpriteSheet_20
+  - first:
+      213: 2393509345874194976
+    second: RedCrackerTwoBlastSpriteSheet_21
+  - first:
+      213: 520568272298020258
+    second: RedCrackerTwoBlastSpriteSheet_22
+  - first:
+      213: -5118539793810843641
+    second: RedCrackerTwoBlastSpriteSheet_23
+  - first:
+      213: -5215628907675035909
+    second: RedCrackerTwoBlastSpriteSheet_24
+  - first:
+      213: -6482563104184741640
+    second: RedCrackerTwoBlastSpriteSheet_25
+  - first:
+      213: 2416861633624052972
+    second: RedCrackerTwoBlastSpriteSheet_26
+  - first:
+      213: 3372465265500654679
+    second: RedCrackerTwoBlastSpriteSheet_27
+  - first:
+      213: 6498658586147817680
+    second: RedCrackerTwoBlastSpriteSheet_28
+  - first:
+      213: -6035112786268815968
+    second: RedCrackerTwoBlastSpriteSheet_29
+  - first:
+      213: 5347789206480110809
+    second: RedCrackerTwoBlastSpriteSheet_30
+  - first:
+      213: 2031231262703111720
+    second: RedCrackerTwoBlastSpriteSheet_31
+  - first:
+      213: -976992319650423085
+    second: RedCrackerTwoBlastSpriteSheet_32
+  - first:
+      213: 459736267299670404
+    second: RedCrackerTwoBlastSpriteSheet_33
+  - first:
+      213: -1865618136220579585
+    second: RedCrackerTwoBlastSpriteSheet_34
+  - first:
+      213: 5788292906497980492
+    second: RedCrackerTwoBlastSpriteSheet_35
+  - first:
+      213: 2206856704601603621
+    second: RedCrackerTwoBlastSpriteSheet_36
+  - first:
+      213: -6683678521783411439
+    second: RedCrackerTwoBlastSpriteSheet_37
+  - first:
+      213: 1289547027684978432
+    second: RedCrackerTwoBlastSpriteSheet_38
+  - first:
+      213: 9064644086351375600
+    second: RedCrackerTwoBlastSpriteSheet_39
+  - first:
+      213: 843591015645456686
+    second: RedCrackerTwoBlastSpriteSheet_40
+  - first:
+      213: -2828259285087355352
+    second: RedCrackerTwoBlastSpriteSheet_41
+  - first:
+      213: 2358018298012266153
+    second: RedCrackerTwoBlastSpriteSheet_42
+  - first:
+      213: -4829007722193461520
+    second: RedCrackerTwoBlastSpriteSheet_43
+  - first:
+      213: 7773323366459647797
+    second: RedCrackerTwoBlastSpriteSheet_44
+  - first:
+      213: 8823581061082410642
+    second: RedCrackerTwoBlastSpriteSheet_45
+  - first:
+      213: -1689606852322987452
+    second: RedCrackerTwoBlastSpriteSheet_46
+  - first:
+      213: -2563370622445788804
+    second: RedCrackerTwoBlastSpriteSheet_47
+  - first:
+      213: 5226312096774337316
+    second: RedCrackerTwoBlastSpriteSheet_48
+  - first:
+      213: -6537427227258424104
+    second: RedCrackerTwoBlastSpriteSheet_49
+  - first:
+      213: -4326079572893810809
+    second: RedCrackerTwoBlastSpriteSheet_50
+  - first:
+      213: -4457056992686899001
+    second: RedCrackerTwoBlastSpriteSheet_51
+  - first:
+      213: -800658796019254440
+    second: RedCrackerTwoBlastSpriteSheet_52
+  - first:
+      213: -3704430420600364494
+    second: RedCrackerTwoBlastSpriteSheet_53
+  - first:
+      213: 9194762266976345842
+    second: RedCrackerTwoBlastSpriteSheet_54
+  - first:
+      213: -3385995371461288069
+    second: RedCrackerTwoBlastSpriteSheet_55
+  - first:
+      213: -8002102016521278193
+    second: RedCrackerTwoBlastSpriteSheet_56
+  - first:
+      213: 5271782474405988803
+    second: RedCrackerTwoBlastSpriteSheet_57
+  - first:
+      213: 6914828712791194425
+    second: RedCrackerTwoBlastSpriteSheet_58
+  - first:
+      213: -7218625242650359431
+    second: RedCrackerTwoBlastSpriteSheet_59
+  - first:
+      213: 6605972137835402422
+    second: RedCrackerTwoBlastSpriteSheet_60
+  - first:
+      213: 4410810738461459894
+    second: RedCrackerTwoBlastSpriteSheet_61
+  - first:
+      213: 6101637661002496090
+    second: RedCrackerTwoBlastSpriteSheet_62
+  - first:
+      213: -338093533005512751
+    second: RedCrackerTwoBlastSpriteSheet_63
+  - first:
+      213: -3483654833523821294
+    second: RedCrackerTwoBlastSpriteSheet_64
+  - first:
+      213: -3162169193581021041
+    second: RedCrackerTwoBlastSpriteSheet_65
+  - first:
+      213: 7919866259395097218
+    second: RedCrackerTwoBlastSpriteSheet_66
+  - first:
+      213: -6259222095641534560
+    second: RedCrackerTwoBlastSpriteSheet_67
+  - first:
+      213: -227954838929037294
+    second: RedCrackerTwoBlastSpriteSheet_68
+  - first:
+      213: 3043488436107231399
+    second: RedCrackerTwoBlastSpriteSheet_69
+  - first:
+      213: 7632084740801487968
+    second: RedCrackerTwoBlastSpriteSheet_70
+  - first:
+      213: -3409142501098073151
+    second: RedCrackerTwoBlastSpriteSheet_71
+  - first:
+      213: -655313126061260818
+    second: RedCrackerTwoBlastSpriteSheet_72
+  - first:
+      213: 6855426065676466764
+    second: RedCrackerTwoBlastSpriteSheet_73
+  - first:
+      213: 1379014289998705304
+    second: RedCrackerTwoBlastSpriteSheet_74
+  - first:
+      213: 6021430423517416433
+    second: RedCrackerTwoBlastSpriteSheet_75
+  - first:
+      213: 967372447850072076
+    second: RedCrackerTwoBlastSpriteSheet_76
+  - first:
+      213: 5618965248812470281
+    second: RedCrackerTwoBlastSpriteSheet_77
+  - first:
+      213: -1251643284238226940
+    second: RedCrackerTwoBlastSpriteSheet_78
+  - first:
+      213: 1742508338771064696
+    second: RedCrackerTwoBlastSpriteSheet_79
+  - first:
+      213: 6500529254665146167
+    second: RedCrackerTwoBlastSpriteSheet_80
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RedCrackerTwoBlastSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5250
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57e7e80dd42257210800000000000000
+      internalID: 1330006982564675189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerTwoBlastSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 5250
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d65c1ab12fa88bf30800000000000000
+      internalID: 4591572592554526061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerTwoBlastSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 5250
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c9065e0277b5cc50800000000000000
+      internalID: 6684950922396043717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerTwoBlastSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 5250
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75c5c280c2bad1d10800000000000000
+      internalID: 2098021207028554839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerTwoBlastSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 5250
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bed1b9d8da150c2a0800000000000000
+      internalID: -6719280838189834773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerTwoBlastSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 5250
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2af276cf9bb0dd30800000000000000
+      internalID: 4454266326373038634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerTwoBlastSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 2820
+        y: 5250
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8191e8a6731d8b430800000000000000
+      internalID: 3799016321628117272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerTwoBlastSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4200
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 928e94dde1f25d400800000000000000
+      internalID: 348236355799214121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerTwoBlastSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 4200
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c89fd594bb2af09e0800000000000000
+      internalID: -1652923612948203124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerTwoBlastSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 4200
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 586cfa0fbff568ea0800000000000000
+      internalID: -5870899528551381371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerTwoBlastSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 4200
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e8b889086b52ed00800000000000000
+      internalID: 1000462569624352995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerTwoBlastSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 4200
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e534543df96b74fc0800000000000000
+      internalID: -3510636586951425186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerTwoBlastSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 4200
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c9f4b9ce5511780800000000000000
+      internalID: -8714089329278870480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerTwoBlastSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 2820
+        y: 4200
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2719bd1fdce5eb130800000000000000
+      internalID: 3584406592052498802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerTwoBlastSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3150
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adb3f32a5bba7e540800000000000000
+      internalID: 5037183504836672474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerTwoBlastSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 3150
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13100f7c4a5ffbde0800000000000000
+      internalID: -1315062478091058895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerTwoBlastSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 3150
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7351f937658683970800000000000000
+      internalID: 8734846197801358647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerTwoBlastSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 3150
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9482b22a9fe848c90800000000000000
+      internalID: -7168447504048248759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerTwoBlastSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 3150
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 509632f27fc2dbbe0800000000000000
+      internalID: -1459961264038778619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerTwoBlastSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 3150
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e4ce0c4a6320c190800000000000000
+      internalID: -7944310803232013085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerTwoBlastSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 2820
+        y: 3150
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2aba4c82e4ced410800000000000000
+      internalID: 1503855802883684907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerTwoBlastSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2100
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 022b8679114773120800000000000000
+      internalID: 2393509345874194976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerTwoBlastSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 2100
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ad89a7e51e693700800000000000000
+      internalID: 520568272298020258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerTwoBlastSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 2100
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 708143d3d2b47f8b0800000000000000
+      internalID: -5118539793810843641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerTwoBlastSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 2100
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf655cd542d5e97b0800000000000000
+      internalID: -5215628907675035909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerTwoBlastSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 2100
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f0d30de33f4906a0800000000000000
+      internalID: -6482563104184741640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerTwoBlastSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 2100
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce49e67c9da6a8120800000000000000
+      internalID: 2416861633624052972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerTwoBlastSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 2820
+        y: 2100
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75c82877a476dce20800000000000000
+      internalID: 3372465265500654679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerTwoBlastSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1050
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d802ef7d8fdf2a50800000000000000
+      internalID: 6498658586147817680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerTwoBlastSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1050
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ad770375e8fe3ca0800000000000000
+      internalID: -6035112786268815968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerTwoBlastSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 1050
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d44ae113f9273a40800000000000000
+      internalID: 5347789206480110809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerTwoBlastSpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 1050
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82e461e4212603c10800000000000000
+      internalID: 2031231262703111720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerTwoBlastSpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 1050
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3de93fe59a60172f0800000000000000
+      internalID: -976992319650423085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerTwoBlastSpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 1050
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 489c2c603bf416600800000000000000
+      internalID: 459736267299670404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerTwoBlastSpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 2820
+        y: 1050
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff8cb08803efb16e0800000000000000
+      internalID: -1865618136220579585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerTwoBlastSpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c48b9b31bb5245050800000000000000
+      internalID: 5788292906497980492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerTwoBlastSpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 0
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52eb7fbfa7450ae10800000000000000
+      internalID: 2206856704601603621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerTwoBlastSpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 0
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d113ccbcdce33a0800000000000000
+      internalID: -6683678521783411439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerTwoBlastSpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 0
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00fe25a703465e110800000000000000
+      internalID: 1289547027684978432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrackerTwoBlastSpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 0
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fca15e15c51ccd70800000000000000
+      internalID: 9064644086351375600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 40370a16ca16341328a61d9d71fa5fe8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RedCrackerTwoBlastSpriteSheet_0: 1330006982564675189
+      RedCrackerTwoBlastSpriteSheet_1: 4591572592554526061
+      RedCrackerTwoBlastSpriteSheet_10: 1000462569624352995
+      RedCrackerTwoBlastSpriteSheet_11: -3510636586951425186
+      RedCrackerTwoBlastSpriteSheet_12: -8714089329278870480
+      RedCrackerTwoBlastSpriteSheet_13: 3584406592052498802
+      RedCrackerTwoBlastSpriteSheet_14: 5037183504836672474
+      RedCrackerTwoBlastSpriteSheet_15: -1315062478091058895
+      RedCrackerTwoBlastSpriteSheet_16: 8734846197801358647
+      RedCrackerTwoBlastSpriteSheet_17: -7168447504048248759
+      RedCrackerTwoBlastSpriteSheet_18: -1459961264038778619
+      RedCrackerTwoBlastSpriteSheet_19: -7944310803232013085
+      RedCrackerTwoBlastSpriteSheet_2: 6684950922396043717
+      RedCrackerTwoBlastSpriteSheet_20: 1503855802883684907
+      RedCrackerTwoBlastSpriteSheet_21: 2393509345874194976
+      RedCrackerTwoBlastSpriteSheet_22: 520568272298020258
+      RedCrackerTwoBlastSpriteSheet_23: -5118539793810843641
+      RedCrackerTwoBlastSpriteSheet_24: -5215628907675035909
+      RedCrackerTwoBlastSpriteSheet_25: -6482563104184741640
+      RedCrackerTwoBlastSpriteSheet_26: 2416861633624052972
+      RedCrackerTwoBlastSpriteSheet_27: 3372465265500654679
+      RedCrackerTwoBlastSpriteSheet_28: 6498658586147817680
+      RedCrackerTwoBlastSpriteSheet_29: -6035112786268815968
+      RedCrackerTwoBlastSpriteSheet_3: 2098021207028554839
+      RedCrackerTwoBlastSpriteSheet_30: 5347789206480110809
+      RedCrackerTwoBlastSpriteSheet_31: 2031231262703111720
+      RedCrackerTwoBlastSpriteSheet_32: -976992319650423085
+      RedCrackerTwoBlastSpriteSheet_33: 459736267299670404
+      RedCrackerTwoBlastSpriteSheet_34: -1865618136220579585
+      RedCrackerTwoBlastSpriteSheet_35: 5788292906497980492
+      RedCrackerTwoBlastSpriteSheet_36: 2206856704601603621
+      RedCrackerTwoBlastSpriteSheet_37: -6683678521783411439
+      RedCrackerTwoBlastSpriteSheet_38: 1289547027684978432
+      RedCrackerTwoBlastSpriteSheet_39: 9064644086351375600
+      RedCrackerTwoBlastSpriteSheet_4: -6719280838189834773
+      RedCrackerTwoBlastSpriteSheet_5: 4454266326373038634
+      RedCrackerTwoBlastSpriteSheet_6: 3799016321628117272
+      RedCrackerTwoBlastSpriteSheet_7: 348236355799214121
+      RedCrackerTwoBlastSpriteSheet_8: -1652923612948203124
+      RedCrackerTwoBlastSpriteSheet_9: -5870899528551381371
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

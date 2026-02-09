@@ -1,0 +1,1290 @@
+fileFormatVersion: 2
+guid: d56a08951596a48e2a326e715747c6ee
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1090566150734294017
+    second: GreenCrackerEightBlastSpriteSheet_0
+  - first:
+      213: -2918838578279516911
+    second: GreenCrackerEightBlastSpriteSheet_1
+  - first:
+      213: -3405968997244181427
+    second: GreenCrackerEightBlastSpriteSheet_2
+  - first:
+      213: 2726906239521255523
+    second: GreenCrackerEightBlastSpriteSheet_3
+  - first:
+      213: 3341611752963717655
+    second: GreenCrackerEightBlastSpriteSheet_4
+  - first:
+      213: 8296754902404256830
+    second: GreenCrackerEightBlastSpriteSheet_5
+  - first:
+      213: 5788587850386118632
+    second: GreenCrackerEightBlastSpriteSheet_6
+  - first:
+      213: 9001307084091335894
+    second: GreenCrackerEightBlastSpriteSheet_7
+  - first:
+      213: 5940806752096996628
+    second: GreenCrackerEightBlastSpriteSheet_8
+  - first:
+      213: -25368223255758528
+    second: GreenCrackerEightBlastSpriteSheet_9
+  - first:
+      213: -7251390993845288116
+    second: GreenCrackerEightBlastSpriteSheet_10
+  - first:
+      213: 1569263280946164946
+    second: GreenCrackerEightBlastSpriteSheet_11
+  - first:
+      213: -8615425156148275505
+    second: GreenCrackerEightBlastSpriteSheet_12
+  - first:
+      213: -1779063403548648946
+    second: GreenCrackerEightBlastSpriteSheet_13
+  - first:
+      213: 2877301039520141722
+    second: GreenCrackerEightBlastSpriteSheet_14
+  - first:
+      213: 8108825516485886368
+    second: GreenCrackerEightBlastSpriteSheet_15
+  - first:
+      213: -3900062950816567732
+    second: GreenCrackerEightBlastSpriteSheet_16
+  - first:
+      213: 1834312769685350124
+    second: GreenCrackerEightBlastSpriteSheet_17
+  - first:
+      213: 800416194391593177
+    second: GreenCrackerEightBlastSpriteSheet_18
+  - first:
+      213: -6716811288870337053
+    second: GreenCrackerEightBlastSpriteSheet_19
+  - first:
+      213: -5602388215663940162
+    second: GreenCrackerEightBlastSpriteSheet_20
+  - first:
+      213: 6494255062896504082
+    second: GreenCrackerEightBlastSpriteSheet_21
+  - first:
+      213: -1018387941515772012
+    second: GreenCrackerEightBlastSpriteSheet_22
+  - first:
+      213: 5067161611689094323
+    second: GreenCrackerEightBlastSpriteSheet_23
+  - first:
+      213: -1725543581958719580
+    second: GreenCrackerEightBlastSpriteSheet_24
+  - first:
+      213: 3026257719721486921
+    second: GreenCrackerEightBlastSpriteSheet_25
+  - first:
+      213: 423165323772737320
+    second: GreenCrackerEightBlastSpriteSheet_26
+  - first:
+      213: 3251065723859570115
+    second: GreenCrackerEightBlastSpriteSheet_27
+  - first:
+      213: 5043627665092093390
+    second: GreenCrackerEightBlastSpriteSheet_28
+  - first:
+      213: 2630859924888898770
+    second: GreenCrackerEightBlastSpriteSheet_29
+  - first:
+      213: 4757003559244822547
+    second: GreenCrackerEightBlastSpriteSheet_30
+  - first:
+      213: 348778499071979178
+    second: GreenCrackerEightBlastSpriteSheet_31
+  - first:
+      213: 7092106934230230114
+    second: GreenCrackerEightBlastSpriteSheet_32
+  - first:
+      213: 8906590803843782508
+    second: GreenCrackerEightBlastSpriteSheet_33
+  - first:
+      213: 100299816979251569
+    second: GreenCrackerEightBlastSpriteSheet_34
+  - first:
+      213: -4557301057245938379
+    second: GreenCrackerEightBlastSpriteSheet_35
+  - first:
+      213: 7901822402227852477
+    second: GreenCrackerEightBlastSpriteSheet_36
+  - first:
+      213: 6231306028134259463
+    second: GreenCrackerEightBlastSpriteSheet_37
+  - first:
+      213: -627043292894518738
+    second: GreenCrackerEightBlastSpriteSheet_38
+  - first:
+      213: 438460141947174622
+    second: GreenCrackerEightBlastSpriteSheet_39
+  - first:
+      213: -1847747687029553625
+    second: GreenCrackerEightBlastSpriteSheet_40
+  - first:
+      213: 3316352123419963578
+    second: GreenCrackerEightBlastSpriteSheet_41
+  - first:
+      213: 8179306683908983574
+    second: GreenCrackerEightBlastSpriteSheet_42
+  - first:
+      213: 1100715092682872176
+    second: GreenCrackerEightBlastSpriteSheet_43
+  - first:
+      213: -6386617737391635416
+    second: GreenCrackerEightBlastSpriteSheet_44
+  - first:
+      213: 1062022737570179991
+    second: GreenCrackerEightBlastSpriteSheet_45
+  - first:
+      213: -8697464990817176896
+    second: GreenCrackerEightBlastSpriteSheet_46
+  - first:
+      213: -7783558264026660143
+    second: GreenCrackerEightBlastSpriteSheet_47
+  - first:
+      213: -8432270775437876528
+    second: GreenCrackerEightBlastSpriteSheet_48
+  - first:
+      213: -7395560039226596185
+    second: GreenCrackerEightBlastSpriteSheet_49
+  - first:
+      213: -1674089031562319091
+    second: GreenCrackerEightBlastSpriteSheet_50
+  - first:
+      213: 6858741650197642930
+    second: GreenCrackerEightBlastSpriteSheet_51
+  - first:
+      213: -5861845572088753806
+    second: GreenCrackerEightBlastSpriteSheet_52
+  - first:
+      213: 8227615891365044277
+    second: GreenCrackerEightBlastSpriteSheet_53
+  - first:
+      213: -5583603949396517906
+    second: GreenCrackerEightBlastSpriteSheet_54
+  - first:
+      213: -632888450991830589
+    second: GreenCrackerEightBlastSpriteSheet_55
+  - first:
+      213: 7257260180490649933
+    second: GreenCrackerEightBlastSpriteSheet_56
+  - first:
+      213: 598124477257114554
+    second: GreenCrackerEightBlastSpriteSheet_57
+  - first:
+      213: 1419091292943869586
+    second: GreenCrackerEightBlastSpriteSheet_58
+  - first:
+      213: -2935638165791551714
+    second: GreenCrackerEightBlastSpriteSheet_59
+  - first:
+      213: 6260278217391857467
+    second: GreenCrackerEightBlastSpriteSheet_60
+  - first:
+      213: 969625228883402973
+    second: GreenCrackerEightBlastSpriteSheet_61
+  - first:
+      213: 3387501172923281269
+    second: GreenCrackerEightBlastSpriteSheet_62
+  - first:
+      213: 3767706664035460450
+    second: GreenCrackerEightBlastSpriteSheet_63
+  - first:
+      213: 569162668349415514
+    second: GreenCrackerEightBlastSpriteSheet_64
+  - first:
+      213: -3632307390386344216
+    second: GreenCrackerEightBlastSpriteSheet_65
+  - first:
+      213: 3846850923207599096
+    second: GreenCrackerEightBlastSpriteSheet_66
+  - first:
+      213: -7134575302359508299
+    second: GreenCrackerEightBlastSpriteSheet_67
+  - first:
+      213: -8515006215042786405
+    second: GreenCrackerEightBlastSpriteSheet_68
+  - first:
+      213: 598819762254579856
+    second: GreenCrackerEightBlastSpriteSheet_69
+  - first:
+      213: 6475857734847750845
+    second: GreenCrackerEightBlastSpriteSheet_70
+  - first:
+      213: 9188236300325219846
+    second: GreenCrackerEightBlastSpriteSheet_71
+  - first:
+      213: 2156545854981788892
+    second: GreenCrackerEightBlastSpriteSheet_72
+  - first:
+      213: -970208036411432284
+    second: GreenCrackerEightBlastSpriteSheet_73
+  - first:
+      213: -1049490297653203133
+    second: GreenCrackerEightBlastSpriteSheet_74
+  - first:
+      213: -6960242580052133083
+    second: GreenCrackerEightBlastSpriteSheet_75
+  - first:
+      213: -1741075813091604907
+    second: GreenCrackerEightBlastSpriteSheet_76
+  - first:
+      213: -473651522305498423
+    second: GreenCrackerEightBlastSpriteSheet_77
+  - first:
+      213: -2605225858754767636
+    second: GreenCrackerEightBlastSpriteSheet_78
+  - first:
+      213: 3879464388594644591
+    second: GreenCrackerEightBlastSpriteSheet_79
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GreenCrackerEightBlastSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5250
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10c2592d228722f00800000000000000
+      internalID: 1090566150734294017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerEightBlastSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 5250
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11571f817c33e77d0800000000000000
+      internalID: -2918838578279516911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerEightBlastSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 5250
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d44644b1e319bb0d0800000000000000
+      internalID: -3405968997244181427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerEightBlastSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 5250
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 360f57ee6cae7d520800000000000000
+      internalID: 2726906239521255523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerEightBlastSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 5250
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a3ca84f2acf5e20800000000000000
+      internalID: 3341611752963717655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerEightBlastSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 5250
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e34594a20aef32370800000000000000
+      internalID: 8296754902404256830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerEightBlastSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 2820
+        y: 5250
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e7186d0bf1355050800000000000000
+      internalID: 5788587850386118632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerEightBlastSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4200
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d4a87d1a111bec70800000000000000
+      internalID: 9001307084091335894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerEightBlastSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 4200
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41dcbf9e34cf17250800000000000000
+      internalID: 5940806752096996628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerEightBlastSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 4200
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 049f1404cbfd5aff0800000000000000
+      internalID: -25368223255758528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerEightBlastSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 4200
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4382648f42ed5b90800000000000000
+      internalID: -7251390993845288116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerEightBlastSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 4200
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d43cd3c3a427c510800000000000000
+      internalID: 1569263280946164946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerEightBlastSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 4200
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc651da877cdf6880800000000000000
+      internalID: -8615425156148275505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerEightBlastSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 2820
+        y: 4200
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0ad596a24f7f47e0800000000000000
+      internalID: -1779063403548648946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerEightBlastSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3150
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a91d5740d0a3ee720800000000000000
+      internalID: 2877301039520141722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerEightBlastSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 3150
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a1c3c748d5588070800000000000000
+      internalID: 8108825516485886368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerEightBlastSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 3150
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4eaaeed86130e9c0800000000000000
+      internalID: -3900062950816567732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerEightBlastSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 3150
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce6ee04deb9c47910800000000000000
+      internalID: 1834312769685350124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerEightBlastSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 3150
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d05e2bb946ab1b00800000000000000
+      internalID: 800416194391593177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerEightBlastSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 3150
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e5cc8f48b719c2a0800000000000000
+      internalID: -6716811288870337053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerEightBlastSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 2820
+        y: 3150
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebd248fb9915042b0800000000000000
+      internalID: -5602388215663940162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerEightBlastSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2100
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21d6ab8529a302a50800000000000000
+      internalID: 6494255062896504082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerEightBlastSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 2100
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49f39661095fdd1f0800000000000000
+      internalID: -1018387941515772012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerEightBlastSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 2100
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bc693c83ac225640800000000000000
+      internalID: 5067161611689094323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerEightBlastSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 2100
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a735e82143ad08e0800000000000000
+      internalID: -1725543581958719580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerEightBlastSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 2100
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94a68cebc5d6ff920800000000000000
+      internalID: 3026257719721486921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerEightBlastSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 2100
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 827bcb4be926fd500800000000000000
+      internalID: 423165323772737320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerEightBlastSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 2820
+        y: 2100
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd091c0d0b1e1d20800000000000000
+      internalID: 3251065723859570115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerEightBlastSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1050
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec5a52d93a09ef540800000000000000
+      internalID: 5043627665092093390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerEightBlastSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1050
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc40dca921b28420800000000000000
+      internalID: 2630859924888898770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerEightBlastSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 1050
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3187e009885440240800000000000000
+      internalID: 4757003559244822547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerEightBlastSpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 1050
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaeaa7e623c17d400800000000000000
+      internalID: 348778499071979178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerEightBlastSpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 1050
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 264a0eb5ea93c6260800000000000000
+      internalID: 7092106934230230114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerEightBlastSpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 1050
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c679ede95219a9b70800000000000000
+      internalID: 8906590803843782508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerEightBlastSpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 2820
+        y: 1050
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 171c512f626546100800000000000000
+      internalID: 100299816979251569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerEightBlastSpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53df75485d631c0c0800000000000000
+      internalID: -4557301057245938379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerEightBlastSpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 0
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db4d303fb99e8ad60800000000000000
+      internalID: 7901822402227852477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerEightBlastSpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 0
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70b51b551db0a7650800000000000000
+      internalID: 6231306028134259463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerEightBlastSpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 0
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e222b34827b4c47f0800000000000000
+      internalID: -627043292894518738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCrackerEightBlastSpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 0
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edebde01d29b51600800000000000000
+      internalID: 438460141947174622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 90498599a073c44e7b69938698b75309
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GreenCrackerEightBlastSpriteSheet_0: 1090566150734294017
+      GreenCrackerEightBlastSpriteSheet_1: -2918838578279516911
+      GreenCrackerEightBlastSpriteSheet_10: -7251390993845288116
+      GreenCrackerEightBlastSpriteSheet_11: 1569263280946164946
+      GreenCrackerEightBlastSpriteSheet_12: -8615425156148275505
+      GreenCrackerEightBlastSpriteSheet_13: -1779063403548648946
+      GreenCrackerEightBlastSpriteSheet_14: 2877301039520141722
+      GreenCrackerEightBlastSpriteSheet_15: 8108825516485886368
+      GreenCrackerEightBlastSpriteSheet_16: -3900062950816567732
+      GreenCrackerEightBlastSpriteSheet_17: 1834312769685350124
+      GreenCrackerEightBlastSpriteSheet_18: 800416194391593177
+      GreenCrackerEightBlastSpriteSheet_19: -6716811288870337053
+      GreenCrackerEightBlastSpriteSheet_2: -3405968997244181427
+      GreenCrackerEightBlastSpriteSheet_20: -5602388215663940162
+      GreenCrackerEightBlastSpriteSheet_21: 6494255062896504082
+      GreenCrackerEightBlastSpriteSheet_22: -1018387941515772012
+      GreenCrackerEightBlastSpriteSheet_23: 5067161611689094323
+      GreenCrackerEightBlastSpriteSheet_24: -1725543581958719580
+      GreenCrackerEightBlastSpriteSheet_25: 3026257719721486921
+      GreenCrackerEightBlastSpriteSheet_26: 423165323772737320
+      GreenCrackerEightBlastSpriteSheet_27: 3251065723859570115
+      GreenCrackerEightBlastSpriteSheet_28: 5043627665092093390
+      GreenCrackerEightBlastSpriteSheet_29: 2630859924888898770
+      GreenCrackerEightBlastSpriteSheet_3: 2726906239521255523
+      GreenCrackerEightBlastSpriteSheet_30: 4757003559244822547
+      GreenCrackerEightBlastSpriteSheet_31: 348778499071979178
+      GreenCrackerEightBlastSpriteSheet_32: 7092106934230230114
+      GreenCrackerEightBlastSpriteSheet_33: 8906590803843782508
+      GreenCrackerEightBlastSpriteSheet_34: 100299816979251569
+      GreenCrackerEightBlastSpriteSheet_35: -4557301057245938379
+      GreenCrackerEightBlastSpriteSheet_36: 7901822402227852477
+      GreenCrackerEightBlastSpriteSheet_37: 6231306028134259463
+      GreenCrackerEightBlastSpriteSheet_38: -627043292894518738
+      GreenCrackerEightBlastSpriteSheet_39: 438460141947174622
+      GreenCrackerEightBlastSpriteSheet_4: 3341611752963717655
+      GreenCrackerEightBlastSpriteSheet_5: 8296754902404256830
+      GreenCrackerEightBlastSpriteSheet_6: 5788587850386118632
+      GreenCrackerEightBlastSpriteSheet_7: 9001307084091335894
+      GreenCrackerEightBlastSpriteSheet_8: 5940806752096996628
+      GreenCrackerEightBlastSpriteSheet_9: -25368223255758528
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

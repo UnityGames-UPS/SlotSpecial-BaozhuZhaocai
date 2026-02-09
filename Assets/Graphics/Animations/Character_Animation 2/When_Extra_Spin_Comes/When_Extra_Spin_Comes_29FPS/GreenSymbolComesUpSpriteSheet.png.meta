@@ -1,0 +1,2980 @@
+fileFormatVersion: 2
+guid: 265018a2edbda4d4fb3bebbf195ff2c6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7528130069999675037
+    second: GreenSymbolComesUpSpriteSheet_0
+  - first:
+      213: -316588518529048243
+    second: GreenSymbolComesUpSpriteSheet_1
+  - first:
+      213: -4286694111027017095
+    second: GreenSymbolComesUpSpriteSheet_2
+  - first:
+      213: 6476916726062845595
+    second: GreenSymbolComesUpSpriteSheet_3
+  - first:
+      213: 6608310769859908153
+    second: GreenSymbolComesUpSpriteSheet_4
+  - first:
+      213: 7485122108846427507
+    second: GreenSymbolComesUpSpriteSheet_5
+  - first:
+      213: 1116701049031721741
+    second: GreenSymbolComesUpSpriteSheet_6
+  - first:
+      213: -5669753652368835941
+    second: GreenSymbolComesUpSpriteSheet_7
+  - first:
+      213: 3824210439252632511
+    second: GreenSymbolComesUpSpriteSheet_8
+  - first:
+      213: -2802993157927386010
+    second: GreenSymbolComesUpSpriteSheet_9
+  - first:
+      213: 9163058553066848596
+    second: GreenSymbolComesUpSpriteSheet_10
+  - first:
+      213: 6179628155190932750
+    second: GreenSymbolComesUpSpriteSheet_11
+  - first:
+      213: -1228631071519858815
+    second: GreenSymbolComesUpSpriteSheet_12
+  - first:
+      213: -3994470028842691400
+    second: GreenSymbolComesUpSpriteSheet_13
+  - first:
+      213: -8732679483706601064
+    second: GreenSymbolComesUpSpriteSheet_14
+  - first:
+      213: 8736927741935032253
+    second: GreenSymbolComesUpSpriteSheet_15
+  - first:
+      213: 3259404108516178641
+    second: GreenSymbolComesUpSpriteSheet_16
+  - first:
+      213: 1339652384731749102
+    second: GreenSymbolComesUpSpriteSheet_17
+  - first:
+      213: 41651931212733096
+    second: GreenSymbolComesUpSpriteSheet_18
+  - first:
+      213: 2061852193846653277
+    second: GreenSymbolComesUpSpriteSheet_19
+  - first:
+      213: -2743832445766749840
+    second: GreenSymbolComesUpSpriteSheet_20
+  - first:
+      213: -2791069935240049333
+    second: GreenSymbolComesUpSpriteSheet_21
+  - first:
+      213: 8426423904104169906
+    second: GreenSymbolComesUpSpriteSheet_22
+  - first:
+      213: 6020692871002449117
+    second: GreenSymbolComesUpSpriteSheet_23
+  - first:
+      213: -9138271844649912976
+    second: GreenSymbolComesUpSpriteSheet_24
+  - first:
+      213: 4218470168614139827
+    second: GreenSymbolComesUpSpriteSheet_25
+  - first:
+      213: -1533448468064344750
+    second: GreenSymbolComesUpSpriteSheet_26
+  - first:
+      213: 6747222915016289600
+    second: GreenSymbolComesUpSpriteSheet_27
+  - first:
+      213: -6817416917626914432
+    second: GreenSymbolComesUpSpriteSheet_28
+  - first:
+      213: -5815736181295306421
+    second: GreenSymbolComesUpSpriteSheet_29
+  - first:
+      213: 2998774719411344480
+    second: GreenSymbolComesUpSpriteSheet_30
+  - first:
+      213: 5689876736292994416
+    second: GreenSymbolComesUpSpriteSheet_31
+  - first:
+      213: 6536925369611949149
+    second: GreenSymbolComesUpSpriteSheet_32
+  - first:
+      213: -7626725311439545100
+    second: GreenSymbolComesUpSpriteSheet_33
+  - first:
+      213: -1432883373438289577
+    second: GreenSymbolComesUpSpriteSheet_34
+  - first:
+      213: -4367220749225083086
+    second: GreenSymbolComesUpSpriteSheet_35
+  - first:
+      213: -2422084764127637939
+    second: GreenSymbolComesUpSpriteSheet_36
+  - first:
+      213: -5341897407726782089
+    second: GreenSymbolComesUpSpriteSheet_37
+  - first:
+      213: -893533552951634134
+    second: GreenSymbolComesUpSpriteSheet_38
+  - first:
+      213: 8049857901311520505
+    second: GreenSymbolComesUpSpriteSheet_39
+  - first:
+      213: 7677672885136693773
+    second: GreenSymbolComesUpSpriteSheet_40
+  - first:
+      213: 3391340623177400517
+    second: GreenSymbolComesUpSpriteSheet_41
+  - first:
+      213: -5130072647178234913
+    second: GreenSymbolComesUpSpriteSheet_42
+  - first:
+      213: -4899142419041921209
+    second: GreenSymbolComesUpSpriteSheet_43
+  - first:
+      213: 1648581385067267603
+    second: GreenSymbolComesUpSpriteSheet_44
+  - first:
+      213: 9150966729938519952
+    second: GreenSymbolComesUpSpriteSheet_45
+  - first:
+      213: -8243340058703737588
+    second: GreenSymbolComesUpSpriteSheet_46
+  - first:
+      213: 2399136703926640368
+    second: GreenSymbolComesUpSpriteSheet_47
+  - first:
+      213: -1868366107804049823
+    second: GreenSymbolComesUpSpriteSheet_48
+  - first:
+      213: 6259737693376570305
+    second: GreenSymbolComesUpSpriteSheet_49
+  - first:
+      213: 1354512843741605146
+    second: GreenSymbolComesUpSpriteSheet_50
+  - first:
+      213: 3270013553025510354
+    second: GreenSymbolComesUpSpriteSheet_51
+  - first:
+      213: 9135878681264900302
+    second: GreenSymbolComesUpSpriteSheet_52
+  - first:
+      213: 2038198446308399993
+    second: GreenSymbolComesUpSpriteSheet_53
+  - first:
+      213: 6943617805312535909
+    second: GreenSymbolComesUpSpriteSheet_54
+  - first:
+      213: 3195816936547732211
+    second: GreenSymbolComesUpSpriteSheet_55
+  - first:
+      213: -8155810902905432981
+    second: GreenSymbolComesUpSpriteSheet_56
+  - first:
+      213: 8353859433953398268
+    second: GreenSymbolComesUpSpriteSheet_57
+  - first:
+      213: 4396108823182753805
+    second: GreenSymbolComesUpSpriteSheet_58
+  - first:
+      213: 7639438223688426898
+    second: GreenSymbolComesUpSpriteSheet_59
+  - first:
+      213: -8038405374576388063
+    second: GreenSymbolComesUpSpriteSheet_60
+  - first:
+      213: 8341255306712512009
+    second: GreenSymbolComesUpSpriteSheet_61
+  - first:
+      213: -5541308616559725822
+    second: GreenSymbolComesUpSpriteSheet_62
+  - first:
+      213: 6671359615102597453
+    second: GreenSymbolComesUpSpriteSheet_63
+  - first:
+      213: 4169864176359949743
+    second: GreenSymbolComesUpSpriteSheet_64
+  - first:
+      213: -8853243490060954636
+    second: GreenSymbolComesUpSpriteSheet_65
+  - first:
+      213: 1507100669501645074
+    second: GreenSymbolComesUpSpriteSheet_66
+  - first:
+      213: -1866364309543753433
+    second: GreenSymbolComesUpSpriteSheet_67
+  - first:
+      213: 138081475533003160
+    second: GreenSymbolComesUpSpriteSheet_68
+  - first:
+      213: -4344106242313808845
+    second: GreenSymbolComesUpSpriteSheet_69
+  - first:
+      213: -2403346305036420793
+    second: GreenSymbolComesUpSpriteSheet_70
+  - first:
+      213: -2557676704196382775
+    second: GreenSymbolComesUpSpriteSheet_71
+  - first:
+      213: -5782355481280943266
+    second: GreenSymbolComesUpSpriteSheet_72
+  - first:
+      213: 7683108413275795711
+    second: GreenSymbolComesUpSpriteSheet_73
+  - first:
+      213: 4017131283113002671
+    second: GreenSymbolComesUpSpriteSheet_74
+  - first:
+      213: -3579984198759136805
+    second: GreenSymbolComesUpSpriteSheet_75
+  - first:
+      213: 6951371422960618901
+    second: GreenSymbolComesUpSpriteSheet_76
+  - first:
+      213: -6960843966925581253
+    second: GreenSymbolComesUpSpriteSheet_77
+  - first:
+      213: 9053381702120268454
+    second: GreenSymbolComesUpSpriteSheet_78
+  - first:
+      213: -8212281147118395661
+    second: GreenSymbolComesUpSpriteSheet_79
+  - first:
+      213: -4019868573831646630
+    second: GreenSymbolComesUpSpriteSheet_80
+  - first:
+      213: -4401666051614729115
+    second: GreenSymbolComesUpSpriteSheet_81
+  - first:
+      213: -2431673447295515222
+    second: GreenSymbolComesUpSpriteSheet_82
+  - first:
+      213: -3731125498110244743
+    second: GreenSymbolComesUpSpriteSheet_83
+  - first:
+      213: -3050270961091598940
+    second: GreenSymbolComesUpSpriteSheet_84
+  - first:
+      213: 3534586241676497030
+    second: GreenSymbolComesUpSpriteSheet_85
+  - first:
+      213: -3489133754084976115
+    second: GreenSymbolComesUpSpriteSheet_86
+  - first:
+      213: 8934023354305023831
+    second: GreenSymbolComesUpSpriteSheet_87
+  - first:
+      213: -5493867072337776787
+    second: GreenSymbolComesUpSpriteSheet_88
+  - first:
+      213: -6072510594535195793
+    second: GreenSymbolComesUpSpriteSheet_89
+  - first:
+      213: 6974616737795020064
+    second: GreenSymbolComesUpSpriteSheet_90
+  - first:
+      213: -1171539409760580244
+    second: GreenSymbolComesUpSpriteSheet_91
+  - first:
+      213: -4200108396675750469
+    second: GreenSymbolComesUpSpriteSheet_92
+  - first:
+      213: 3961878878724590411
+    second: GreenSymbolComesUpSpriteSheet_93
+  - first:
+      213: 6359337751742155121
+    second: GreenSymbolComesUpSpriteSheet_94
+  - first:
+      213: 6660986144032782146
+    second: GreenSymbolComesUpSpriteSheet_95
+  - first:
+      213: -2780706970465733004
+    second: GreenSymbolComesUpSpriteSheet_96
+  - first:
+      213: -4735380303776237251
+    second: GreenSymbolComesUpSpriteSheet_97
+  - first:
+      213: -8595223951837811977
+    second: GreenSymbolComesUpSpriteSheet_98
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8100
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d966445b96a497860800000000000000
+      internalID: 7528130069999675037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 8100
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d41eb157b604b9bf0800000000000000
+      internalID: -316588518529048243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 8100
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97ac97bfa6a9284c0800000000000000
+      internalID: -4286694111027017095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 8100
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9e03c83271a2e950800000000000000
+      internalID: 6476916726062845595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 8100
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93253e202af65bb50800000000000000
+      internalID: 6608310769859908153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 8100
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37dc63e66ee70e760800000000000000
+      internalID: 7485122108846427507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 8100
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0387d300b15f7f00800000000000000
+      internalID: 1116701049031721741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 4536
+        y: 8100
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9af492c71df051b0800000000000000
+      internalID: -5669753652368835941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 8100
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb36ef90223521530800000000000000
+      internalID: 3824210439252632511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 5832
+        y: 8100
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66443e1e294c919d0800000000000000
+      internalID: -2802993157927386010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 8100
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45187afb439b92f70800000000000000
+      internalID: 9163058553066848596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7290
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e05782ae01372c550800000000000000
+      internalID: 6179628155190932750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 7290
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18f1d0ecc8603fee0800000000000000
+      internalID: -1228631071519858815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 7290
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b413e02caac098c0800000000000000
+      internalID: -3994470028842691400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 7290
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 891935cf64a4fc680800000000000000
+      internalID: -8732679483706601064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 7290
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db71b46bd7dcf3970800000000000000
+      internalID: 8736927741935032253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 7290
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1da3e8384cabb3d20800000000000000
+      internalID: 3259404108516178641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 7290
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eead0720fb6679210800000000000000
+      internalID: 1339652384731749102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 4536
+        y: 7290
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aad424f53af39000800000000000000
+      internalID: 41651931212733096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 7290
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d51f69965ab2d9c10800000000000000
+      internalID: 2061852193846653277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 5832
+        y: 7290
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 071b1e29de2fbe9d0800000000000000
+      internalID: -2743832445766749840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 7290
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4d8ebe7ea02449d0800000000000000
+      internalID: -2791069935240049333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6480
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b14dfa45eba0f470800000000000000
+      internalID: 8426423904104169906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 6480
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd4e3d5644ccd8350800000000000000
+      internalID: 6020692871002449117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 6480
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07530b68c265e2180800000000000000
+      internalID: -9138271844649912976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 6480
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b7f3d794440b8a30800000000000000
+      internalID: 4218470168614139827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 6480
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25568ab2eb818bae0800000000000000
+      internalID: -1533448468064344750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 6480
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04debed2e73f2ad50800000000000000
+      internalID: 6747222915016289600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 6480
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 089fb130f6ba361a0800000000000000
+      internalID: -6817416917626914432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 4536
+        y: 6480
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b49a18691ca5a4fa0800000000000000
+      internalID: -5815736181295306421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 6480
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0645fe718b9cd9920800000000000000
+      internalID: 2998774719411344480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 5832
+        y: 6480
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07db082deb086fe40800000000000000
+      internalID: 5689876736292994416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 6480
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5495f25df2d7ba50800000000000000
+      internalID: 6536925369611949149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5670
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fc5a24ccbd682690800000000000000
+      internalID: -7626725311439545100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 5670
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 759b5a1e9206d1ce0800000000000000
+      internalID: -1432883373438289577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 5670
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23f39bafdd38463c0800000000000000
+      internalID: -4367220749225083086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 5670
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4e49426db6036ed0800000000000000
+      internalID: -2422084764127637939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 5670
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7797dd93c94cdd5b0800000000000000
+      internalID: -5341897407726782089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 5670
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a27dc6db7f78993f0800000000000000
+      internalID: -893533552951634134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 5670
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fe6b0c7c17d6bf60800000000000000
+      internalID: 8049857901311520505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 4536
+        y: 5670
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0a983c9fc29c8a60800000000000000
+      internalID: 7677672885136693773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 5670
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c047d42456701f20800000000000000
+      internalID: 3391340623177400517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 5832
+        y: 5670
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd35ef09b125ec8b0800000000000000
+      internalID: -5130072647178234913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 5670
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74755f83defb20cb0800000000000000
+      internalID: -4899142419041921209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4860
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31681400900f0e610800000000000000
+      internalID: 1648581385067267603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 4860
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0974769c1c3cefe70800000000000000
+      internalID: 9150966729938519952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 4860
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0d473644e5c99d80800000000000000
+      internalID: -8243340058703737588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 4860
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe162dfe127b4120800000000000000
+      internalID: 2399136703926640368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 4860
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16ed5f98cea3216e0800000000000000
+      internalID: -1868366107804049823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 4860
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c365d0444e0fd650800000000000000
+      internalID: 6259737693376570305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 4860
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1d2cee31423cc210800000000000000
+      internalID: 1354512843741605146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 4536
+        y: 4860
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2db6cce400c616d20800000000000000
+      internalID: 3270013553025510354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 4860
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec8cbd3b14929ce70800000000000000
+      internalID: 9135878681264900302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 5832
+        y: 4860
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97b17f520b2294c10800000000000000
+      internalID: 2038198446308399993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 4860
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56d2bb5ea9fac5060800000000000000
+      internalID: 6943617805312535909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4050
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3faca165292d95c20800000000000000
+      internalID: 3195816936547732211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 4050
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b645015f13db0de80800000000000000
+      internalID: -8155810902905432981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 4050
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfd865005eedee370800000000000000
+      internalID: 8353859433953398268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 4050
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d00c4cfdead120d30800000000000000
+      internalID: 4396108823182753805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 4050
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2956d76c69cb40a60800000000000000
+      internalID: 7639438223688426898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 4050
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12898cfa6e8d17090800000000000000
+      internalID: -8038405374576388063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 4050
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 906f071f18712c370800000000000000
+      internalID: 8341255306712512009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 4536
+        y: 4050
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 203752f1c215913b0800000000000000
+      internalID: -5541308616559725822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 4050
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d49b31b393e659c50800000000000000
+      internalID: 6671359615102597453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_64
+      rect:
+        serializedVersion: 2
+        x: 5832
+        y: 4050
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa5cf8120655ed930800000000000000
+      internalID: 4169864176359949743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_65
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 4050
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f390e8c3f5f22580800000000000000
+      internalID: -8853243490060954636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3240
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 211266ee21c4ae410800000000000000
+      internalID: 1507100669501645074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_67
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 3240
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7296d248c875916e0800000000000000
+      internalID: -1866364309543753433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_68
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 3240
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 899d433de509ae100800000000000000
+      internalID: 138081475533003160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_69
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 3240
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33414508362a6b3c0800000000000000
+      internalID: -4344106242313808845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_70
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 3240
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7497e00e44995aed0800000000000000
+      internalID: -2403346305036420793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_71
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 3240
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cf2514b69e418cd0800000000000000
+      internalID: -2557676704196382775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_72
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 3240
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5b67357352f0cfa0800000000000000
+      internalID: -5782355481280943266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_73
+      rect:
+        serializedVersion: 2
+        x: 4536
+        y: 3240
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff07e102562ef9a60800000000000000
+      internalID: 7683108413275795711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_74
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 3240
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa64f0a4e97bfb730800000000000000
+      internalID: 4017131283113002671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_75
+      rect:
+        serializedVersion: 2
+        x: 5832
+        y: 3240
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd1437bb657515ec0800000000000000
+      internalID: -3579984198759136805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_76
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 3240
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d8e5faa7b387060800000000000000
+      internalID: 6951371422960618901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2430
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b34da7eca4d166f90800000000000000
+      internalID: -6960843966925581253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_78
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 2430
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a266e2f0b214ad70800000000000000
+      internalID: 9053381702120268454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_79
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 2430
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fede56aecd180e80800000000000000
+      internalID: -8212281147118395661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_80
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 2430
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a52320d84de8638c0800000000000000
+      internalID: -4019868573831646630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_81
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 2430
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c9b9d0c042ae2c0800000000000000
+      internalID: -4401666051614729115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_82
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 2430
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa5833c12e5f04ed0800000000000000
+      internalID: -2431673447295515222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_83
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 2430
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9788cb8b021683cc0800000000000000
+      internalID: -3731125498110244743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_84
+      rect:
+        serializedVersion: 2
+        x: 4536
+        y: 2430
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a5227fc8b24ba5d0800000000000000
+      internalID: -3050270961091598940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_85
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 2430
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6805c13b57f5d0130800000000000000
+      internalID: 3534586241676497030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_86
+      rect:
+        serializedVersion: 2
+        x: 5832
+        y: 2430
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0a90fd365b149fc0800000000000000
+      internalID: -3489133754084976115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_87
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 2430
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75f056008e60cfb70800000000000000
+      internalID: 8934023354305023831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1620
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6f6716610dd1c3b0800000000000000
+      internalID: -5493867072337776787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_89
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1620
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6bfeeda9cb1abba0800000000000000
+      internalID: -6072510594535195793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_90
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 1620
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02514cc48f0dac060800000000000000
+      internalID: 6974616737795020064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_91
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 1620
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d89d82d1bddbfe0800000000000000
+      internalID: -1171539409760580244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_92
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 1620
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb5a1069aa736b5c0800000000000000
+      internalID: -4200108396675750469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_93
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 1620
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4b808969db6bf630800000000000000
+      internalID: 3961878878724590411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_94
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 1620
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1798253fdf7e04850800000000000000
+      internalID: 6359337751742155121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_95
+      rect:
+        serializedVersion: 2
+        x: 4536
+        y: 1620
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2477fd84b93907c50800000000000000
+      internalID: 6660986144032782146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_96
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 1620
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 476ffe04eb1f869d0800000000000000
+      internalID: -2780706970465733004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_97
+      rect:
+        serializedVersion: 2
+        x: 5832
+        y: 1620
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d39390de3bc884eb0800000000000000
+      internalID: -4735380303776237251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_98
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 1620
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fa27c1fa51a7b880800000000000000
+      internalID: -8595223951837811977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_99
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 810
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba3a854c688c4e0aa2d9dc8de685f27
+      internalID: -1024223770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_100
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 810
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb9bbb97cd274478eaa1b07e23a2f485
+      internalID: 28722023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_101
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 810
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4dc47ca70e7461a9d82a20ed3edb68
+      internalID: 1874036243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_102
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 810
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27fe80493bdcf4d4b8f2a62c2d05c5ce
+      internalID: 1119096196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_103
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 810
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f793b9567e52f4e28ae08c4195b2ed53
+      internalID: -1934323483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_104
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 810
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d610b37d9d9749c8bbb8c799fa8101f
+      internalID: -68683273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_105
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 810
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0ef53208b2149e5a057aa98e5e0f9e
+      internalID: 1713519207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_106
+      rect:
+        serializedVersion: 2
+        x: 4536
+        y: 810
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec3a0aba0f1474040b09cdec4a6086ad
+      internalID: -1505168446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_107
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 810
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4b6d0932c974dd1811d1226e45e40f
+      internalID: -1120194668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_108
+      rect:
+        serializedVersion: 2
+        x: 5832
+        y: 810
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30440857137064d4a8e20272bf96bb5d
+      internalID: 2069854719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_109
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 810
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0402bbdc125b4816b9802cfb5da7ec9
+      internalID: 2137452383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenSymbolComesUpSpriteSheet_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 648
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 466385587eb044f0c9e0ac98c1282e70
+      internalID: 1135063635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1279340786ee349258a5d05cdc0f7185
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GreenSymbolComesUpSpriteSheet_0: 7528130069999675037
+      GreenSymbolComesUpSpriteSheet_1: -316588518529048243
+      GreenSymbolComesUpSpriteSheet_10: 9163058553066848596
+      GreenSymbolComesUpSpriteSheet_100: 28722023
+      GreenSymbolComesUpSpriteSheet_101: 1874036243
+      GreenSymbolComesUpSpriteSheet_102: 1119096196
+      GreenSymbolComesUpSpriteSheet_103: -1934323483
+      GreenSymbolComesUpSpriteSheet_104: -68683273
+      GreenSymbolComesUpSpriteSheet_105: 1713519207
+      GreenSymbolComesUpSpriteSheet_106: -1505168446
+      GreenSymbolComesUpSpriteSheet_107: -1120194668
+      GreenSymbolComesUpSpriteSheet_108: 2069854719
+      GreenSymbolComesUpSpriteSheet_109: 2137452383
+      GreenSymbolComesUpSpriteSheet_11: 6179628155190932750
+      GreenSymbolComesUpSpriteSheet_110: 1135063635
+      GreenSymbolComesUpSpriteSheet_12: -1228631071519858815
+      GreenSymbolComesUpSpriteSheet_13: -3994470028842691400
+      GreenSymbolComesUpSpriteSheet_14: -8732679483706601064
+      GreenSymbolComesUpSpriteSheet_15: 8736927741935032253
+      GreenSymbolComesUpSpriteSheet_16: 3259404108516178641
+      GreenSymbolComesUpSpriteSheet_17: 1339652384731749102
+      GreenSymbolComesUpSpriteSheet_18: 41651931212733096
+      GreenSymbolComesUpSpriteSheet_19: 2061852193846653277
+      GreenSymbolComesUpSpriteSheet_2: -4286694111027017095
+      GreenSymbolComesUpSpriteSheet_20: -2743832445766749840
+      GreenSymbolComesUpSpriteSheet_21: -2791069935240049333
+      GreenSymbolComesUpSpriteSheet_22: 8426423904104169906
+      GreenSymbolComesUpSpriteSheet_23: 6020692871002449117
+      GreenSymbolComesUpSpriteSheet_24: -9138271844649912976
+      GreenSymbolComesUpSpriteSheet_25: 4218470168614139827
+      GreenSymbolComesUpSpriteSheet_26: -1533448468064344750
+      GreenSymbolComesUpSpriteSheet_27: 6747222915016289600
+      GreenSymbolComesUpSpriteSheet_28: -6817416917626914432
+      GreenSymbolComesUpSpriteSheet_29: -5815736181295306421
+      GreenSymbolComesUpSpriteSheet_3: 6476916726062845595
+      GreenSymbolComesUpSpriteSheet_30: 2998774719411344480
+      GreenSymbolComesUpSpriteSheet_31: 5689876736292994416
+      GreenSymbolComesUpSpriteSheet_32: 6536925369611949149
+      GreenSymbolComesUpSpriteSheet_33: -7626725311439545100
+      GreenSymbolComesUpSpriteSheet_34: -1432883373438289577
+      GreenSymbolComesUpSpriteSheet_35: -4367220749225083086
+      GreenSymbolComesUpSpriteSheet_36: -2422084764127637939
+      GreenSymbolComesUpSpriteSheet_37: -5341897407726782089
+      GreenSymbolComesUpSpriteSheet_38: -893533552951634134
+      GreenSymbolComesUpSpriteSheet_39: 8049857901311520505
+      GreenSymbolComesUpSpriteSheet_4: 6608310769859908153
+      GreenSymbolComesUpSpriteSheet_40: 7677672885136693773
+      GreenSymbolComesUpSpriteSheet_41: 3391340623177400517
+      GreenSymbolComesUpSpriteSheet_42: -5130072647178234913
+      GreenSymbolComesUpSpriteSheet_43: -4899142419041921209
+      GreenSymbolComesUpSpriteSheet_44: 1648581385067267603
+      GreenSymbolComesUpSpriteSheet_45: 9150966729938519952
+      GreenSymbolComesUpSpriteSheet_46: -8243340058703737588
+      GreenSymbolComesUpSpriteSheet_47: 2399136703926640368
+      GreenSymbolComesUpSpriteSheet_48: -1868366107804049823
+      GreenSymbolComesUpSpriteSheet_49: 6259737693376570305
+      GreenSymbolComesUpSpriteSheet_5: 7485122108846427507
+      GreenSymbolComesUpSpriteSheet_50: 1354512843741605146
+      GreenSymbolComesUpSpriteSheet_51: 3270013553025510354
+      GreenSymbolComesUpSpriteSheet_52: 9135878681264900302
+      GreenSymbolComesUpSpriteSheet_53: 2038198446308399993
+      GreenSymbolComesUpSpriteSheet_54: 6943617805312535909
+      GreenSymbolComesUpSpriteSheet_55: 3195816936547732211
+      GreenSymbolComesUpSpriteSheet_56: -8155810902905432981
+      GreenSymbolComesUpSpriteSheet_57: 8353859433953398268
+      GreenSymbolComesUpSpriteSheet_58: 4396108823182753805
+      GreenSymbolComesUpSpriteSheet_59: 7639438223688426898
+      GreenSymbolComesUpSpriteSheet_6: 1116701049031721741
+      GreenSymbolComesUpSpriteSheet_60: -8038405374576388063
+      GreenSymbolComesUpSpriteSheet_61: 8341255306712512009
+      GreenSymbolComesUpSpriteSheet_62: -5541308616559725822
+      GreenSymbolComesUpSpriteSheet_63: 6671359615102597453
+      GreenSymbolComesUpSpriteSheet_64: 4169864176359949743
+      GreenSymbolComesUpSpriteSheet_65: -8853243490060954636
+      GreenSymbolComesUpSpriteSheet_66: 1507100669501645074
+      GreenSymbolComesUpSpriteSheet_67: -1866364309543753433
+      GreenSymbolComesUpSpriteSheet_68: 138081475533003160
+      GreenSymbolComesUpSpriteSheet_69: -4344106242313808845
+      GreenSymbolComesUpSpriteSheet_7: -5669753652368835941
+      GreenSymbolComesUpSpriteSheet_70: -2403346305036420793
+      GreenSymbolComesUpSpriteSheet_71: -2557676704196382775
+      GreenSymbolComesUpSpriteSheet_72: -5782355481280943266
+      GreenSymbolComesUpSpriteSheet_73: 7683108413275795711
+      GreenSymbolComesUpSpriteSheet_74: 4017131283113002671
+      GreenSymbolComesUpSpriteSheet_75: -3579984198759136805
+      GreenSymbolComesUpSpriteSheet_76: 6951371422960618901
+      GreenSymbolComesUpSpriteSheet_77: -6960843966925581253
+      GreenSymbolComesUpSpriteSheet_78: 9053381702120268454
+      GreenSymbolComesUpSpriteSheet_79: -8212281147118395661
+      GreenSymbolComesUpSpriteSheet_8: 3824210439252632511
+      GreenSymbolComesUpSpriteSheet_80: -4019868573831646630
+      GreenSymbolComesUpSpriteSheet_81: -4401666051614729115
+      GreenSymbolComesUpSpriteSheet_82: -2431673447295515222
+      GreenSymbolComesUpSpriteSheet_83: -3731125498110244743
+      GreenSymbolComesUpSpriteSheet_84: -3050270961091598940
+      GreenSymbolComesUpSpriteSheet_85: 3534586241676497030
+      GreenSymbolComesUpSpriteSheet_86: -3489133754084976115
+      GreenSymbolComesUpSpriteSheet_87: 8934023354305023831
+      GreenSymbolComesUpSpriteSheet_88: -5493867072337776787
+      GreenSymbolComesUpSpriteSheet_89: -6072510594535195793
+      GreenSymbolComesUpSpriteSheet_9: -2802993157927386010
+      GreenSymbolComesUpSpriteSheet_90: 6974616737795020064
+      GreenSymbolComesUpSpriteSheet_91: -1171539409760580244
+      GreenSymbolComesUpSpriteSheet_92: -4200108396675750469
+      GreenSymbolComesUpSpriteSheet_93: 3961878878724590411
+      GreenSymbolComesUpSpriteSheet_94: 6359337751742155121
+      GreenSymbolComesUpSpriteSheet_95: 6660986144032782146
+      GreenSymbolComesUpSpriteSheet_96: -2780706970465733004
+      GreenSymbolComesUpSpriteSheet_97: -4735380303776237251
+      GreenSymbolComesUpSpriteSheet_98: -8595223951837811977
+      GreenSymbolComesUpSpriteSheet_99: -1024223770
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

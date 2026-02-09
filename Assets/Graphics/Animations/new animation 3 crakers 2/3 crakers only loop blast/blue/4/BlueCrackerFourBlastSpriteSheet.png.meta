@@ -1,0 +1,1287 @@
+fileFormatVersion: 2
+guid: b1f6f3e5513194ddba2da65279363fc8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5241393797657388593
+    second: BlueCrackerFourBlastSpriteSheet_0
+  - first:
+      213: -8316619635527257530
+    second: BlueCrackerFourBlastSpriteSheet_1
+  - first:
+      213: -377431160085739259
+    second: BlueCrackerFourBlastSpriteSheet_2
+  - first:
+      213: 1913093198985780009
+    second: BlueCrackerFourBlastSpriteSheet_3
+  - first:
+      213: 566144426084894135
+    second: BlueCrackerFourBlastSpriteSheet_4
+  - first:
+      213: -7704239239941558396
+    second: BlueCrackerFourBlastSpriteSheet_5
+  - first:
+      213: -7890691980654066943
+    second: BlueCrackerFourBlastSpriteSheet_6
+  - first:
+      213: 6759187016018767833
+    second: BlueCrackerFourBlastSpriteSheet_7
+  - first:
+      213: -6049985623298553608
+    second: BlueCrackerFourBlastSpriteSheet_8
+  - first:
+      213: 6466643120631731294
+    second: BlueCrackerFourBlastSpriteSheet_9
+  - first:
+      213: 6842172735230116704
+    second: BlueCrackerFourBlastSpriteSheet_10
+  - first:
+      213: -5199289034563831943
+    second: BlueCrackerFourBlastSpriteSheet_11
+  - first:
+      213: 2759677182969136597
+    second: BlueCrackerFourBlastSpriteSheet_12
+  - first:
+      213: 6170304236811824646
+    second: BlueCrackerFourBlastSpriteSheet_13
+  - first:
+      213: 8204744461083976083
+    second: BlueCrackerFourBlastSpriteSheet_14
+  - first:
+      213: 2505805571725381344
+    second: BlueCrackerFourBlastSpriteSheet_15
+  - first:
+      213: -6474923017685155364
+    second: BlueCrackerFourBlastSpriteSheet_16
+  - first:
+      213: -5184264876539742705
+    second: BlueCrackerFourBlastSpriteSheet_17
+  - first:
+      213: -1581596571305801309
+    second: BlueCrackerFourBlastSpriteSheet_18
+  - first:
+      213: 3686113301220605616
+    second: BlueCrackerFourBlastSpriteSheet_19
+  - first:
+      213: 5461779342663685893
+    second: BlueCrackerFourBlastSpriteSheet_20
+  - first:
+      213: -2493675457969430561
+    second: BlueCrackerFourBlastSpriteSheet_21
+  - first:
+      213: -2705025322405837929
+    second: BlueCrackerFourBlastSpriteSheet_22
+  - first:
+      213: -2519305917689447284
+    second: BlueCrackerFourBlastSpriteSheet_23
+  - first:
+      213: -6200921881957624642
+    second: BlueCrackerFourBlastSpriteSheet_24
+  - first:
+      213: 5919044136538328606
+    second: BlueCrackerFourBlastSpriteSheet_25
+  - first:
+      213: 2244961275378097133
+    second: BlueCrackerFourBlastSpriteSheet_26
+  - first:
+      213: -8131491363907600571
+    second: BlueCrackerFourBlastSpriteSheet_27
+  - first:
+      213: 9113949620049314277
+    second: BlueCrackerFourBlastSpriteSheet_28
+  - first:
+      213: 4204075576264932809
+    second: BlueCrackerFourBlastSpriteSheet_29
+  - first:
+      213: 8357532844435824183
+    second: BlueCrackerFourBlastSpriteSheet_30
+  - first:
+      213: 8146852677842677026
+    second: BlueCrackerFourBlastSpriteSheet_31
+  - first:
+      213: 5939488176831772248
+    second: BlueCrackerFourBlastSpriteSheet_32
+  - first:
+      213: -2204371234785016781
+    second: BlueCrackerFourBlastSpriteSheet_33
+  - first:
+      213: -4377546247542336608
+    second: BlueCrackerFourBlastSpriteSheet_34
+  - first:
+      213: -2983993144326774355
+    second: BlueCrackerFourBlastSpriteSheet_35
+  - first:
+      213: -9219314200632037508
+    second: BlueCrackerFourBlastSpriteSheet_36
+  - first:
+      213: -8117998406300159850
+    second: BlueCrackerFourBlastSpriteSheet_37
+  - first:
+      213: -1980440027707620730
+    second: BlueCrackerFourBlastSpriteSheet_38
+  - first:
+      213: 7082520682487710950
+    second: BlueCrackerFourBlastSpriteSheet_39
+  - first:
+      213: -4222767499608237657
+    second: BlueCrackerFourBlastSpriteSheet_40
+  - first:
+      213: -6003948467057331829
+    second: BlueCrackerFourBlastSpriteSheet_41
+  - first:
+      213: -8897606554345699645
+    second: BlueCrackerFourBlastSpriteSheet_42
+  - first:
+      213: 6528539563510282049
+    second: BlueCrackerFourBlastSpriteSheet_43
+  - first:
+      213: -8035615834605927962
+    second: BlueCrackerFourBlastSpriteSheet_44
+  - first:
+      213: 7162007680503992035
+    second: BlueCrackerFourBlastSpriteSheet_45
+  - first:
+      213: 8512832946412370044
+    second: BlueCrackerFourBlastSpriteSheet_46
+  - first:
+      213: 3277779254685538762
+    second: BlueCrackerFourBlastSpriteSheet_47
+  - first:
+      213: 4463533586464209697
+    second: BlueCrackerFourBlastSpriteSheet_48
+  - first:
+      213: -544160136819148842
+    second: BlueCrackerFourBlastSpriteSheet_49
+  - first:
+      213: 5316310732416539105
+    second: BlueCrackerFourBlastSpriteSheet_50
+  - first:
+      213: -8971561832553160310
+    second: BlueCrackerFourBlastSpriteSheet_51
+  - first:
+      213: 2596962450454154342
+    second: BlueCrackerFourBlastSpriteSheet_52
+  - first:
+      213: -5379221302762193914
+    second: BlueCrackerFourBlastSpriteSheet_53
+  - first:
+      213: -5191455737511968907
+    second: BlueCrackerFourBlastSpriteSheet_54
+  - first:
+      213: -4230632373488968414
+    second: BlueCrackerFourBlastSpriteSheet_55
+  - first:
+      213: 1001644758069691320
+    second: BlueCrackerFourBlastSpriteSheet_56
+  - first:
+      213: -8812461695658391582
+    second: BlueCrackerFourBlastSpriteSheet_57
+  - first:
+      213: 3572189778352906289
+    second: BlueCrackerFourBlastSpriteSheet_58
+  - first:
+      213: 6558018014586192180
+    second: BlueCrackerFourBlastSpriteSheet_59
+  - first:
+      213: 6251305392704516261
+    second: BlueCrackerFourBlastSpriteSheet_60
+  - first:
+      213: -497846828540370714
+    second: BlueCrackerFourBlastSpriteSheet_61
+  - first:
+      213: 8468784681051786308
+    second: BlueCrackerFourBlastSpriteSheet_62
+  - first:
+      213: -7130112307414330539
+    second: BlueCrackerFourBlastSpriteSheet_63
+  - first:
+      213: -8774061420368002640
+    second: BlueCrackerFourBlastSpriteSheet_64
+  - first:
+      213: -6668218201910751851
+    second: BlueCrackerFourBlastSpriteSheet_65
+  - first:
+      213: 8476744793081023960
+    second: BlueCrackerFourBlastSpriteSheet_66
+  - first:
+      213: 859592247701927597
+    second: BlueCrackerFourBlastSpriteSheet_67
+  - first:
+      213: 5973092639634932710
+    second: BlueCrackerFourBlastSpriteSheet_68
+  - first:
+      213: -830584482388628773
+    second: BlueCrackerFourBlastSpriteSheet_69
+  - first:
+      213: -1251348529033587442
+    second: BlueCrackerFourBlastSpriteSheet_70
+  - first:
+      213: 7566197043000654295
+    second: BlueCrackerFourBlastSpriteSheet_71
+  - first:
+      213: -847119731245789381
+    second: BlueCrackerFourBlastSpriteSheet_72
+  - first:
+      213: -4178884906374087472
+    second: BlueCrackerFourBlastSpriteSheet_73
+  - first:
+      213: -4891392022180209228
+    second: BlueCrackerFourBlastSpriteSheet_74
+  - first:
+      213: -2089041380955447150
+    second: BlueCrackerFourBlastSpriteSheet_75
+  - first:
+      213: -6416031953622726209
+    second: BlueCrackerFourBlastSpriteSheet_76
+  - first:
+      213: 3637483135793333851
+    second: BlueCrackerFourBlastSpriteSheet_77
+  - first:
+      213: 4630943089071540437
+    second: BlueCrackerFourBlastSpriteSheet_78
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BlueCrackerFourBlastSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5250
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 136ed4d83eb2db840800000000000000
+      internalID: 5241393797657388593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrackerFourBlastSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 5250
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 642fb5c318e659c80800000000000000
+      internalID: -8316619635527257530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrackerFourBlastSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 5250
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5090def0c5813caf0800000000000000
+      internalID: -377431160085739259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrackerFourBlastSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 5250
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92b53c3e02cac8a10800000000000000
+      internalID: 1913093198985780009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrackerFourBlastSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 5250
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b58b502b595bd700800000000000000
+      internalID: 566144426084894135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrackerFourBlastSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 5250
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48f68a6ea3b051590800000000000000
+      internalID: -7704239239941558396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrackerFourBlastSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 2820
+        y: 5250
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10347154371ae7290800000000000000
+      internalID: -7890691980654066943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrackerFourBlastSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4200
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9df2b3487c47dcd50800000000000000
+      internalID: 6759187016018767833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrackerFourBlastSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 4200
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f8c11b31222a0ca0800000000000000
+      internalID: -6049985623298553608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrackerFourBlastSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 4200
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e545a7e08a12eb950800000000000000
+      internalID: 6466643120631731294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrackerFourBlastSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 4200
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 063014fe9d744fe50800000000000000
+      internalID: 6842172735230116704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrackerFourBlastSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 4200
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9773d3a8b2a68d7b0800000000000000
+      internalID: -5199289034563831943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrackerFourBlastSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 4200
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d540a9c6c75c4620800000000000000
+      internalID: 2759677182969136597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrackerFourBlastSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 2820
+        y: 4200
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60ea14ff20351a550800000000000000
+      internalID: 6170304236811824646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrackerFourBlastSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3150
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 391a3c3ed9b1dd170800000000000000
+      internalID: 8204744461083976083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrackerFourBlastSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 3150
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eec2e224e866c220800000000000000
+      internalID: 2505805571725381344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrackerFourBlastSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 3150
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd140ee22d37426a0800000000000000
+      internalID: -6474923017685155364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrackerFourBlastSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 3150
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f06705cef8acd08b0800000000000000
+      internalID: -5184264876539742705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrackerFourBlastSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 3150
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a9875d4c4a0d0ae0800000000000000
+      internalID: -1581596571305801309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrackerFourBlastSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 3150
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0beb8118484b72330800000000000000
+      internalID: 3686113301220605616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrackerFourBlastSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 2820
+        y: 3150
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5071909df532ccb40800000000000000
+      internalID: 5461779342663685893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrackerFourBlastSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2100
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdf5f9e026fa46dd0800000000000000
+      internalID: -2493675457969430561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrackerFourBlastSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 2100
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79340951dc1d57ad0800000000000000
+      internalID: -2705025322405837929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrackerFourBlastSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 2100
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8cb49f9d90a90dd0800000000000000
+      internalID: -2519305917689447284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrackerFourBlastSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 2100
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb418f9f666e1f9a0800000000000000
+      internalID: -6200921881957624642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrackerFourBlastSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 2100
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1ec930284ba42250800000000000000
+      internalID: 5919044136538328606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrackerFourBlastSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 2100
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb5b69b264b72f10800000000000000
+      internalID: 2244961275378097133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrackerFourBlastSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 2820
+        y: 2100
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54f7120efa3272f80800000000000000
+      internalID: -8131491363907600571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrackerFourBlastSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1050
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e188d344e04b7e70800000000000000
+      internalID: 9113949620049314277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrackerFourBlastSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1050
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cdba246670e75a30800000000000000
+      internalID: 4204075576264932809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrackerFourBlastSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 1050
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ed14787dbebf370800000000000000
+      internalID: 8357532844435824183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrackerFourBlastSpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 1050
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22da04cb85f6f0170800000000000000
+      internalID: 8146852677842677026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrackerFourBlastSpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 1050
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 856b0bf270d4d6250800000000000000
+      internalID: 5939488176831772248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrackerFourBlastSpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 1050
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334cc8d8a008861e0800000000000000
+      internalID: -2204371234785016781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrackerFourBlastSpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 2820
+        y: 1050
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a3156f81e4df33c0800000000000000
+      internalID: -4377546247542336608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrackerFourBlastSpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da1a33c8b0ab696d0800000000000000
+      internalID: -2983993144326774355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrackerFourBlastSpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 0
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7fec9e949a6e0080800000000000000
+      internalID: -9219314200632037508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrackerFourBlastSpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 0
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 690ba41e573175f80800000000000000
+      internalID: -8117998406300159850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrackerFourBlastSpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 0
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 682c581a9401484e0800000000000000
+      internalID: -1980440027707620730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrackerFourBlastSpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 0
+        width: 470
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e48902390b2a4260800000000000000
+      internalID: 7082520682487710950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6507a0fd9ef6244c8bf8576f518d1c92
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BlueCrackerFourBlastSpriteSheet_0: 5241393797657388593
+      BlueCrackerFourBlastSpriteSheet_1: -8316619635527257530
+      BlueCrackerFourBlastSpriteSheet_10: 6842172735230116704
+      BlueCrackerFourBlastSpriteSheet_11: -5199289034563831943
+      BlueCrackerFourBlastSpriteSheet_12: 2759677182969136597
+      BlueCrackerFourBlastSpriteSheet_13: 6170304236811824646
+      BlueCrackerFourBlastSpriteSheet_14: 8204744461083976083
+      BlueCrackerFourBlastSpriteSheet_15: 2505805571725381344
+      BlueCrackerFourBlastSpriteSheet_16: -6474923017685155364
+      BlueCrackerFourBlastSpriteSheet_17: -5184264876539742705
+      BlueCrackerFourBlastSpriteSheet_18: -1581596571305801309
+      BlueCrackerFourBlastSpriteSheet_19: 3686113301220605616
+      BlueCrackerFourBlastSpriteSheet_2: -377431160085739259
+      BlueCrackerFourBlastSpriteSheet_20: 5461779342663685893
+      BlueCrackerFourBlastSpriteSheet_21: -2493675457969430561
+      BlueCrackerFourBlastSpriteSheet_22: -2705025322405837929
+      BlueCrackerFourBlastSpriteSheet_23: -2519305917689447284
+      BlueCrackerFourBlastSpriteSheet_24: -6200921881957624642
+      BlueCrackerFourBlastSpriteSheet_25: 5919044136538328606
+      BlueCrackerFourBlastSpriteSheet_26: 2244961275378097133
+      BlueCrackerFourBlastSpriteSheet_27: -8131491363907600571
+      BlueCrackerFourBlastSpriteSheet_28: 9113949620049314277
+      BlueCrackerFourBlastSpriteSheet_29: 4204075576264932809
+      BlueCrackerFourBlastSpriteSheet_3: 1913093198985780009
+      BlueCrackerFourBlastSpriteSheet_30: 8357532844435824183
+      BlueCrackerFourBlastSpriteSheet_31: 8146852677842677026
+      BlueCrackerFourBlastSpriteSheet_32: 5939488176831772248
+      BlueCrackerFourBlastSpriteSheet_33: -2204371234785016781
+      BlueCrackerFourBlastSpriteSheet_34: -4377546247542336608
+      BlueCrackerFourBlastSpriteSheet_35: -2983993144326774355
+      BlueCrackerFourBlastSpriteSheet_36: -9219314200632037508
+      BlueCrackerFourBlastSpriteSheet_37: -8117998406300159850
+      BlueCrackerFourBlastSpriteSheet_38: -1980440027707620730
+      BlueCrackerFourBlastSpriteSheet_39: 7082520682487710950
+      BlueCrackerFourBlastSpriteSheet_4: 566144426084894135
+      BlueCrackerFourBlastSpriteSheet_5: -7704239239941558396
+      BlueCrackerFourBlastSpriteSheet_6: -7890691980654066943
+      BlueCrackerFourBlastSpriteSheet_7: 6759187016018767833
+      BlueCrackerFourBlastSpriteSheet_8: -6049985623298553608
+      BlueCrackerFourBlastSpriteSheet_9: 6466643120631731294
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
