@@ -6,16 +6,17 @@ mergeInto(LibraryManager.library, {
           window.ReactNativeWebView.postMessage(message);
         } 
     },
- 
-    SendPostMessage: function(messagePtr) {
+
+    SendPostMessage: function(messagePtr) 
+    {
       var message = UTF8ToString(messagePtr);
-      // console.log('SendReactPostMessage, message sent: ' + message);
-      if(window.ReactNativeWebView){
+      console.log('SendReactPostMessage, message sent: ' + message);
+      if(window.ReactNativeWebView)
+      {
         if(message == "authToken"){
-          window.ReactNativeWebView.postMessage("if message is authtoken");
           var injectedObjectJson = window.ReactNativeWebView.injectedObjectJson();
           var injectedObj = JSON.parse(injectedObjectJson);
- 
+
           window.ReactNativeWebView.postMessage('Injected obj : ' + injectedObjectJson);
           
           var combinedData = JSON.stringify({
@@ -23,15 +24,26 @@ mergeInto(LibraryManager.library, {
               cookie: injectedObj.token.trim(),
               nameSpace: injectedObj.nameSpace ? injectedObj.nameSpace.trim() : ""
           });
- 
+
           if (typeof SendMessage === 'function') {
             SendMessage('SocketManager', 'ReceiveAuthToken', combinedData);
           }
         }
         window.ReactNativeWebView.postMessage(message);
       }
-      else if(window.parent){
-        if(message == "authToken"){
+      else if (typeof window !== "undefined" && window.parent) {
+        if (typeof window.parent.postMessage === "function"){
+          console.log("Calling window.parent.postMessage");
+          window.parent.postMessage({ 
+            type: message,
+            data: { }
+          }, "*");
+        }
+      }
+      else if(window.parent)
+      {
+        if(message == "authToken")
+        {
           window.addEventListener('message', function(event){
             if(event.data.type === 'authToken'){
               var combinedData = JSON.stringify({
@@ -39,6 +51,7 @@ mergeInto(LibraryManager.library, {
                   socketURL: event.data.socketURL,
                   nameSpace: event.data && event.data.nameSpace ? event.data.nameSpace : ''
               }); 
+
               if (typeof SendMessage === 'function') {
                 SendMessage('SocketManager', 'ReceiveAuthToken', combinedData);
               }
@@ -47,9 +60,6 @@ mergeInto(LibraryManager.library, {
               }
             }
           });
-        }
-        if(window.parent.dispatchReactUnityEvent != null){
-          window.parent.dispatchReactUnityEvent(message);
         }
       }
     },
