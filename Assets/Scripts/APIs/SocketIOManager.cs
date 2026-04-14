@@ -166,7 +166,7 @@ public class SocketIOManager : MonoBehaviour
 
     if (hasEverConnected)
     {
-       _uiManager.CheckAndClosePopups();
+      _uiManager.CheckAndClosePopups();
     }
 
     isConnected = true;
@@ -181,7 +181,7 @@ public class SocketIOManager : MonoBehaviour
   {
     Debug.LogWarning("⚠️ Disconnected from server.");
     isConnected = false;
-     _uiManager.DisconnectionPopup();
+    _uiManager.DisconnectionPopup();
     ResetPingRoutine();
   } //Back2 end
 
@@ -197,10 +197,21 @@ public class SocketIOManager : MonoBehaviour
 
   private void OnError(Error err)
   {
-    Debug.LogError("Socket Error Message: " + err);
+    Debug.LogError("[ERROR] Socket error: " + err);
+    if (!string.IsNullOrEmpty(err.message) && err.message.Contains("Session expired"))
+    {
+      Debug.LogWarning("Session expired detected");
+      OnDisconnected();
 #if UNITY_WEBGL && !UNITY_EDITOR
-    JSManager.SendCustomMessage("error");
+        JSManager.SendCustomMessage("session_expired");
 #endif
+    }
+    else
+    {
+#if UNITY_WEBGL && !UNITY_EDITOR
+        JSManager.SendCustomMessage("error");
+#endif
+    }
   }
 
   private void OnListenEvent(string data)
@@ -252,7 +263,7 @@ public class SocketIOManager : MonoBehaviour
 
       if (missedPongs == 0)
       {
-         _uiManager.CheckAndClosePopups();
+        _uiManager.CheckAndClosePopups();
       }
 
       // If waiting for pong, and timeout passed
@@ -260,7 +271,7 @@ public class SocketIOManager : MonoBehaviour
       {
         if (missedPongs == 2)
         {
-           _uiManager.ReconnectionPopup();
+          _uiManager.ReconnectionPopup();
         }
         missedPongs++;
         Debug.LogWarning($"⚠️ Pong missed #{missedPongs}/{MaxMissedPongs}");
@@ -269,7 +280,7 @@ public class SocketIOManager : MonoBehaviour
         {
           Debug.LogError("❌ Unable to connect to server — 5 consecutive pongs missed.");
           isConnected = false;
-           _uiManager.DisconnectionPopup();
+          _uiManager.DisconnectionPopup();
           yield break;
         }
       }
