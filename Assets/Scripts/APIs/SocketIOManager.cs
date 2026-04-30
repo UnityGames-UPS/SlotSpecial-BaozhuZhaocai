@@ -473,7 +473,7 @@ public class WinningCombination
 {
   public int symbolId { get; set; }
   public List<List<int>> positions { get; set; }
-  public int payout { get; set; }
+  public double payout { get; set; }
 }
 
 [Serializable]
