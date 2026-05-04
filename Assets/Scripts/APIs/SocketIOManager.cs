@@ -500,7 +500,7 @@ public class Symbol
   public int id { get; set; }
   public string name { get; set; }
   public string type { get; set; }
-  public List<int> multiplier { get; set; }
+  public List<double> multiplier { get; set; }
   public string feature { get; set; }
 }
 

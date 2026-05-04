@@ -198,4 +198,14 @@ internal class AudioController : MonoBehaviour
     internal void MuteBackground(bool mute) => bgMusicSource.mute = mute;
     internal void MuteGame(bool mute) => gameSoundSource.mute = mute;
     // internal void MuteUI(bool mute) => uiSource.mute = mute;
+
+    private void OnApplicationFocus(bool hasFocus)
+    {
+        AudioListener.volume = hasFocus ? 1.0f : 0.0f;
+    }
+
+    private void OnApplicationPause(bool pauseStatus)
+    {
+        AudioListener.volume = pauseStatus ? 0.0f : 1.0f;
+    }
 }
