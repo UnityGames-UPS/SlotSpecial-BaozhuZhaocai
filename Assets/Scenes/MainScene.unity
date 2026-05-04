@@ -2836,7 +2836,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_UiScaleMode: 1
-  m_ReferencePixelsPerUnit: 868.6
+  m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1080, y: 2340}
   m_ScreenMatchMode: 0
@@ -74593,10 +74593,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   UIWrapper: {fileID: 1485219722}
   CanvasScaler: {fileID: 51930702}
-  MatchWidth: 0
-  MatchHeight: 1
   transitionDuration: 0.2
-  waitForResize: 0.2
+  waitForRotation: 0.2
 --- !u!4 &1370250809
 Transform:
   m_ObjectHideFlags: 0
