@@ -521,7 +521,7 @@ public class Features
   public bool ultraSpins { get; set; }
   public bool doubleReel { get; set; }
   public bool extraSpins { get; set; }
-  public int currentMultiplier { get; set; }
+  public double currentMultiplier { get; set; }
   //public int extraSpinsRemaining { get; set; }
 
 }
@@ -549,9 +549,9 @@ public class BonusSymbol
 {
   public List<int> position { get; set; }
   public int symbolId { get; set; }
-  public int value { get; set; }
-  public int multiplier { get; set; }
-  public int numAdded { get; set; }
+  public double value { get; set; }
+  public double multiplier { get; set; }
+  public double numAdded { get; set; }
   public bool added { get; set; }
 
 }
@@ -600,7 +600,7 @@ public class BonusBlue
 
   [JsonProperty("4")]
   public _4 _4 { get; set; }
-  public int blastLimit { get; set; }
+  public double blastLimit { get; set; }
   public bool resetAfterBlast { get; set; }
 }
 
@@ -621,7 +621,7 @@ public class BonusRed
 
   [JsonProperty("4")]
   public _4 _4 { get; set; }
-  public int blastLimit { get; set; }
+  public double blastLimit { get; set; }
   public bool resetAfterBlast { get; set; }
 }
 
@@ -642,42 +642,42 @@ public class BonusGreen
 
   [JsonProperty("4")]
   public _4 _4 { get; set; }
-  public int blastLimit { get; set; }
+  public double blastLimit { get; set; }
   public bool resetAfterBlast { get; set; }
 }
 
 public class _0
 {
   public double prob { get; set; }
-  public List<int> count { get; set; }
+  public List<double> count { get; set; }
   public List<double> prizeDistribution { get; set; }
 }
 
 public class _1
 {
   public double prob { get; set; }
-  public List<int> count { get; set; }
+  public List<double> count { get; set; }
   public List<double> prizeDistribution { get; set; }
 }
 
 public class _2
 {
   public double prob { get; set; }
-  public List<int> count { get; set; }
+  public List<double> count { get; set; }
   public List<double> prizeDistribution { get; set; }
 }
 
 public class _3
 {
   public double prob { get; set; }
-  public List<int> count { get; set; }
+  public List<double> count { get; set; }
   public List<double> prizeDistribution { get; set; }
 }
 
 public class _4
 {
   public double prob { get; set; }
-  public List<int> count { get; set; }
+  public List<double> count { get; set; }
   public List<double> prizeDistribution { get; set; }
 }
 
@@ -696,7 +696,7 @@ public class UltraSpins
   public bool enabled { get; set; }
   public string triggerSymbol { get; set; }
   public string description { get; set; }
-  public List<int> multiplierRange { get; set; }
+  public List<double> multiplierRange { get; set; }
   public List<double> multiplierProb { get; set; }
   public bool canAddBonusSymbols { get; set; }
 }
@@ -754,10 +754,10 @@ public class Jackpots
 [Serializable]
 public class JackpotMultipliers
 {
-  public List<int> MINI { get; set; }
-  public List<int> MINOR { get; set; }
-  public List<int> MAJOR { get; set; }
-  public List<int> GRAND { get; set; }
+  public List<double> MINI { get; set; }
+  public List<double> MINOR { get; set; }
+  public List<double> MAJOR { get; set; }
+  public List<double> GRAND { get; set; }
 }
 
 [Serializable]
@@ -776,7 +776,7 @@ public class BonusSymbolsInMatrix
   public int id { get; set; }
   public string type { get; set; }
   public string feature { get; set; }
-  public int value { get; set; }
+  public double value { get; set; }
 }
 
 [Serializable]
@@ -785,7 +785,7 @@ public class BottomReel
   public List<List<string>> reels { get; set; }
   public List<BonusSymbol> bonusSymbols { get; set; }
   public int reselectSpinsRemaining { get; set; }
-  public int currentMultiplier { get; set; }
+  public double currentMultiplier { get; set; }
   public bool isComplete { get; set; }
 }
 
@@ -795,7 +795,7 @@ public class TopReel
   public List<List<string>> reels { get; set; }
   public List<BonusSymbol> bonusSymbols { get; set; }
   public int reselectSpinsRemaining { get; set; }
-  public int currentMultiplier { get; set; }
+  public double currentMultiplier { get; set; }
   public bool isComplete { get; set; }
 }
 

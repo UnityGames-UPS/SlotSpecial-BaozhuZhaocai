@@ -189,9 +189,9 @@ public class RocketManager : MonoBehaviour
     {
         //isCrackerAnimationComplete = false;
 
-        int blueValue = 0;
-        int redValue = 0;
-        int greenValue = 0;
+        double blueValue = 0;
+        double redValue = 0;
+        double greenValue = 0;
 
         foreach (var b in bonusSymbols)
         {
@@ -232,7 +232,7 @@ public class RocketManager : MonoBehaviour
         }
 
     }
-    private IEnumerator RunCrackerSequence(int symbolId, int addedValue, bool isTriggerActive)
+    private IEnumerator RunCrackerSequence(int symbolId, double addedValue, bool isTriggerActive)
     {
         int currentStage = GetCurrentStage(symbolId);
         GameObject crackerObj = GetCrackerObject(symbolId);
@@ -247,7 +247,7 @@ public class RocketManager : MonoBehaviour
         }
         else
         {
-            targetStage = Mathf.Min(currentStage + addedValue, 8);
+            targetStage = (int)Math.Min(currentStage + addedValue, 8);
         }
 
         for (int stage = currentStage + 1; stage <= targetStage; stage++)
@@ -725,5 +725,5 @@ public class BonusSymbolData
 {
     public int[] position;  // [col, row]
     public int symbolId;    // 11=Blue, 12=Red, 13=Green
-    public int value;       // blast value from backend
+    public double value;       // blast value from backend
 }
