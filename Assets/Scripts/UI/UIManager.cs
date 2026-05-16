@@ -109,9 +109,18 @@ public class UIManager : MonoBehaviour
         if (SpinButton) SpinButton.onClick.AddListener(SpinButtonPressed);
         if (AutoSpinButton) AutoSpinButton.onClick.AddListener(AutoSpin);
         if (StopAutoSpinButton) StopAutoSpinButton.onClick.AddListener(AutoSpinStop);
-        // InitializeUIData();        
 
-
+        // ─────────────────────────────────────────────────────────────────────
+        // CHANGED: Wire the Stop Spin button to TriggerStopSpin on SlotManager
+        // so pressing it during a spin stops all reels simultaneously.
+        // Previously this listener was missing, so StopSpinToggle was never set.
+        // ─────────────────────────────────────────────────────────────────────
+        if (StopSpinButton) StopSpinButton.onClick.RemoveAllListeners();
+        if (StopSpinButton) StopSpinButton.onClick.AddListener(() =>
+        {
+            _audioController.PlayUIButton();
+            slotManager.TriggerStopSpin();
+        });
 
         if (Paytable_Button) Paytable_Button.onClick.RemoveAllListeners();
         if (Paytable_Button) Paytable_Button.onClick.AddListener(delegate { OpenPaytable(); });
@@ -215,7 +224,9 @@ public class UIManager : MonoBehaviour
         SpinButton.interactable = false;
         //SpinButton.gameObject.GetComponent<Image>().sprite = StopButtonSprite;
         StopSpinButton.gameObject.SetActive(true);
+        StopSpinButton.interactable = true;
         AutoSpinButton.interactable = false;
+        SetBetButtonsInteractable(false);   // lock bet buttons for the entire spin + bonus
         slotManager.StartSlots();
     }
 
@@ -225,6 +236,15 @@ public class UIManager : MonoBehaviour
         //SpinButton.gameObject.GetComponent<Image>().sprite = SpinButtonSprite;
         StopSpinButton.gameObject.SetActive(false);
         AutoSpinButton.interactable = true;
+        SetBetButtonsInteractable(true);    // re-enable bet buttons when spin fully ends
+    }
+
+    // NEW: single place to lock/unlock bet +/- buttons.
+    // Called false on spin/autospin start, true on spin end (only when not autospinning).
+    internal void SetBetButtonsInteractable(bool value)
+    {
+        if (PlusBetButton)  PlusBetButton.interactable  = value;
+        if (MinusBetButton) MinusBetButton.interactable = value;
     }
 
     private void AutoSpin()
@@ -235,7 +255,9 @@ public class UIManager : MonoBehaviour
         StopAutoSpinButton.gameObject.SetActive(true);
         AutoSpinButton.gameObject.SetActive(false);
         StopSpinButton.gameObject.SetActive(true);
+        StopSpinButton.interactable = true;
         SpinButton.gameObject.SetActive(false);
+        SetBetButtonsInteractable(false);   // lock bet buttons for entire auto-spin session
         slotManager.AutoSpin();
     }
 

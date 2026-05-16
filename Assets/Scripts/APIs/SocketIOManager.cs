@@ -553,6 +553,7 @@ public class BonusSymbol
   public double multiplier { get; set; }
   public double numAdded { get; set; }
   public bool added { get; set; }
+  public string jackpotType { get; set; }
 
 }
 

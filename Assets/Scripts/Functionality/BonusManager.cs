@@ -17,6 +17,10 @@ public class BonusManager : MonoBehaviour
     [SerializeField] private Sprite BrightCoinSprite;
     [SerializeField] private Sprite DullCoinSprite;
 
+    [SerializeField] private Sprite MiniTextImage;
+    [SerializeField] private Sprite MinorTextImage;
+    [SerializeField] private Sprite MajorTextImage;
+
     [Header("GreeSpin Elements")]
     [SerializeField] private GameObject GreenSpinDoor;
     [SerializeField] private GameObject GreenSymbolAnimationObject;
@@ -124,6 +128,7 @@ public class BonusManager : MonoBehaviour
 
     private IEnumerator GreenSpin()
     {
+        GreenSpinStartButton.interactable = false;
         yield return new WaitForSeconds(1f);
         GreenSpinStartButton.gameObject.SetActive(false);
         SlotAnimation(GreenSpinSlotPanel, -400f);
@@ -216,7 +221,28 @@ public class BonusManager : MonoBehaviour
                 }
                 slotGO.gameObject.SetActive(true);
                 var imageText = slotGO.GetComponentInChildren<TMP_Text>();
-                imageText.text = bonusSymbol.value.ToString();
+                if (bonusSymbol.jackpotType != null)
+                {
+                    imageText.text = "";
+                    imageText.GetComponentInChildren<Image>(true).gameObject.SetActive(true);
+                    switch (bonusSymbol.jackpotType)
+                    {
+                        case "MINI":
+                            imageText.GetComponentInChildren<Image>(true).sprite = MiniTextImage;
+                            break;
+                        case "MINOR":
+                            imageText.GetComponentInChildren<Image>(true).sprite = MinorTextImage;
+                            break;
+                        case "MAJOR":
+                            imageText.GetComponentInChildren<Image>(true).sprite = MajorTextImage;
+                            break;
+                    }
+                }
+                else
+                {
+                    imageText.text = bonusSymbol.value.ToString();
+                    imageText.GetComponentInChildren<Image>(true).gameObject.SetActive(false);
+                }
             }
 
             yield return alltweens[^1].WaitForCompletion();
@@ -265,6 +291,7 @@ public class BonusManager : MonoBehaviour
 
     private IEnumerator BlueSpin()
     {
+        BlueSpinStartButton.interactable = false;
         yield return new WaitForSeconds(1f);
         BlueSpinStartButton.gameObject.SetActive(false);
         SlotAnimation(BlueSpinSlotPanel, -400f);
@@ -355,7 +382,28 @@ public class BonusManager : MonoBehaviour
                 var imageText = slotGO.GetComponentInChildren<TMP_Text>();
                 if (!bonusSymbol.added)
                 {
-                    imageText.text = bonusSymbol.value.ToString();
+                    if (bonusSymbol.jackpotType != null)
+                    {
+                        imageText.text = "";
+                        imageText.GetComponentInChildren<Image>(true).gameObject.SetActive(true);
+                        switch (bonusSymbol.jackpotType)
+                        {
+                            case "MINI":
+                                imageText.GetComponentInChildren<Image>(true).sprite = MiniTextImage;
+                                break;
+                            case "MINOR":
+                                imageText.GetComponentInChildren<Image>(true).sprite = MinorTextImage;
+                                break;
+                            case "MAJOR":
+                                imageText.GetComponentInChildren<Image>(true).sprite = MajorTextImage;
+                                break;
+                        }
+                    }
+                    else
+                    {
+                        imageText.GetComponentInChildren<Image>(true).gameObject.SetActive(false);
+                        imageText.text = bonusSymbol.value.ToString();
+                    }
                 }
             }
 
@@ -465,8 +513,19 @@ public class BonusManager : MonoBehaviour
         BlueSpinPanel.SetActive(false);
     }
 
+    // ── Red spin shared synchronisation state ──────────────────────────────────
+    // Each reel coroutine sets its "round done" flag when it has finished ALL
+    // animations for one round (spin stop + coin reveal + indicator update).
+    // The coordinator waits for both, fires one backend request, writes the
+    // result sprites, then raises _redRoundProceed so both reels loop again.
+    private bool _redTopRoundDone;
+    private bool _redBottomRoundDone;
+    private bool _redRoundProceed;   // coordinator → reels: "result is ready, go"
+
+    // ── Coordinator ────────────────────────────────────────────────────────────
     private IEnumerator RedSpin()
     {
+        RedSpinStartButton.interactable = false;
         yield return new WaitForSeconds(1f);
         RedSpinStartButton.gameObject.SetActive(false);
 
@@ -478,26 +537,130 @@ public class BonusManager : MonoBehaviour
 
         yield return new WaitForSeconds(0.5f);
 
-        Coroutine topReelCoroutine = StartCoroutine(RedTopReelSpin());
-        Coroutine bottomReelCoroutine = StartCoroutine(RedBottomReelSpin());
+        // Reveal all indicators for both reels before spinning begins
+        for (int i = 0; i < RedTopSpinIndicators.Count; i++)
+        {
+            RedTopSpinIndicators[i].SetActive(true);
+            RedTopSpinIndicators[i].GetComponent<ImageAnimation>().StartAnimation();
+            yield return new WaitForSeconds(0.5f);
+        }
+        for (int i = 0; i < RedBottomSpinIndicators.Count; i++)
+        {
+            RedBottomSpinIndicators[i].SetActive(true);
+            RedBottomSpinIndicators[i].GetComponent<ImageAnimation>().StartAnimation();
+            yield return new WaitForSeconds(0.5f);
+        }
+        yield return new WaitForSeconds(1f);
 
-        yield return topReelCoroutine;
-        yield return bottomReelCoroutine;
+        // Reset sync flags before launching reel coroutines
+        _redTopRoundDone    = false;
+        _redBottomRoundDone = false;
+        _redRoundProceed    = false;
 
+        bool topHasSpins    = socketManager.resultData.payload.bonusGame.doubleReel.topReel.reselectSpinsRemaining > 0;
+        bool bottomHasSpins = socketManager.resultData.payload.bonusGame.doubleReel.bottomReel.reselectSpinsRemaining > 0;
+
+        // Launch both reel coroutines — they run independently and signal back
+        Coroutine topCo    = topHasSpins    ? StartCoroutine(RedTopReelLoop())    : null;
+        Coroutine bottomCo = bottomHasSpins ? StartCoroutine(RedBottomReelLoop()) : null;
+
+        // If one reel has no spins at all, pre-mark it as always done
+        if (!topHasSpins)    _redTopRoundDone    = true;
+        if (!bottomHasSpins) _redBottomRoundDone = true;
+
+        // ── Main coordinator loop ──────────────────────────────────────────────
+        // Continues as long as either reel coroutine is still running
+        while (topCo != null || bottomCo != null)
+        {
+            // Wait until every still-running reel has finished its round
+            yield return new WaitUntil(() => _redTopRoundDone && _redBottomRoundDone);
+
+            // Check whether any reel actually needs a result (might both be done)
+            bool topActive    = socketManager.resultData.payload.bonusGame.doubleReel.topReel.reselectSpinsRemaining > 0;
+            bool bottomActive = socketManager.resultData.payload.bonusGame.doubleReel.bottomReel.reselectSpinsRemaining > 0;
+
+            if (!topActive && !bottomActive)
+                break; // both reels exhausted their spins; skip the final request
+
+            // Send ONE request for this round
+            audioManager.PlaySpinStarts();
+            socketManager.AccumulateResult(uiManager.betCounter);
+            yield return new WaitUntil(() => socketManager.isResultdone);
+
+            // Write result sprites into the hidden result layer for top reel
+            if (topActive && socketManager.resultData.payload.bonusGame.doubleReel.topReel.reels != null)
+            {
+                for (int j = 0; j < socketManager.resultData.payload.bonusGame.doubleReel.topReel.reels.Count; j++)
+                    for (int i = 0; i < socketManager.resultData.payload.bonusGame.doubleReel.topReel.reels[j].Count; i++)
+                        if (int.TryParse(socketManager.resultData.payload.bonusGame.doubleReel.topReel.reels[j][i], out int sid))
+                        {
+                            RedTopSpinResultSlotImages[i].slotImages[j].sprite = TotalBonusSprites[sid];
+                            RedTopSpinResultSlotImages[i].slotImages[j].GetComponentInChildren<TMP_Text>().text = "";
+                        }
+            }
+
+            // Write result sprites for bottom reel
+            if (bottomActive && socketManager.resultData.payload.bonusGame.doubleReel.bottomReel.reels != null)
+            {
+                for (int j = 0; j < socketManager.resultData.payload.bonusGame.doubleReel.bottomReel.reels.Count; j++)
+                    for (int i = 0; i < socketManager.resultData.payload.bonusGame.doubleReel.bottomReel.reels[j].Count; i++)
+                        if (int.TryParse(socketManager.resultData.payload.bonusGame.doubleReel.bottomReel.reels[j][i], out int sid))
+                        {
+                            RedBottomSpinResultSlotImages[i].slotImages[j].sprite = TotalBonusSprites[sid];
+                            RedBottomSpinResultSlotImages[i].slotImages[j].GetComponentInChildren<TMP_Text>().text = "";
+                        }
+            }
+
+            // Reset per-round flags and release both reel coroutines to proceed
+            _redTopRoundDone    = false;
+            _redBottomRoundDone = false;
+            _redRoundProceed    = true;
+
+            yield return null; // one frame so WaitUntil in reels can catch the flag
+
+            _redRoundProceed = false;
+
+            // Mark inactive reels as permanently done for future coordinator loops
+            if (socketManager.resultData.payload.bonusGame.doubleReel.topReel.reselectSpinsRemaining <= 0)
+            {
+                topCo = null;
+                _redTopRoundDone = true;
+            }
+            if (socketManager.resultData.payload.bonusGame.doubleReel.bottomReel.reselectSpinsRemaining <= 0)
+            {
+                bottomCo = null;
+                _redBottomRoundDone = true;
+            }
+        }
+        
+        yield return new WaitForSeconds(1f);
+
+        // ── Collect all coins into the multiplier list ─────────────────────────
+        foreach (var bonusSymbol in socketManager.resultData.payload.bonusGame.doubleReel.topReel.bonusSymbols)
+        {
+            var slotGO = RedTopSpinCoinImages[bonusSymbol.position[1]].slotImages[bonusSymbol.position[0]];
+            if (!multiplierObjects.Contains(slotGO.gameObject))
+                multiplierObjects.Add(slotGO.gameObject);
+        }
+        foreach (var bonusSymbol in socketManager.resultData.payload.bonusGame.doubleReel.bottomReel.bonusSymbols)
+        {
+            var slotGO = RedBottomSpinCoinImages[bonusSymbol.position[1]].slotImages[bonusSymbol.position[0]];
+            if (!multiplierObjects.Contains(slotGO.gameObject))
+                multiplierObjects.Add(slotGO.gameObject);
+        }
+
+        // Hide indicators
         for (int i = 0; i < RedTopSpinIndicators.Count; i++)
         {
             RedTopSpinIndicators[i].SetActive(false);
             RedTopSpinIndicators[i].GetComponent<ImageAnimation>().InverseAimationDirection();
             RedTopSpinIndicators[i].GetComponent<ImageAnimation>().ResetImageState();
-            //yield return new WaitForSeconds(0.5f);
         }
-
         for (int i = 0; i < RedBottomSpinIndicators.Count; i++)
         {
             RedBottomSpinIndicators[i].SetActive(false);
             RedBottomSpinIndicators[i].GetComponent<ImageAnimation>().InverseAimationDirection();
             RedBottomSpinIndicators[i].GetComponent<ImageAnimation>().ResetImageState();
-            //yield return new WaitForSeconds(0.5f);
         }
 
         yield return new WaitForSeconds(1f);
@@ -517,265 +680,212 @@ public class BonusManager : MonoBehaviour
 
         isBonusComplete = true;
         yield return new WaitForSeconds(1f);
-        //uiManager.TotalWinPopup();
         RedSpinPanel.SetActive(false);
         BonusPanel.SetActive(false);
     }
 
-    private IEnumerator RedTopReelSpin()
+    // ── TOP reel independent loop ───────────────────────────────────────────────
+    // Runs its own spin → stop → coin reveal → indicator update each round,
+    // then signals the coordinator and waits for the next result before looping.
+    private IEnumerator RedTopReelLoop()
     {
-        for (int i = 0; i < RedTopSpinIndicators.Count; i++)
-        {
-            RedTopSpinIndicators[i].SetActive(true);
-            RedTopSpinIndicators[i].GetComponent<ImageAnimation>().StartAnimation();
-            yield return new WaitForSeconds(0.5f);
-        }
-        yield return new WaitForSeconds(1f);
-        int currentSpinCount = socketManager.resultData.payload.bonusGame.doubleReel.topReel.reselectSpinsRemaining;
-        while (socketManager.resultData.payload.bonusGame.doubleReel.topReel.reselectSpinsRemaining > 0)
-        {
+        int spinCount = socketManager.resultData.payload.bonusGame.doubleReel.topReel.reselectSpinsRemaining;
 
-            foreach (var slot in RedTopSpinSlots)
-            {
-                slot.SetActive(true);
-            }
-
+        while (true)
+        {
+            // ── Spin phase ─────────────────────────────────────────────────────
+            foreach (var slot in RedTopSpinSlots) slot.SetActive(true);
             yield return new WaitForSeconds(0.4f);
 
-            List<Tweener> topTweens = new List<Tweener>();
+            // Consume one indicator
+            if (spinCount > 0)
+            {
+                RedTopSpinIndicators[spinCount - 1].GetComponent<ImageAnimation>().InverseAimationDirection();
+                RedTopSpinIndicators[spinCount - 1].GetComponent<ImageAnimation>().ResetImageState();
+                RedTopSpinIndicators[spinCount - 1].GetComponent<ImageAnimation>().StartAnimation();
+                spinCount--;
+            }
+
+            // Start spinning tweens
+            var tweens = new List<Tweener>();
             for (int i = 0; i < RedTopSpinSlots.Count; i++)
             {
                 RedTopSpinSlots[i].transform.localPosition = new Vector2(RedTopSpinSlots[i].transform.localPosition.x, 0);
-                Tweener tweener = RedTopSpinSlots[i].transform.DOLocalMoveY(-tweenHeight, 0.2f).SetLoops(-1, LoopType.Restart).SetDelay(0);
-                tweener.Play();
-                topTweens.Add(tweener);
+                Tweener tw = RedTopSpinSlots[i].transform.DOLocalMoveY(-tweenHeight, 0.2f).SetLoops(-1, LoopType.Restart).SetDelay(0);
+                tw.Play();
+                tweens.Add(tw);
             }
 
-            // Animate the current indicator
-            if (currentSpinCount > 0)
+            // ── Signal coordinator that we are spinning (wait for result) ──────
+            // The coordinator fires the request once BOTH reels reach this point.
+            // We mark ourselves "done-spinning" by signalling ready here.
+            // But we can't stop yet — we need the result sprites first.
+            // So: signal, wait for coordinator to deliver result, then stop.
+            _redTopRoundDone = true;
+            yield return new WaitUntil(() => _redRoundProceed);
+
+            // ── Stop phase — result sprites already written by coordinator ──────
+            for (int i = 0; i < tweens.Count; i++)
             {
-                RedTopSpinIndicators[currentSpinCount - 1].GetComponent<ImageAnimation>().InverseAimationDirection();
-                RedTopSpinIndicators[currentSpinCount - 1].GetComponent<ImageAnimation>().ResetImageState();
-                RedTopSpinIndicators[currentSpinCount - 1].GetComponent<ImageAnimation>().StartAnimation();
-                currentSpinCount--;
-            }
-
-            socketManager.AccumulateResult(uiManager.betCounter);
-            yield return new WaitUntil(() => socketManager.isResultdone);
-
-            if (socketManager.resultData.payload.bonusGame.doubleReel.topReel.reels != null)
-            {
-                for (int j = 0; j < socketManager.resultData.payload.bonusGame.doubleReel.topReel.reels.Count; j++)
-                {
-                    for (int i = 0; i < socketManager.resultData.payload.bonusGame.doubleReel.topReel.reels[j].Count; i++)
-                    {
-                        if (int.TryParse(socketManager.resultData.payload.bonusGame.doubleReel.topReel.reels[j][i], out int symbolId))
-                        {
-                            RedTopSpinResultSlotImages[i].slotImages[j].sprite = TotalBonusSprites[symbolId];
-                            RedTopSpinResultSlotImages[i].slotImages[j].GetComponentInChildren<TMP_Text>().text = "";
-                        }
-                    }
-                }
-            }
-
-            for (int i = 0; i < RedTopSpinSlots.Count; i++)
-            {
-                bool isComplete = false;
-                topTweens[i].OnStepComplete(() => isComplete = true);
-                yield return new WaitUntil(() => isComplete);
-
-                topTweens[i].Kill();
+                bool stepDone = false;
+                tweens[i].OnStepComplete(() => stepDone = true);
+                yield return new WaitUntil(() => stepDone);
+                tweens[i].Kill();
                 RedTopSpinSlots[i].transform.localPosition = new Vector2(RedTopSpinSlots[i].transform.localPosition.x, -329f);
-                topTweens[i] = RedTopSpinSlots[i].transform.DOLocalMoveY(-250f, 0.5f).SetEase(Ease.OutElastic);
-
+                tweens[i] = RedTopSpinSlots[i].transform.DOLocalMoveY(-250f, 0.5f).SetEase(Ease.OutElastic);
                 yield return new WaitForSeconds(0.2f);
             }
+            if (tweens.Count > 0) yield return tweens[^1].WaitForCompletion();
+            foreach (var tw in tweens) { if (tw != null && tw.IsActive()) tw.Kill(); }
+            audioManager.PlaySpinStops();
 
+            // ── Coin reveal + indicator update ─────────────────────────────────
             int spinsAfter = socketManager.resultData.payload.bonusGame.doubleReel.topReel.reselectSpinsRemaining;
-
-            // If spins increased, activate new indicators
-            if (spinsAfter > currentSpinCount)
+            if (spinsAfter > spinCount)
             {
                 audioManager.PlayRepeatSlotWin();
-                for (int i = currentSpinCount; i < spinsAfter + 1 && i < RedTopSpinIndicators.Count; i++)
+                for (int i = spinCount; i < spinsAfter + 1 && i < RedTopSpinIndicators.Count; i++)
                 {
-                    //RedTopSpinIndicators[i].SetActive(true);
                     RedTopSpinIndicators[i].GetComponent<ImageAnimation>().InverseAimationDirection();
                     RedTopSpinIndicators[i].GetComponent<ImageAnimation>().ResetImageState();
                     RedTopSpinIndicators[i].GetComponent<ImageAnimation>().StartAnimation();
                     yield return new WaitForSeconds(0.5f);
                 }
-                currentSpinCount = spinsAfter;
+                spinCount = spinsAfter;
             }
 
             foreach (var bonusSymbol in socketManager.resultData.payload.bonusGame.doubleReel.topReel.bonusSymbols)
             {
-                int col = bonusSymbol.position[0];
-                int row = bonusSymbol.position[1];
-
-                var slotGO = RedTopSpinCoinImages[row].slotImages[col];
+                var slotGO = RedTopSpinCoinImages[bonusSymbol.position[1]].slotImages[bonusSymbol.position[0]];
                 slotGO.sprite = BrightCoinSprite;
-                if (!slotGO.gameObject.activeSelf)
-                {
-                    audioManager.PlayGoldenCoin();
-                }
+                if (!slotGO.gameObject.activeSelf) audioManager.PlayGoldenCoin();
                 slotGO.gameObject.SetActive(true);
                 var imageText = slotGO.GetComponentInChildren<TMP_Text>();
-                imageText.text = bonusSymbol.value.ToString();
-            }
-
-            yield return topTweens[^1].WaitForCompletion();
-            foreach (var tween in topTweens)
-            {
-                if (tween != null && tween.IsActive())
+                if (bonusSymbol.jackpotType != null)
                 {
-                    tween.Kill();
+                    imageText.text = "";
+                    imageText.GetComponentInChildren<Image>(true).gameObject.SetActive(true);
+                    switch (bonusSymbol.jackpotType)
+                    {
+                        case "MINI":  imageText.GetComponentInChildren<Image>(true).sprite = MiniTextImage;  break;
+                        case "MINOR": imageText.GetComponentInChildren<Image>(true).sprite = MinorTextImage; break;
+                        case "MAJOR": imageText.GetComponentInChildren<Image>(true).sprite = MajorTextImage; break;
+                    }
+                }
+                else
+                {
+                    imageText.GetComponentInChildren<Image>(true).gameObject.SetActive(false);
+                    imageText.text = bonusSymbol.value.ToString();
                 }
             }
-            topTweens.Clear();
-        }
 
-        foreach (var bonusSymbol in socketManager.resultData.payload.bonusGame.doubleReel.topReel.bonusSymbols)
-        {
-            int col = bonusSymbol.position[0];
-            int row = bonusSymbol.position[1];
-            var slotGO = RedTopSpinCoinImages[row].slotImages[col];
+            // ── Check if this reel has more spins ──────────────────────────────
+            if (socketManager.resultData.payload.bonusGame.doubleReel.topReel.reselectSpinsRemaining <= 0)
+                yield break; // no more spins; exit so coordinator can null out topCo
 
-            if (!multiplierObjects.Contains(slotGO.gameObject))
-            {
-                multiplierObjects.Add(slotGO.gameObject);
-            }
+            // Ready for next round — wait until coordinator resets _redRoundProceed
+            yield return new WaitUntil(() => !_redRoundProceed);
+            _redTopRoundDone = false;
         }
     }
 
-    private IEnumerator RedBottomReelSpin()
+    // ── BOTTOM reel independent loop ────────────────────────────────────────────
+    // Exact mirror of RedTopReelLoop but for the bottom reel data and GameObjects.
+    private IEnumerator RedBottomReelLoop()
     {
-        for (int i = 0; i < RedBottomSpinIndicators.Count; i++)
+        int spinCount = socketManager.resultData.payload.bonusGame.doubleReel.bottomReel.reselectSpinsRemaining;
+
+        while (true)
         {
-            RedBottomSpinIndicators[i].SetActive(true);
-            RedBottomSpinIndicators[i].GetComponent<ImageAnimation>().StartAnimation();
-            yield return new WaitForSeconds(0.5f);
-        }
-
-        yield return new WaitForSeconds(1f);
-        int currentSpinCount = socketManager.resultData.payload.bonusGame.doubleReel.bottomReel.reselectSpinsRemaining;
-        while (socketManager.resultData.payload.bonusGame.doubleReel.bottomReel.reselectSpinsRemaining > 0)
-        {
-
-            foreach (var slot in RedBottomSpinSlots)
-            {
-                slot.SetActive(true);
-            }
-
+            // ── Spin phase ─────────────────────────────────────────────────────
+            foreach (var slot in RedBottomSpinSlots) slot.SetActive(true);
             yield return new WaitForSeconds(0.4f);
 
-            List<Tweener> bottomTweens = new List<Tweener>();
+            // Consume one indicator
+            if (spinCount > 0)
+            {
+                RedBottomSpinIndicators[spinCount - 1].GetComponent<ImageAnimation>().InverseAimationDirection();
+                RedBottomSpinIndicators[spinCount - 1].GetComponent<ImageAnimation>().ResetImageState();
+                RedBottomSpinIndicators[spinCount - 1].GetComponent<ImageAnimation>().StartAnimation();
+                spinCount--;
+            }
+
+            // Start spinning tweens
+            var tweens = new List<Tweener>();
             for (int i = 0; i < RedBottomSpinSlots.Count; i++)
             {
                 RedBottomSpinSlots[i].transform.localPosition = new Vector2(RedBottomSpinSlots[i].transform.localPosition.x, 0);
-                Tweener tweener = RedBottomSpinSlots[i].transform.DOLocalMoveY(-tweenHeight, 0.2f).SetLoops(-1, LoopType.Restart).SetDelay(0);
-                tweener.Play();
-                bottomTweens.Add(tweener);
+                Tweener tw = RedBottomSpinSlots[i].transform.DOLocalMoveY(-tweenHeight, 0.2f).SetLoops(-1, LoopType.Restart).SetDelay(0);
+                tw.Play();
+                tweens.Add(tw);
             }
 
-            // Animate the current indicator
-            if (currentSpinCount > 0)
+            // ── Signal coordinator that we are ready for the result ────────────
+            _redBottomRoundDone = true;
+            yield return new WaitUntil(() => _redRoundProceed);
+
+            // ── Stop phase ─────────────────────────────────────────────────────
+            for (int i = 0; i < tweens.Count; i++)
             {
-                RedBottomSpinIndicators[currentSpinCount - 1].GetComponent<ImageAnimation>().InverseAimationDirection();
-                RedBottomSpinIndicators[currentSpinCount - 1].GetComponent<ImageAnimation>().ResetImageState();
-                RedBottomSpinIndicators[currentSpinCount - 1].GetComponent<ImageAnimation>().StartAnimation();
-                currentSpinCount--;
-            }
-
-            socketManager.AccumulateResult(uiManager.betCounter);
-            yield return new WaitUntil(() => socketManager.isResultdone);
-
-            if (socketManager.resultData.payload.bonusGame.doubleReel.bottomReel.reels != null)
-            {
-                for (int j = 0; j < socketManager.resultData.payload.bonusGame.doubleReel.bottomReel.reels.Count; j++)
-                {
-                    for (int i = 0; i < socketManager.resultData.payload.bonusGame.doubleReel.bottomReel.reels[j].Count; i++)
-                    {
-                        if (int.TryParse(socketManager.resultData.payload.bonusGame.doubleReel.bottomReel.reels[j][i], out int symbolId))
-                        {
-                            RedBottomSpinResultSlotImages[i].slotImages[j].sprite = TotalBonusSprites[symbolId];
-                            RedBottomSpinResultSlotImages[i].slotImages[j].GetComponentInChildren<TMP_Text>().text = "";
-                        }
-                    }
-                }
-            }
-
-            for (int i = 0; i < RedBottomSpinSlots.Count; i++)
-            {
-                bool isComplete = false;
-                bottomTweens[i].OnStepComplete(() => isComplete = true);
-                yield return new WaitUntil(() => isComplete);
-
-                bottomTweens[i].Kill();
+                bool stepDone = false;
+                tweens[i].OnStepComplete(() => stepDone = true);
+                yield return new WaitUntil(() => stepDone);
+                tweens[i].Kill();
                 RedBottomSpinSlots[i].transform.localPosition = new Vector2(RedBottomSpinSlots[i].transform.localPosition.x, -329f);
-                bottomTweens[i] = RedBottomSpinSlots[i].transform.DOLocalMoveY(-250f, 0.5f).SetEase(Ease.OutElastic);
-
+                tweens[i] = RedBottomSpinSlots[i].transform.DOLocalMoveY(-250f, 0.5f).SetEase(Ease.OutElastic);
                 yield return new WaitForSeconds(0.2f);
             }
+            if (tweens.Count > 0) yield return tweens[^1].WaitForCompletion();
+            foreach (var tw in tweens) { if (tw != null && tw.IsActive()) tw.Kill(); }
+            audioManager.PlaySpinStops();
 
+            // ── Coin reveal + indicator update ─────────────────────────────────
             int spinsAfter = socketManager.resultData.payload.bonusGame.doubleReel.bottomReel.reselectSpinsRemaining;
-
-            // If spins increased, activate new indicators
-            if (spinsAfter > currentSpinCount)
+            if (spinsAfter > spinCount)
             {
                 audioManager.PlayRepeatSlotWin();
-                for (int i = currentSpinCount; i < spinsAfter + 1 && i < RedBottomSpinIndicators.Count; i++)
+                for (int i = spinCount; i < spinsAfter + 1 && i < RedBottomSpinIndicators.Count; i++)
                 {
-                    //RedBottomSpinIndicators[i].SetActive(true);
                     RedBottomSpinIndicators[i].GetComponent<ImageAnimation>().InverseAimationDirection();
                     RedBottomSpinIndicators[i].GetComponent<ImageAnimation>().ResetImageState();
                     RedBottomSpinIndicators[i].GetComponent<ImageAnimation>().StartAnimation();
                     yield return new WaitForSeconds(0.5f);
                 }
-                currentSpinCount = spinsAfter;
+                spinCount = spinsAfter;
             }
 
-            // Display bonus symbols for bottom reel (just display, don't add to multiplierObjects yet)
             foreach (var bonusSymbol in socketManager.resultData.payload.bonusGame.doubleReel.bottomReel.bonusSymbols)
             {
-                int col = bonusSymbol.position[0];
-                int row = bonusSymbol.position[1];
-
-                var slotGO = RedBottomSpinCoinImages[row].slotImages[col];
+                var slotGO = RedBottomSpinCoinImages[bonusSymbol.position[1]].slotImages[bonusSymbol.position[0]];
                 slotGO.sprite = BrightCoinSprite;
-                if (!slotGO.gameObject.activeSelf)
-                {
-                    audioManager.PlayGoldenCoin();
-                }
+                if (!slotGO.gameObject.activeSelf) audioManager.PlayGoldenCoin();
                 slotGO.gameObject.SetActive(true);
                 var imageText = slotGO.GetComponentInChildren<TMP_Text>();
-                imageText.text = bonusSymbol.value.ToString();
-            }
-
-            // Wait for the last tween to complete and clean up
-            yield return bottomTweens[^1].WaitForCompletion();
-            foreach (var tween in bottomTweens)
-            {
-                if (tween != null && tween.IsActive())
+                if (bonusSymbol.jackpotType != null)
                 {
-                    tween.Kill();
+                    imageText.text = "";
+                    imageText.GetComponentInChildren<Image>(true).gameObject.SetActive(true);
+                    switch (bonusSymbol.jackpotType)
+                    {
+                        case "MINI":  imageText.GetComponentInChildren<Image>(true).sprite = MiniTextImage;  break;
+                        case "MINOR": imageText.GetComponentInChildren<Image>(true).sprite = MinorTextImage; break;
+                        case "MAJOR": imageText.GetComponentInChildren<Image>(true).sprite = MajorTextImage; break;
+                    }
+                }
+                else
+                {
+                    imageText.GetComponentInChildren<Image>(true).gameObject.SetActive(false);
+                    imageText.text = bonusSymbol.value.ToString();
                 }
             }
-            bottomTweens.Clear();
-        }
 
-        // ALL BOTTOM REEL SPINS COMPLETE - Collect all coins for multiplier animation
-        foreach (var bonusSymbol in socketManager.resultData.payload.bonusGame.doubleReel.bottomReel.bonusSymbols)
-        {
-            int col = bonusSymbol.position[0];
-            int row = bonusSymbol.position[1];
-            var slotGO = RedBottomSpinCoinImages[row].slotImages[col];
+            // ── Check if this reel has more spins ──────────────────────────────
+            if (socketManager.resultData.payload.bonusGame.doubleReel.bottomReel.reselectSpinsRemaining <= 0)
+                yield break;
 
-            // Add to multiplier list
-            if (!multiplierObjects.Contains(slotGO.gameObject))
-            {
-                multiplierObjects.Add(slotGO.gameObject);
-            }
+            // Ready for next round
+            yield return new WaitUntil(() => !_redRoundProceed);
+            _redBottomRoundDone = false;
         }
     }
     private void SlotAnimation(GameObject slotPanel, float positionY)
@@ -921,18 +1031,20 @@ public class BonusManager : MonoBehaviour
             payoutAnim.ResetImageState();
             payoutAnim.StartAnimation();
 
-            // Add value with safety
+            // Add value with safety.
+            // Coins with a jackpotType (Mini / Minor / Major) have coinText.text == ""
+            // and show a sprite Image instead. In that case we read the payout value
+            // from the matching UIManager jackpot text label.
             TMP_Text coinText = coin.GetComponentInChildren<TMP_Text>();
+            float coinValue = 0f;
+            bool valueResolved = false;
+
             if (coinText != null && !string.IsNullOrEmpty(coinText.text))
             {
-                if (float.TryParse(coinText.text, out float coinValue))
+                // Normal numeric coin
+                if (float.TryParse(coinText.text, out coinValue))
                 {
-                    float fromValue = totalPayout;
-                    totalPayout += coinValue;
-
-                    uiManager.StartTextAnim(fromValue, totalPayout, payoutText, 0.5f);
-
-                    yield return new WaitForSeconds(0.55f);
+                    valueResolved = true;
                 }
                 else
                 {
@@ -941,7 +1053,46 @@ public class BonusManager : MonoBehaviour
             }
             else
             {
-                Debug.LogWarning($"Coin {coin.name} has no valid text");
+                // Jackpot coin — text is blank; sprite Image child is active.
+                // Identify which jackpot it is by comparing its sprite to the
+                // known jackpot sprites, then read the value from UIManager.
+                Image jackpotImage = coinText != null
+                    ? coinText.GetComponentInChildren<Image>(true)
+                    : coin.GetComponentInChildren<Image>(true);
+
+                if (jackpotImage != null && jackpotImage.gameObject.activeSelf)
+                {
+                    string jackpotValueText = null;
+                    if (jackpotImage.sprite == MiniTextImage)
+                        jackpotValueText = uiManager.MiniText.text;
+                    else if (jackpotImage.sprite == MinorTextImage)
+                        jackpotValueText = uiManager.MinorText.text;
+                    else if (jackpotImage.sprite == MajorTextImage)
+                        jackpotValueText = uiManager.MajorText.text;
+
+                    if (jackpotValueText != null && float.TryParse(jackpotValueText, out coinValue))
+                    {
+                        valueResolved = true;
+                    }
+                    else
+                    {
+                        Debug.LogWarning($"Coin {coin.name} jackpot image found but value could not be resolved (sprite={jackpotImage.sprite?.name}, text={jackpotValueText})");
+                    }
+                }
+                else
+                {
+                    Debug.LogWarning($"Coin {coin.name} has no valid text and no active jackpot image");
+                }
+            }
+
+            if (valueResolved)
+            {
+                float fromValue = totalPayout;
+                totalPayout += coinValue;
+
+                uiManager.StartTextAnim(fromValue, totalPayout, payoutText, 0.5f);
+
+                yield return new WaitForSeconds(0.55f);
             }
 
             payoutAnim.RevertToInitialState();

@@ -78,6 +78,7 @@ public class SlotManager : MonoBehaviour
     private int IconSizeFactor = 100;       //set this parameter according to the size of the icon and spacing
     private int numberOfSlots = 5;          //number of columns
     private bool StopSpinToggle;
+    private bool _stopAutoSpinPending;  // NEW: true when auto-spin is being cancelled via TriggerStopSpin
     internal int tweenHeight = 0;  //calculate the height at which tweening is done
 
     private void Start()
@@ -87,6 +88,25 @@ public class SlotManager : MonoBehaviour
         tweenHeight = (15 * IconSizeFactor) - 280;
     }
 
+    // ─────────────────────────────────────────────────────────────────────────
+    // NEW: Called by UIManager when the Stop Spin button is pressed.
+    // Sets the flag that makes all reels stop simultaneously (same pattern as
+    // LifeofLuxury's _stopSpinToggle).
+    // ─────────────────────────────────────────────────────────────────────────
+    internal void TriggerStopSpin()
+    {
+        StopSpinToggle = true;
+        uiManager.StopSpinButton.interactable = false;
+
+        // NEW: if Stop is pressed during auto-spin, cancel the auto-spin loop
+        // after the current spin finishes landing (StopAutoSpin sets IsAutoSpin=false,
+        // which makes AutoSpinCoroutine exit after yielding tweenroutine).
+        if (IsAutoSpin)
+        {
+            _stopAutoSpinPending = true;
+            StopAutoSpin();
+        }
+    }
 
     #region InitialFunctions
     internal void shuffleSlotImages(bool midTween = false)
@@ -265,21 +285,25 @@ public class SlotManager : MonoBehaviour
     private IEnumerator StopAutoSpinCoroutine()
     {
         yield return new WaitUntil(() => !IsSpinning);
-        //ToggleButtonGrp(true);
-        if (AutoSpinRoutine != null || tweenroutine != null)
+        if (AutoSpinRoutine != null)
         {
             StopCoroutine(AutoSpinRoutine);
+            AutoSpinRoutine = null;
+        }
+        if (tweenroutine != null)
+        {
             StopCoroutine(tweenroutine);
             tweenroutine = null;
-            AutoSpinRoutine = null;
-            StopCoroutine(StopAutoSpinCoroutine());
-            uiManager.AutoSpinButton.gameObject.SetActive(true);
-            uiManager.AutoSpinButton.interactable = true;
-            uiManager.StopAutoSpinButton.gameObject.SetActive(false);
-            uiManager.SpinButton.interactable = true;
-            uiManager.SpinButton.gameObject.SetActive(true);
-            uiManager.StopSpinButton.gameObject.SetActive(false);
         }
+        StopCoroutine(StopAutoSpinCoroutine());
+        uiManager.AutoSpinButton.gameObject.SetActive(true);
+        uiManager.AutoSpinButton.interactable = true;
+        uiManager.StopAutoSpinButton.gameObject.SetActive(false);
+        uiManager.SpinButton.interactable = true;
+        uiManager.SpinButton.gameObject.SetActive(true);
+        uiManager.StopSpinButton.gameObject.SetActive(false);
+        uiManager.SetBetButtonsInteractable(true);   // re-enable bet buttons when auto-spin fully stops
+        _stopAutoSpinPending = false;  // NEW: clear flag once UI is fully restored
     }
     //starts the spin process
     internal void StartSlots(bool autoSpin = false)
@@ -382,6 +406,23 @@ public class SlotManager : MonoBehaviour
             }
         }
 
+        // ─────────────────────────────────────────────────────────────────────
+        // CHANGED: Wait a short grace period for the player to press Stop,
+        // then hide the stop button — mirroring LifeofLuxury's behaviour.
+        // If StopSpinToggle was already set (button pressed during server wait),
+        // we skip straight to simultaneous stop.
+        // ─────────────────────────────────────────────────────────────────────
+        if (!StopSpinToggle)
+        {
+            // Give the player a short window to press Stop before reels snap
+            for (int i = 0; i < 5; i++)
+            {
+                yield return new WaitForSeconds(0.1f);
+                if (StopSpinToggle) break;
+            }
+            //uiManager.StopSpinButton.gameObject.SetActive(false);
+        }
+
         for (int i = 0; i < numberOfSlots; i++)
         {
             yield return StopTweening(slotTransforms[i], i, StopSpinToggle);
@@ -468,7 +509,10 @@ public class SlotManager : MonoBehaviour
         uiManager.BalanceText.text = SocketManager.resultData.payload.balance.ToString();
 
         IsSpinning = false;
-        if (!IsAutoSpin)
+        // NEW: if auto-spin was cancelled via TriggerStopSpin, StopAutoSpinCoroutine
+        // is already waiting on IsSpinning and will restore the full UI (including
+        // AutoSpin buttons). Don't call OnSpinEnd here to avoid conflicting UI state.
+        if (!IsAutoSpin && !_stopAutoSpinPending)
         {
             uiManager.OnSpinEnd();
         }
