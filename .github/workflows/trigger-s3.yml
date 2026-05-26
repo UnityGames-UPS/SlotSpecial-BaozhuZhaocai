@@ -14,4 +14,3 @@ jobs:
       s3_folder: SL-BZ
       cloudfront_distribution_id: ERDVMYSDM278F
       invalidate_paths: "/SL-BZ/*"
-  
