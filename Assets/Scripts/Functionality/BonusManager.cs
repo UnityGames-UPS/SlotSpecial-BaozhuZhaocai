@@ -663,7 +663,7 @@ public class BonusManager : MonoBehaviour
             RedBottomSpinIndicators[i].GetComponent<ImageAnimation>().ResetImageState();
         }
 
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(2f);
         StartCoroutine(MultiplierAnimation(RedSpinMultiplierPanel));
         yield return new WaitUntil(() => isPayoutDone);
 
