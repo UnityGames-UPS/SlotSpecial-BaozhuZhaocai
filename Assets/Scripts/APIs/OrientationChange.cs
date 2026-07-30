@@ -52,10 +52,21 @@ public class OrientationChange : MonoBehaviour
         float refW = referenceResolution.x;  
         float refH = referenceResolution.y;
 
-        float scaleW = screenW / refW;
-        float scaleH = screenH / refH;
+        float widthScale = screenW / refW;
+        float heightScale = screenH / refH;
+        float targetScale = Mathf.Min(widthScale, heightScale);
 
-        float targetMatch = (scaleW <= scaleH) ? 0f : 1f;
+        float targetMatch;
+        if (Mathf.Abs(heightScale - widthScale) < 0.0001f)
+        {
+            targetMatch = 0.5f;
+        }
+        else
+        {
+            float logRatio = Mathf.Log(heightScale / widthScale);
+            targetMatch = Mathf.Log(targetScale / widthScale) / logRatio;
+            targetMatch = Mathf.Clamp01(targetMatch);
+        }
 
         if (instant)
         {

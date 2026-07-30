@@ -99,6 +99,29 @@ public class UIManager : MonoBehaviour
     internal double currentTotalBet;
     private Tweener TextTween;
 
+    private void Awake()
+    {
+        JSFunctCalls jsFunctCalls = FindObjectOfType<JSFunctCalls>();
+        if (jsFunctCalls != null)
+            jsFunctCalls.RegisterVisibilityListener(gameObject.name);
+    }
+
+    public void OnFocusChanged(string value)
+    {
+        bool focused = value == "1";
+        Debug.Log("UNITY FOCUS CHANGED: " + value + " (focused: " + focused + ")");
+        _audioController?.SetMuteAll(!focused);
+        socketManager?.HandleFocusChange(focused);
+    }
+
+    internal void UpdateBalanceDisplay(double newBalance)
+    {
+        if (BalanceText) BalanceText.text = newBalance.ToString();
+        slotManager.currentBalance = newBalance;
+        if (newBalance < currentTotalBet)
+            LowBalPopup();
+    }
+
     private void Start()
     {
 

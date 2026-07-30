@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
@@ -187,25 +188,41 @@ internal class AudioController : MonoBehaviour
     //     uiSource.PlayOneShot(navigation);
     // }
 
-    internal void MuteAll(bool mute)
-    {
-        bgMusicSource.mute = mute;
-        gameSoundSource.mute = mute;
-        // uiSource.mute = mute;
-    }
-
-
     internal void MuteBackground(bool mute) => bgMusicSource.mute = mute;
     internal void MuteGame(bool mute) => gameSoundSource.mute = mute;
     // internal void MuteUI(bool mute) => uiSource.mute = mute;
 
+    private bool isForceMuted = false;
+    private readonly Dictionary<AudioSource, bool> preFocusMuteState = new Dictionary<AudioSource, bool>();
+
+    internal void SetMuteAll(bool forceMute)
+    {
+        if (forceMute == isForceMuted) return;
+        isForceMuted = forceMute;
+
+        AudioSource[] sources = { bgMusicSource, gameSoundSource };
+        foreach (var source in sources)
+        {
+            if (source == null) continue;
+            if (forceMute)
+            {
+                preFocusMuteState[source] = source.mute;
+                source.mute = true;
+            }
+            else
+            {
+                source.mute = preFocusMuteState.TryGetValue(source, out bool prevMuted) ? prevMuted : source.mute;
+            }
+        }
+    }
+
     private void OnApplicationFocus(bool hasFocus)
     {
-        AudioListener.volume = hasFocus ? 1.0f : 0.0f;
+        SetMuteAll(!hasFocus);
     }
 
     private void OnApplicationPause(bool pauseStatus)
     {
-        AudioListener.volume = pauseStatus ? 0.0f : 1.0f;
+        SetMuteAll(pauseStatus);
     }
 }

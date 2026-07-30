@@ -41,7 +41,6 @@
     const canvas = document.querySelector("#unity-canvas");
     var IsMobile = false;
     var AspectRatio =16/9;
-    let resizeTimeout;
     // // Function to detect if the device is mobile
     function isMobile(unityInstance) {
         console.log("Called isMobile");
@@ -77,47 +76,30 @@
         }
     }
 
-    // Resize canvas based on device type and window size
+    // Resize canvas to the visible viewport (accurate on iOS via visualViewport)
     function resizeCanvas() {
-    const isPortrait = window.innerHeight > window.innerWidth;
-    const aspectRatio = isPortrait ? (1080 / 2340) : AspectRatio;
-
-    let windowWidth = window.innerWidth;
-    let windowHeight = window.innerHeight;
-
-    if (IsMobile) {
-        console.log("Mobile Detected");
-        var meta = document.createElement('meta');
-        meta.name = 'viewport';
-        meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
-        document.getElementsByTagName('head')[0].appendChild(meta);
-        canvas.style.width = `${100}%`;
-        canvas.style.height = `${100}%`;
-
-
-    } else {
-        // PC Landscape Mode
-        let canvasWidth = windowWidth;
-        let canvasHeight = canvasWidth / aspectRatio;
-
-        if (canvasHeight > windowHeight) {
-            canvasHeight = windowHeight;
-            canvasWidth = canvasHeight * aspectRatio;
-        }
-
-        canvas.style.width = `${canvasWidth}px`;
-        canvas.style.height = `${canvasHeight}px`;
-
-        // Force redraw to fix potential rendering issues
-        canvas.width = canvasWidth;
-        canvas.height = canvasHeight;
+      var vv = window.visualViewport;
+      var w = Math.round(vv ? vv.width : window.innerWidth);
+      var h = Math.round(vv ? vv.height : window.innerHeight);
+      window.scrollTo(0, 0);
+      document.documentElement.style.width = w + "px";
+      document.documentElement.style.height = h + "px";
+      document.body.style.width = w + "px";
+      document.body.style.height = h + "px";
+      canvas.style.width = w + "px";
+      canvas.style.height = h + "px";
     }
-}
 
-    window.addEventListener('resize', () => {
-      clearTimeout(resizeTimeout);
-      resizeTimeout = setTimeout(resizeCanvas, 50);
-    });
+    window.addEventListener('resize', resizeCanvas);
+    window.addEventListener('orientationchange', resizeCanvas);
+    if (window.visualViewport) {
+      window.visualViewport.addEventListener('resize', resizeCanvas);
+      window.visualViewport.addEventListener('scroll', function () { window.scrollTo(0, 0); });
+    }
+    window.addEventListener('scroll', function () { window.scrollTo(0, 0); }, { passive: true });
+    document.addEventListener('touchmove', function (e) { e.preventDefault(); }, { passive: false });
+    document.addEventListener('gesturestart', function (e) { e.preventDefault(); });
+    document.addEventListener('gesturechange', function (e) { e.preventDefault(); });
 
     var buildUrl = "Build";
       var loaderUrl = buildUrl + "/{{{ LOADER_FILENAME }}}";
@@ -157,13 +139,8 @@
         script
         
         document.body.appendChild(script);
-       // window.addEventListener('load', resizeCanvas());
+        window.addEventListener('load', resizeCanvas);
   </script>
-     <script type="text/javascript">
-        console.log = function() {};
-        console.warn = function() {};
-        console.error = function() {};
-    </script>
     <script>
       window.focus();
     </script>
